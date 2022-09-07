@@ -138,9 +138,9 @@ export default function OceanFreight() {
 
 
     <section>
-      <div className="container">
-        <div className="nes-img" style={{padding: "10rem"}}>
-          <img src='../images/product/ocean_freight/nesflow.png' />
+      <div className="text-center mt-15">
+        <div className="nes-img">
+          <img src='../images/product/ocean_freight/Sea_freight_V2_10s.gif' />
         </div>
       </div>
     </section>

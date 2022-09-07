@@ -79,8 +79,6 @@ nav
 
 .search-nav ul li button
 {
-    width: 150px;
-    height: 45px;
     background: #0060BE;
     border-radius: 4px;
     border: none;
@@ -673,7 +671,6 @@ footer hr
 }
 
 .further-learn-more a,
-.ways-learn-more a,
 .supply-learn-more a
 {
     font-family: 'Prompt';
@@ -685,7 +682,6 @@ footer hr
 }
 
 .further-learn-more a,
-.ways-learn-more a i,
 .supply-learn-more a i
 {
     padding-left: 1rem;
@@ -833,7 +829,6 @@ footer hr
 }
 
 .nescare-paragraph p,
-.ways-paragraph p,
 .terms-paragrapgh p
 {
     font-family: 'Epilogue';
@@ -844,7 +839,6 @@ footer hr
     color: #FFFFFF;
 }
 
-.ways-heading h1,
 .terms-subheading  h3
 {
     font-family: 'Prompt';
@@ -856,13 +850,6 @@ footer hr
     margin-bottom: 6rem;
 }
 
-.ways-tag img
-{
-    width: 80px;
-    height: 80px;
-}
-
-.ways-topic h3,
 .termsdate h3
 {
     font-family: 'Prompt';
@@ -871,11 +858,6 @@ footer hr
     font-size: 20px;
     line-height: 130%;
     color: #FFFFFF;
-}
-
-.ways-paragraph p
-{
-    width: 247px;
 }
 
 .copyright

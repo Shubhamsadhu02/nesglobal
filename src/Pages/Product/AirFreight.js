@@ -161,8 +161,8 @@ export default function AirFreight() {
 
     <section>
       <div className="container" >
-        <div className="nes-img" style={{padding: "10rem"}}>
-          <img src='../images/product/air_freight/nesflow.png' />
+        <div className="nes-img" style={{padding: "2rem 6rem"}}>
+          <img src='../images/product/air_freight/Air_freight_V2_10s.gif' />
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@ import React from 'react'
 import Copyright from '../../../Partials/Copyright'
 
 import Header from '../../../Partials/Header'
-import '../../../Styles/global.css'
+import '../../../Styles/Nescare.css'
 
 export default function nescare() {
   return (
@@ -13,12 +13,14 @@ export default function nescare() {
         <div className="container">
             <div className="nescare-top pt-5">
                 <div className="row">
-                    <div className="col-lg-6 d-flex flex-column justify-content-center" style={{paddingRight: "75px"}}>
-                        <div className="nescare-heading">
-                            <h1>Delivering the <br/><span style={{color: "#24C6AF"}}>Good nes</span> to Humanity</h1>
-                        </div>
-                        <div className="nescare-paragraph mt-3">
-                            <p>NES Global aims at enabling organizations to deliver the global aid and impact to meet their sustainability goals with ease and in an economically efficient way.</p>
+                    <div className="col-lg-6 d-flex flex-column justify-content-center" >
+                        <div className="nescare-top__section">
+                            <div className="nescare-heading">
+                                <h1>Delivering the <br/><span style={{color: "#24C6AF"}}>Good nes</span> to Humanity</h1>
+                            </div>
+                            <div className="nescare-paragraph mt-3">
+                                <p>NES Global aims at enabling organizations to deliver the global aid and impact to meet their sustainability goals with ease and in an economically efficient way.</p>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -30,17 +32,21 @@ export default function nescare() {
     </section>
 
     <section>
-        <div className="container mt-15">
-            <div className="row">
-                <div className="col-lg-6 p-5">
-                     <img src='../images/Company/nescare/good.png' />
-                </div>
-                <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
-                    <div className="nescare-heading">
-                        <h1 style={{color: "#403F3E"}}>An Easier Way To <span style={{color: "#24C6AF"}}>Do Good</span></h1>
+        <div className="container">
+            <div className="nescare-item mt-15">
+                <div className="row">
+                    <div className="col-lg-6">
+                        <img src='../images/Company/nescare/good.png' />
                     </div>
-                    <div className="nescare-paragraph mt-3">
-                        <p style={{color: "#737171"}}>With NES you can use our platform for global logistics to deliver aid in a crisis, donate unused goods, and limit carbon emissions—all with more clarity and accountability at every step.</p>
+                    <div className="col-lg-6 d-flex flex-column justify-content-center">
+                        <div className="nescare-container">
+                            <div className="nescare-heading">
+                                <h1 style={{color: "#403F3E"}}>An Easier Way To <span style={{color: "#24C6AF"}}>Do Good</span></h1>
+                            </div>
+                            <div className="nescare-paragraph mt-3">
+                                <p style={{color: "#737171"}}>With NES you can use our platform for global logistics to deliver aid in a crisis, donate unused goods, and limit carbon emissions—all with more clarity and accountability at every step.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -54,7 +60,7 @@ export default function nescare() {
                 <div className="ways-heading">
                     <h1>Four Ways To Make a Difference</h1>
                 </div>
-                <div className="row">
+                <div className="row" style={{rowGap: "60px"}}>
                     <div className="col-lg-3">
                         <div className="ways-tag">
                             <img src='../images/Company/nescare/waystag1.png'/>

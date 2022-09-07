@@ -155,11 +155,22 @@ export default function header(props) {
                                                            style={{color: isWhite ? "#E6E5E5" : '#0060BE'}}></i></a>
                                         </li>
                                         <li>
-                                            <button type='submit'>Get Started</button>
+                                            <button type='submit'>Introduction</button>
                                         </li>
                                     </ul>
                                 </div>
-                                : ""}
+                                : 
+                                <div className="search-nav">
+                                    <ul>
+                                        <li>
+                                            <a href='#'><button type='submit' className='carbon-cal__btn' >Carbon Calculator</button></a>
+                                        </li>
+                                        <li>
+                                            <a href='#'><button type='submit' className='contact-btn'>Contact us</button></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            }
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
                 </Container>
