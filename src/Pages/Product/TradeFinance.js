@@ -8,7 +8,7 @@ export default function TradeFinance() {
     <>
     <Header showNav={true} isWhite={false}/>
 
-<section style={{ background: "url('../images/product/trade_finance/home.png')", backgroundSize: "cover", height: "800px" }}>
+<section style={{ background: "url('../images/product/trade_finance/home.png')", backgroundSize: "cover", height: "800px",backgroundPosition: "center" }}>
     <div className="container">
         <div className="top-section d-flex align-items-center mb-5">
             <div className="row">
@@ -80,15 +80,17 @@ export default function TradeFinance() {
         <div className="container mt-15">
           <div className="product-item mt-15">
             <div className="row">
-              <div className="col-lg-6 d-flex flex-column justify-content-center">
+              <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                <div className="product-container">
                   <div className="product-heading1">
                       <h3 style={{ color: "#403F3E" }}>This is how we Do It</h3>
                   </div>
                   <div className="product-paragraph">
                       <p style={{ color: "#737171" }}>NES uses our platform to connect the customer with multiple financial companies who could then choose a financial institution to fund his requirement. Prior to funding the customer needs to furnish certain details to fulfill the due diligence requirements. Only on the company successfully completing the due diligence with the institution would he be considered for being financed. This due diligence activity is one time after which he would need to follow 3 steps on the platform before which he would be financed for the request.</p>
                   </div>
+                </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 order-md-2 order-1">
                 <div className="product-img">
                     <img src='../images/product/trade_finance/this.png' />
                 </div>
@@ -104,27 +106,31 @@ export default function TradeFinance() {
                   </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
+                  <div className="product-container">
                     <div className="product-heading1">
                         <h3 style={{ color: "#403F3E" }}>Business Growth and Trade Priorities</h3>
                     </div>
                     <div className="product-paragraph">
                         <p style={{ color: "#737171" }}>The NES platform facilitates the one-time due diligence and subsequent to the completion the customer can source funds in a simplified manner to ensure he paces his supply chain to accommodate business growth priorities.</p>
                     </div>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="product-item mt-15">
               <div className="row">
-                <div className="col-lg-6 d-flex flex-column justify-content-center">
+                <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                  <div className="product-container">
                     <div className="product-heading1">
                         <h3 style={{ color: "#403F3E" }}>Reporting for Decision Making</h3>
                     </div>
                     <div className="product-paragraph">
                         <p style={{ color: "#737171" }}>All spend related data from the platform can be used to track historical spend , cost of freight spent versus landed cost of goods and other customized metrics to facilitate strategizing and decision making.</p>
                     </div>
+                  </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 order-md-2 order-1">
                   <div className="product-img">
                       <img src='../images/product/trade_finance/funding.png' />
                   </div>

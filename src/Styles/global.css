@@ -22,13 +22,22 @@ li
     list-style: none;
 }
 
+.mt-10
+{
+    margin-top: 6rem;
+}
+.mb-10
+{
+    margin-bottom: 6rem;
+}
+
 .mt-15
 {
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 .mb-15
 {
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
 }
 
 input:focus,
@@ -265,6 +274,11 @@ nav
     color: #0060BE;
 }
 
+.keySucess-container
+{
+    padding-left: 4rem;
+}
+
 .keySucess-head h3,
 .supply-chain__head h3,
 .find-heading h3,
@@ -287,7 +301,8 @@ nav
 .signup-paragraph p
 .signup-agree,
 .nes-community__paragrapgh p,
-.supply-paragrapgh p
+.supply-paragrapgh p,
+.signup-paragraph p
 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
@@ -384,8 +399,7 @@ nav
 .signup-box .signup-btn
 {
     margin-top: 2.5rem;
-    width: 137px;
-    height: 56px;
+    padding: 16px 28px;
     border: none;
     background: #0060BE;
     border-radius: 3px;
@@ -617,10 +631,10 @@ footer hr
     background-position: center;
     transform-origin: center;
 }
-
+/* 
 .accordion-button:not(.collapsed)::after {
-    /* background-image: url("images/minus.svg"); */
-}
+    background-image: url("images/minus.svg"); 
+} */
 
 .accordion-button:focus {
     border-color: transparent;
@@ -1030,7 +1044,6 @@ footer hr
 
 .supply_chain--whitebx
 {
-    height: 412px;
     background: #FFFFFF;
     box-shadow: 0px 12px 40px rgba(12, 30, 53, 0.08);
     margin-top: -220px;
@@ -1053,4 +1066,138 @@ footer hr
     line-height: 24px;
     color: rgba(255, 255, 255, 0.4);
     margin: 12px 32px;
+}
+
+.product-container
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 500px){
+    .mt-15 {
+        margin-top: 4rem !important;
+    }
+    .mb-15 {
+        margin-bottom: 6rem !important;
+    }
+    .mb-10 {
+        margin-bottom: 4rem;
+    }
+    .row
+    {
+        margin-left: 0!important;
+    }
+
+    .home-details h1
+    {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .footer-bottom
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .talk-to-expert button, .product-get-started button, .product-signin button, .signup-box .signup-btn,
+    .case-btn .read-btn button, .see-more-btn button, .reday-btn button, .learn-more-btn button
+    {
+        padding: 8px 16px;
+    }
+
+    .talk-to-expert button
+    {
+        width: 140px;
+    }
+
+    .watch-video
+    {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .supply-box,
+    .signup-box,.supply_chain--whitebx
+    {
+        padding: 2rem!important;
+    }
+
+    .keySucess-container,
+    .product-container
+    {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .signup,
+    .nes-community
+    {
+        padding: 3rem 1.5rem 3rem !important;
+    }
+
+    .keySucess-head h3, .supply-chain__head h3, .find-heading h3, .case-study-head h3, .case-header h3, .signup-heading h3, .collaboration-head h3, .nes-community__header h3,
+    .leading-brands h3, .product-heading1 h3, .collaboration-header h3, .ready-heading h3, .product-faq-heading h3, .further-head h3, .nes-head h3
+    {
+        font-size: 22px;
+    }
+
+    .keySucess-paragraph p, .find-paragraph p, .case-paragraph p, .signup-paragraph p .signup-agree, .nes-community__paragrapgh p, .supply-paragrapgh p, .signup-paragraph p
+    ,.product-paragraph p, .product-tag-paragraph p, .collaboration-paragraph p, .ready-paragraph p, .further-paragraph p, .nes-paragraph p
+    {
+        font-size: 14px;
+    }
+    .product-heading h1
+    {
+        font-size: 30px;
+    }
+    .product-topic h4,
+    .nes-tailor h3
+    {
+        font-size: 16px;
+    }
+    .product-box
+    {
+        margin-bottom: 20px;
+    }
+    .ready,
+    .nes-tailor
+    {
+        align-items: center;
+        padding: 50px 10px !important;
+    }
+    .enquiry-box
+    {
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 20px 12px;
+        height: auto;
+    }
+    .enquiry-box input,
+    .enquiry-box textarea
+    {
+        width: 300px;
+    }
+    .nes
+    {
+        margin-top: 600px;
+    }
+    .nes-box
+    {
+        margin-bottom: 20px;
+    }
+    .nes-paragraph p
+    {
+        padding: 0 !important;
+    }
+    .nes-img
+    {
+        padding: 1rem 0rem!important;
+    }
+    .nes-box1,.nes-box2,.nes-box3,.nes-box4
+    {
+        height: auto;
+    }
 }

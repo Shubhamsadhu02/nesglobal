@@ -116,7 +116,7 @@ export default function header(props) {
                 <Container>
                     <Navbar.Brand href="/"><img src={isWhite ? "/images/Home/logowhite1.png" : "/images/Home/logo.png"}
                                                 height={20} width={150}/></Navbar.Brand>
-                    <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`}/>
+                    <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} style={{background: isWhite ? "white": "none"}} />
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-md`}
                         aria-labelledby={`offcanvasNavbarLabel-expand-md`}

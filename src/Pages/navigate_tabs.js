@@ -48,7 +48,7 @@ export default () => {
     <section>
         <div className="container">
             <div className="supply_chain--whitebx">
-                <div className="row">
+                <div className="row" style={{rowGap: "50px"}}>
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
                         <div className="product-topic1 mb-4">
                             <h4>Sea Freight</h4>

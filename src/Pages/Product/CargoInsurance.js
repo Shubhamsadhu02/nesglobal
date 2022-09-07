@@ -8,7 +8,7 @@ export default function CargoInsurance() {
     <>
     <Header showNav={true} isWhite={true} />
 
-<section style={{ background: "url('../images/product/cargo_insurance/home.png')", backgroundSize: "cover", height: "580px" }}>
+<section style={{ background: "url('../images/product/cargo_insurance/home.png')", backgroundSize: "cover", height: "580px", backgroundPosition: "center" }}>
     <div className="container">
         <div className="top-section d-flex align-items-center">
             <div className="row">
@@ -31,12 +31,12 @@ export default function CargoInsurance() {
 
 <section>
         <div className="container mt-15">
-            <div className="nes text-center">
+            <div className="nes1 text-center">
                 <div className="nes-head">
                     <h3 style={{ color: "#595858" }}>Why NES?</h3>
                 </div>
             </div>
-            <div className="row mt-5 px-5">
+            <div className="row mt-5 px-5" style={{rowGap: "25px"}}>
                 <div className="col-lg-6">
                     <div className="nes-box nes-box3">
                         <div className="product-tag-head">
@@ -57,8 +57,7 @@ export default function CargoInsurance() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row mt-5 px-5">
+
                 <div className="col-lg-6">
                     <div className="nes-box nes-box4">
                         <div className="product-tag-head">

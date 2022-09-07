@@ -85,27 +85,31 @@ export default function NesDigitalPlatform() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
+                      <div className="product-container">
                         <div className="product-heading1">
                             <h3 style={{ color: "#403F3E" }}>Decide and Click</h3>
                         </div>
                         <div className="product-paragraph">
                             <p style={{ color: "#737171" }}>Transportation visibility is vital to business growth On the NES platform shipment information details are available on just a few clicks are never more than a click away.</p>
                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
 
             <div className="product-item mt-15">
                 <div className="row">
-                    <div className="col-lg-6 d-flex flex-column justify-content-center">
+                    <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                      <div className="product-container">
                         <div className="product-heading1">
                             <h3 style={{ color: "#403F3E" }}>Immediate Exception Management</h3>
                         </div>
                         <div className="product-paragraph">
                             <p style={{ color: "#737171" }}>Your NES team flags any gap, concerns or changes in a shipment’s journey from origin to destination and works with the customer and or the partners within the supply chain to quickly fix issues before they result in financial impacts, late fees, or other impacts that erode the profitability</p>
                         </div>
+                      </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 order-md-2 order-1">
                         <div className="product-img">
                             <img src='../images/product/nesdigitalplatform/immediate.png' />
                         </div>
@@ -121,27 +125,31 @@ export default function NesDigitalPlatform() {
                         </div>
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
+                      <div className="product-container">
                         <div className="product-heading1">
                             <h3 style={{ color: "#403F3E" }}>Reporting</h3>
                         </div>
                         <div className="product-paragraph">
                             <p style={{ color: "#737171" }}>Reporting is essential for disciplined business management. All critical shipment related information is available for the customer to create customized metrics for reporting to senior management within the customer organization This results in aligning to the strategy devised for the customer.</p>
                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
 
             <div className="product-item mt-15">
                 <div className="row">
-                    <div className="col-lg-6 d-flex flex-column justify-content-center">
+                    <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                      <div className="product-container">
                         <div className="product-heading1">
                             <h3 style={{ color: "#403F3E" }}>File, Record and Review</h3>
                         </div>
                         <div className="product-paragraph">
                             <p style={{ color: "#737171" }}>The Nes Platform allows the customer to store all shipment related information viz, commercial invoices, payment receipts and all other documents for future reference and also to compare spends.</p>
                         </div>
+                      </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 order-md-2 order-1">
                         <div className="product-img">
                             <img src='../images/product/nesdigitalplatform/file.png' />
                         </div>
@@ -151,7 +159,64 @@ export default function NesDigitalPlatform() {
         </div>
 </section>
 
-<section style={{ background: "url('../images/product/nesdigitalplatform/GetStartedBG.png')", backgroundSize: "cover" }}>
+<section className='mt-15 mb-15'>
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-4">
+          <div className="product-box">
+            <div className="product-topic1 mb-4">
+                <h4>Customs</h4>
+            </div>
+            <div className="product-tag-head mt-3">
+              <h4>Compliance,	Compliance,	Compliance	for	a	better	Customer	Experience.</h4>
+            </div>
+            <div className="product-tag-paragraph mt-3">
+              <p>Operating on the NES platform is beneficial in many different ways, which stream line regulatory work flows and cascades the benefits to multiple aspects of the business. Additionally...</p>
+            </div>
+            <div className="supply-learn-more">
+                <a href="#">Learn More<i class="far fa-angle-right"></i></a>
+            </div>
+          </div>
+      </div>
+
+      <div className="col-lg-4">
+          <div className="product-box">
+            <div className="product-topic1 mb-4">
+                <h4>Visibility</h4>
+            </div>
+            <div className="product-tag-head mt-3">
+              <h4>Easy to use, lets work together</h4>
+            </div>
+            <div className="product-tag-paragraph mt-3">
+              <p>The	NES	platform	is	created	in	a	way	to	capture	all	the	critical	elements	of	shipping,	origin,	destination,	schedules,	booking,	SLI,	Purchase	order	tracking,	milestones	and	exceptions	and	more all	to	enable	your	supply	chain,	drive	collaborations	with</p>
+            </div>
+            <div className="supply-learn-more">
+                <a href="#">Learn More<i class="far fa-angle-right"></i></a>
+            </div>
+          </div>
+      </div>
+
+      <div className="col-lg-4">
+          <div className="product-box">
+            <div className="product-topic1 mb-4">
+                <h4>Air Freight</h4>
+            </div>
+            <div className="product-tag-head mt-3">
+              <h4>Introducing the NES Freight Forwarding </h4>
+            </div>
+            <div className="product-tag-paragraph mt-3">
+              <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
+            </div>
+            <div className="supply-learn-more">
+                <a href="#">Learn More<i class="far fa-angle-right"></i></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style={{ background: "url('../images/product/nesdigitalplatform/GetStartedBG.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="container mt-15">
           <div className="ready d-flex flex-column justify-content-center">
             <div className="product-topic1 mb-3">

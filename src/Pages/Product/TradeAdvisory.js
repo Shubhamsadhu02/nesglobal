@@ -8,7 +8,7 @@ export default function TradeAdvisory() {
     <>
     <Header/>
 
-    <section style={{ background: "url('../images/product/trade_advisory/tradeadvisoryhome.png')", backgroundSize: "cover" }}>
+    <section style={{ background: "url('../images/product/trade_advisory/tradeadvisoryhome.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="container">
         <div className="top-section d-flex align-items-center mb-5">
             <div className="row">
@@ -38,7 +38,7 @@ export default function TradeAdvisory() {
 
 <section>
         <div className="container mt-15">
-            <div className="row">
+            <div className="row" style={{rowGap: "25px"}}>
                 <div className="col-lg-4 col-sm-12">
                     <div className="product-tag">
                         <img src='../images/product/trade_advisory/setup.png' />
@@ -86,35 +86,39 @@ export default function TradeAdvisory() {
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1 mb-4">
-                        <h4>NES	PLATFORM</h4>
-                    </div>
-                    <div className="product-heading1">
-                        <h3 style={{color: "#403F3E"}}>A	Few	Digits	Can	Make	a	Big	Difference</h3>
-                    </div>
-                    <div className="product-paragraph">
-                        <p style={{color: "#737171"}}>The	HTS	codes	in	your	NES	Product	Library	are	used	for	total	transactional	consistency.	Data	is	structured	to	advance	trade	strategy:	With	the	right	eyes	on	it,	your	six	to	ten-digit	codes	could	reveal	six-digit	or	higher	financial	opportunities.</p>
-                    </div>
-                    <div className="learn-more-btn mt-4">
-                      <button type='submit'>Talk To Us</button>
+                    <div className="product-container">
+                        <div className="product-topic1 mb-4">
+                            <h4>NES	PLATFORM</h4>
+                        </div>
+                        <div className="product-heading1">
+                            <h3 style={{color: "#403F3E"}}>A	Few	Digits	Can	Make	a	Big	Difference</h3>
+                        </div>
+                        <div className="product-paragraph">
+                            <p style={{color: "#737171"}}>The	HTS	codes	in	your	NES	Product	Library	are	used	for	total	transactional	consistency.	Data	is	structured	to	advance	trade	strategy:	With	the	right	eyes	on	it,	your	six	to	ten-digit	codes	could	reveal	six-digit	or	higher	financial	opportunities.</p>
+                        </div>
+                        <div className="learn-more-btn mt-4">
+                        <button type='submit'>Talk To Us</button>
+                        </div>
                     </div>
                 </div>
               </div>
             </div>
             <div className="product-item mt-15">
               <div className="row">
-                <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1 mb-4">
-                        <h4>TARIFF	ENGINEERING</h4>
-                    </div>
-                    <div className="product-heading1">
-                        <h3 style={{color: "#403F3E"}}>Minor	Product	Changes	Major	Duty	Reductions</h3>
-                    </div>
-                    <div className="product-paragraph">
-                        <p style={{color: "#737171"}}>Should	that	pocket	move	down,	that	piece	of	glass	curve?	Tariff	engineering	is	the	genius	practice	of	modifying	products	to	satisfy	import	classifications	at	a	lower	duty	rate.	Tweak	a	little,	save	a	lot.</p>
+                <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                    <div className="product-container">
+                        <div className="product-topic1 mb-4">
+                            <h4>TARIFF	ENGINEERING</h4>
+                        </div>
+                        <div className="product-heading1">
+                            <h3 style={{color: "#403F3E"}}>Minor	Product	Changes	Major	Duty	Reductions</h3>
+                        </div>
+                        <div className="product-paragraph">
+                            <p style={{color: "#737171"}}>Should	that	pocket	move	down,	that	piece	of	glass	curve?	Tariff	engineering	is	the	genius	practice	of	modifying	products	to	satisfy	import	classifications	at	a	lower	duty	rate.	Tweak	a	little,	save	a	lot.</p>
+                        </div>
                     </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 order-md-2 order-1">
                     <div className="product-img">
                         <img src='../images/product/trade_advisory/minor.png' />
                     </div>

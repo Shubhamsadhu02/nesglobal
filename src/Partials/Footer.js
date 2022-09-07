@@ -22,7 +22,7 @@ export default function Footer() {
 
                     <div className="footer-middle mt-5">
                         <div className="row">
-                            <div className="col-lg-3">
+                            <div className="col-sm-12 col-lg-3">
                                 <div className="footer-heading mb-4">
                                     <h5>PRODUCTS</h5>
                                 </div>

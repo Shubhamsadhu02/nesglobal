@@ -7,7 +7,7 @@ export default function Customs() {
     <>
       <Header showNav={true} isWhite={true} />
 
-      <section style={{ backgroundImage: "url(/images/product/customs/home.png)", backgroundSize: "cover", opacity: "5", height: "800px" }}>
+      <section style={{ backgroundImage: "url(/images/product/customs/home.png)", backgroundSize: "cover", opacity: "5", height: "800px",backgroundPosition: "center" }}>
         <div className="container">
           <div className="top-section d-flex align-items-center">
             <div className="row">
@@ -29,8 +29,8 @@ export default function Customs() {
       </section>
 
       <section>
-        <div className="container mt-15">
-          <div className="product-item">
+        <div className="container">
+          <div className="product-item mt-15">
             <div className="row">
               <div className="col-lg-6">
                 <div className="product-img">
@@ -38,6 +38,7 @@ export default function Customs() {
                 </div>
               </div>
               <div className="col-lg-6 d-flex flex-column justify-content-center">
+                <div className="product-container">
                   <div className="product-topic1 mb-4">
                     <h4>TRADE	ADVISORY</h4>
                   </div>
@@ -47,6 +48,7 @@ export default function Customs() {
                   <div className="product-paragraph">
                     <p style={{ color: "#737171" }}>Availability of data from the Master Product Library would help the customer to compare transactions and spend and also asses the landed cost of goods. Using this information the NES Custom house agents can guide and direct the customer on any and all aspects of improving the overall financial health of his supply chain.</p>
                   </div>
+                </div>
               </div>
             </div>
           </div>
@@ -93,7 +95,7 @@ export default function Customs() {
         </div>
       </section>
 
-      <section style={{ background: "url('../images/product/nesdigitalplatform/GetStartedBG.png')", backgroundSize: "cover" }}>
+      <section style={{ background: "url('../images/product/nesdigitalplatform/GetStartedBG.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="container mt-15">
           <div className="ready d-flex flex-column justify-content-center">
             <div className="product-topic1 mb-3">

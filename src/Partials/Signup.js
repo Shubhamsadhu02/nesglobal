@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function signup() {
   return (
-    <section style={{background: "#E6EFF9"}}>
-        <div className="container" style={{padding: "7rem 0 4rem 0"}}>
+    <section className='signup' style={{background: "#E6EFF9", padding: "7rem 0 4rem 0"}}>
+        <div className="container">
             <div className="row">
                 <div className="col-lg-6 col-sm-12 pr-3">
                     <div className="signup-img mb-2">
@@ -13,7 +13,7 @@ export default function signup() {
                         <h3>Sign-Up for Our Intelligent Commerce Newsletter</h3>
                     </div>
                     <div className="signup-paragraph">
-                        <p>Insider perspectives, news, updates and expert advice for retail and  e-commerce brands</p>
+                        <p style={{color: "#595858"}}>Trade perspectives, Business News & Trending discussions </p>
                     </div>
                 </div>
 

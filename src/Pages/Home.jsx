@@ -10,7 +10,7 @@ export default function Home() {
     <>
     <Header />
 
-    <section style={{ backgroundImage: "url(/images/Home/home.png)", backgroundSize: "cover", opacity: "5" }}>
+    <section style={{ backgroundImage: "url(/images/Home/home.png)", backgroundSize: "cover", opacity: "5", backgroundPosition: "center" }}>
         <div className="container">
             <div className="top-section  d-flex align-items-center">
                 <div className="row">
@@ -24,7 +24,7 @@ export default function Home() {
                                 <button type='submit'>Talk to an Expert</button>
                             </div>
                             <div className="watch-video" style={{marginLeft: "60px"}}>
-                                <img src='images/Home/playicon.png' height={48} width={48} />
+                                <a href='#'><img src='images/Home/playicon.png' height={48} width={48} /></a>
                                 <a href='#'>Watch Demo</a>
                             </div>
                         </div>
@@ -36,8 +36,8 @@ export default function Home() {
 
 
 {/* key to sucess */}
-    <section>
-        <div className="container my-5">
+    <section className="mt-15 mb-15">
+        <div className="container">
             <div className="row">
                 <div className="col-lg-8 d-flex flex-column justify-content-center">
                     <div className="keySucess-head">
@@ -58,14 +58,14 @@ export default function Home() {
 {/* Supply chain */}
 
 
-<section>
-    <div className="container mt-15 mb-5">
-        <div className="supply-chain__head text-center mb-15">
+<section className="mt-15 mb-15">
+    <div className="container">
+        <div className="supply-chain__head text-center mb-10">
             <h3>Deep Diving Into Your Supply Chain</h3>
         </div>
         <div className="row">
             <div className="col-lg-6">
-                <img src='images/Home/nesplatformimage.png' />
+                <img src='images/Home/NES_Platform_V2.gif' />
             </div>
             <div className="col-lg-6 p-5 d-flex flex-column justify-content-center">
                 
@@ -77,21 +77,24 @@ export default function Home() {
 </section>
 
 
-<section>
-        <div className="container mt-15">
+<section className="mt-15 mb-15">
+        <div className="container">
             <div className="row">
-                <div className="col-lg-4 d-flex flex-column justify-content-center">
-                    <img src='images/Home/partnering.png' />
-                </div>
-                <div className="col-lg-8" style={{paddingLeft: "4rem"}}>
-                    <div className="keySucess-head">
-                        <h3>Why is Partnering with NES the new Imperative:</h3>
+                <div className="two-column__section">
+                    <div className="col-sm-12 col-md-5 col-lg-5 d-flex flex-column justify-content-center">
+                        <img src='images/Home/partnering.png' />
                     </div>
-                    <div className="keySucess-paragraph">
-                        <p>International trade is crucial for any economy and its no different in India. To execute trade in a fragmented ecosystem puts a significant pressure on exporter or the importer in India. There is an impact of over 14% on the cost of the product manufactured in India due to a fragmented ecosystem. Nes Global is endeavoring to address these factors by the introduction of its digitized platform with an ecosystem which would empower the industry to execute imports and exports seamlessly and more importantly in a compliant manner. All the digital enhancements lead to facilitating global trade via the system and this would contribute to end to end visibility and lowering indirect costs and therefore improving landed costs making Indian products more competitive internationally.</p>
+                    <div className="col-sm-12 col-nd-7 col-lg-7">
+                        <div className="keySucess-container">
+                            <div className="keySucess-head">
+                                <h3 style={{width: "430px"}}>Why is Partnering with NES the new Imperative:</h3>
+                            </div>
+                            <div className="keySucess-paragraph">
+                                <p>International trade is crucial for any economy and its no different in India. To execute trade in a fragmented ecosystem puts a significant pressure on exporter or the importer in India. There is an impact of over 14% on the cost of the product manufactured in India due to a fragmented ecosystem. Nes Global is endeavoring to address these factors by the introduction of its digitized platform with an ecosystem which would empower the industry to execute imports and exports seamlessly and more importantly in a compliant manner. All the digital enhancements lead to facilitating global trade via the system and this would contribute to end to end visibility and lowering indirect costs and therefore improving landed costs making Indian products more competitive internationally.</p>
+                            </div>
+                        </div>                        
                     </div>
-                    
-                </div>
+                </div>  
             </div>
         </div>
     </section>
@@ -100,9 +103,9 @@ export default function Home() {
 
 {/* nes community */}
 
-    <section style={{backgroundColor: "#10243E"}}>
-        <div className="container mt-15 d-flex justify-content-center text-center" style={{padding: "96px 185px"}}>
-            <div className="nes-community">
+    <section className="nes-community mt-15" style={{backgroundColor: "#10243E", padding: "96px 185px"}}>
+        <div className="container d-flex justify-content-center text-center">
+            <div>
                 <div className="nes-community__header">
                     <h3 style={{color: "#FFFFFF"}}>Join Nes to be a part of <br/> Happy’NES Community</h3>
                 </div>

@@ -3,7 +3,6 @@ import './Styles/global.css'
 
 import Home from './Pages/Home';
 
-import Nesplatform from './Pages/Product/Nesplatform';
 import NesDigitalPlatform from './Pages/Product/NesDigitalPlatform';
 import Visibility from './Pages/Product/Visibility';
 import Customs from './Pages/Product/Customs';

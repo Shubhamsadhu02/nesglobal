@@ -8,11 +8,11 @@ export default function AirFreight() {
     <>
     <Header  showNav={true} isWhite={false}/>
 
-    <section style={{ backgroundImage: "url(/images/product/air_freight/home.png)", backgroundSize: "cover", opacity: "5", height: "660px" }}>
+    <section style={{ backgroundImage: "url(/images/product/air_freight/home.png)", backgroundSize: "cover", opacity: "5", height: "660px", backgroundPosition: "center" }}>
         <div className="container">
             <div className="top-section mb-5">
                 <div className="row">
-                    <div className="col-lg-6 d-flex flex-column justify-content-center" style={{paddingRight: "150px"}}>
+                    <div className="col-sm-12 col-lg-5 d-flex flex-column justify-content-center">
                         <div className="product-topic">
                             <h4>Air Freight</h4>
                         </div>
@@ -23,7 +23,8 @@ export default function AirFreight() {
                             <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-1"></div>
+                    <div className="col-sm-12 col-lg-6">
                       <div className="enquiry-box">
                         <div className="row">
                           <div className="col-lg-6">
@@ -159,8 +160,8 @@ export default function AirFreight() {
 
 
     <section>
-      <div className="container" style={{padding: "10rem"}}>
-        <div className="nes-img">
+      <div className="container" >
+        <div className="nes-img" style={{padding: "10rem"}}>
           <img src='../images/product/air_freight/nesflow.png' />
         </div>
       </div>
@@ -176,11 +177,13 @@ export default function AirFreight() {
               </div>
             </div>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
-              <div className="product-heading1">
-                <h3 style={{ color: "#403F3E" }}>Decide and Click</h3>
-              </div>
-              <div className="product-paragraph">
-                <p style={{ color: "#737171" }}>Transportation visibility is vital to business growth On the NES platform Shipment information details are available on just a few clicks are never more than a click away.  </p>
+              <div className="product-container">
+                <div className="product-heading1">
+                  <h3 style={{ color: "#403F3E" }}>Decide and Click</h3>
+                </div>
+                <div className="product-paragraph">
+                  <p style={{ color: "#737171" }}>Transportation visibility is vital to business growth On the NES platform Shipment information details are available on just a few clicks are never more than a click away.  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -188,15 +191,17 @@ export default function AirFreight() {
 
         <div className="product-item mt-15">
           <div className="row">
-            <div className="col-lg-6 d-flex flex-column justify-content-center">
-              <div className="product-heading1">
-                <h3 style={{ color: "#403F3E" }}>Immediate Exception Management</h3>
-              </div>
-              <div className="product-paragraph">
-                <p style={{ color: "#737171" }}>Your NES team flags any gap, concerns or changes in a shipment’s journey from origin to destination and works with the customer and or the partners within the supply chain to quickly fix issues before they result in financial impacts, late fees, or other impacts that erode the profitability</p>
+            <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+              <div className="product-container">
+                <div className="product-heading1">
+                  <h3 style={{ color: "#403F3E" }}>Immediate Exception Management</h3>
+                </div>
+                <div className="product-paragraph">
+                  <p style={{ color: "#737171" }}>Your NES team flags any gap, concerns or changes in a shipment’s journey from origin to destination and works with the customer and or the partners within the supply chain to quickly fix issues before they result in financial impacts, late fees, or other impacts that erode the profitability</p>
+                </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 order-md-2 order-1">
               <div className="product-img">
                 <img src='../images/product/air_freight/immediate.png' />
               </div>
@@ -212,12 +217,14 @@ export default function AirFreight() {
               </div>
             </div>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
-              <div className="product-heading1">
-                <h3 style={{ color: "#403F3E" }}>Reporting</h3>
-              </div>
-              <div className="product-paragraph">
-                <p style={{ color: "#737171" }}>Reporting is essential for disciplined business management. All critical shipment related information is available for the customer to create customized metrics for reporting to senior management within the customer organization This results in aligning to the strategy devised for the customer.
-                  </p>
+              <div className="product-container">
+                <div className="product-heading1">
+                  <h3 style={{ color: "#403F3E" }}>Reporting</h3>
+                </div>
+                <div className="product-paragraph">
+                  <p style={{ color: "#737171" }}>Reporting is essential for disciplined business management. All critical shipment related information is available for the customer to create customized metrics for reporting to senior management within the customer organization This results in aligning to the strategy devised for the customer.
+                    </p>
+                </div>
               </div>
             </div>
           </div>

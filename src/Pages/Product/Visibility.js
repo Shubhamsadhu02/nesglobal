@@ -7,7 +7,7 @@ export default function Visibility() {
     <>
       <Header showNav={true} isWhite={true} />
 
-      <section style={{ backgroundImage: "url(/images/product/visibility/home.png)", backgroundSize: "cover", opacity: "5" }}>
+      <section style={{ backgroundImage: "url(/images/product/visibility/home.png)", backgroundSize: "cover", opacity: "5",backgroundPosition: "center" }}>
         <div className="container">
           <div className="top-section d-flex align-items-center">
             <div className="row">
@@ -80,10 +80,11 @@ export default function Visibility() {
       </section>
 
       <section>
-        <div className="container mt-15">
+        <div className="container">
             <div className="product-item mt-15">
                 <div className="row">
-                  <div className="col-lg-6 d-flex flex-column justify-content-center">
+                  <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                  <div className="product-container">
                     <div className="product-topic1 mb-4">
                       <h4>GLOBAL	OCEAN	NETWORK</h4>
                     </div>
@@ -94,7 +95,8 @@ export default function Visibility() {
                       <p style={{ color: "#737171" }}>At	NES,	transparency	is	everything	and	makes	it	easier	to	share	info	with	carriers.	The	results	are	faster	access	to	available	space,	sailings,	and	ways	for	you	to	find	the	ideal	blend	of	cost	and	transit	time</p>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  </div>
+                  <div className="col-lg-6 order-md-2 order-1">
                     <div className="product-img">
                       <img src='../images/product/visibility/visibility1.png' />
                     </div>
@@ -111,6 +113,7 @@ export default function Visibility() {
                     </div>
                   </div>
                   <div className="col-lg-6 d-flex flex-column justify-content-center">
+                  <div className="product-container">
                     <div className="product-topic1 mb-4">
                       <h4>INTEGRATIONS</h4>
                     </div>
@@ -121,23 +124,26 @@ export default function Visibility() {
                       <p style={{ color: "#737171" }}>Forecast	with	more	precision	and	accuracy.	Industry	leading	carrier	integrations	mean	NES	can	provide	faster	pricing	turnarounds,	quicker	Shipping	Order	(SO)	releases,	and	predictive	transit	times.</p>
                     </div>
                   </div>
+                  </div>
                 </div>
             </div>
 
             <div className="product-item mt-15">
                 <div className="row">
-                  <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1 mb-4">
-                      <h4>SERVICE	OFFERINGS</h4>
-                    </div>
-                    <div className="product-heading1">
-                      <h3 style={{ color: "#403F3E" }}>More	Service	Levels	for	More	Control</h3>
-                    </div>
-                    <div className="product-paragraph">
-                      <p style={{ color: "#737171" }}>Strike	the	balance	between	speed	and	cost	that’s	right	for	your	business.	Choose	from	several	ocean	freight	options,	including	guaranteed	services,	to	dial	into	a	decision	based	on	your	inventory	needs.</p>
+                  <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                    <div className="product-container">
+                      <div className="product-topic1 mb-4">
+                        <h4>SERVICE	OFFERINGS</h4>
+                      </div>
+                      <div className="product-heading1">
+                        <h3 style={{ color: "#403F3E" }}>More	Service	Levels	for	More	Control</h3>
+                      </div>
+                      <div className="product-paragraph">
+                        <p style={{ color: "#737171" }}>Strike	the	balance	between	speed	and	cost	that’s	right	for	your	business.	Choose	from	several	ocean	freight	options,	including	guaranteed	services,	to	dial	into	a	decision	based	on	your	inventory	needs.</p>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 order-md-2 order-1">
                     <div className="product-img">
                       <img src='../images/product/visibility/visibility3.png' />
                     </div>
@@ -154,14 +160,16 @@ export default function Visibility() {
                     </div>
                   </div>
                   <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1 mb-4">
-                      <h4>STRUCTURE</h4>
-                    </div>
-                    <div className="product-heading1">
-                      <h3 style={{ color: "#403F3E" }}>Start	Upstream	with	Order	Management</h3>
-                    </div>
-                    <div className="product-paragraph">
-                      <p style={{ color: "#737171" }}>Activate	collaboration	with	your	suppliers.	With	Nes	Order	Management,	you	can	submit	orders,	manage	quantities,	and	discuss	cargo	ready	dates.	Keep	every	PO	in	sight	from	order	to	final	mile.</p>
+                    <div className="product-container">
+                      <div className="product-topic1 mb-4">
+                        <h4>STRUCTURE</h4>
+                      </div>
+                      <div className="product-heading1">
+                        <h3 style={{ color: "#403F3E" }}>Start	Upstream	with	Order	Management</h3>
+                      </div>
+                      <div className="product-paragraph">
+                        <p style={{ color: "#737171" }}>Activate	collaboration	with	your	suppliers.	With	Nes	Order	Management,	you	can	submit	orders,	manage	quantities,	and	discuss	cargo	ready	dates.	Keep	every	PO	in	sight	from	order	to	final	mile.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -170,18 +178,20 @@ export default function Visibility() {
 
               <div className="product-item mt-15">
                 <div className="row">
-                  <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1 mb-4">
-                      <h4>DATA</h4>
-                    </div>
-                    <div className="product-heading1">
-                      <h3 style={{ color: "#403F3E" }}>Leagues	of	Data,	Packaged	for You</h3>
-                    </div>
-                    <div className="product-paragraph">
-                      <p style={{ color: "#737171" }}>Supply	chains	throw	out	complex	volumes	of	data.	With	searchable,	shareable	reporting,	you	can	use	all	of	it.	Manage		delays.	Prioritize	containers	confirmed	to	sail.	Prepare	your	entire	supply	chain	for	any	scenario.</p>
+                  <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                    <div className="product-container">
+                      <div className="product-topic1 mb-4">
+                        <h4>DATA</h4>
+                      </div>
+                      <div className="product-heading1">
+                        <h3 style={{ color: "#403F3E" }}>Leagues	of	Data,	Packaged	for You</h3>
+                      </div>
+                      <div className="product-paragraph">
+                        <p style={{ color: "#737171" }}>Supply	chains	throw	out	complex	volumes	of	data.	With	searchable,	shareable	reporting,	you	can	use	all	of	it.	Manage		delays.	Prioritize	containers	confirmed	to	sail.	Prepare	your	entire	supply	chain	for	any	scenario.</p>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 order-md-2 order-1">
                     <div className="product-img">
                       <img src='../images/product/visibility/visibility5.png' />
                     </div>
@@ -198,6 +208,7 @@ export default function Visibility() {
                     </div>
                   </div>
                   <div className="col-lg-6 d-flex flex-column justify-content-center">
+                  <div className="product-container">
                     <div className="product-topic1 mb-4">
                       <h4>PLANNING</h4>
                     </div>
@@ -207,6 +218,7 @@ export default function Visibility() {
                     <div className="product-paragraph">
                       <p style={{ color: "#737171" }}>Your	team	can	forecast	and	plan	ocean	freight	shipments	precisely	with	transit	time	data	by	lane.	Make	routing	decisions	and	track	supplier	KPIs.	Replace	unfathomable	questions	with	insights	everyone	understands.</p>
                     </div>
+                  </div>
                   </div>
                 </div>
               </div>
