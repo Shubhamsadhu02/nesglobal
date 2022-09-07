@@ -1074,6 +1074,15 @@ footer hr
     padding-right: 30px;
 }
 
+
+.leading-brands-logos__list
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 500px){
     .mt-15 {
         margin-top: 4rem !important;
@@ -1199,5 +1208,9 @@ footer hr
     .nes-box1,.nes-box2,.nes-box3,.nes-box4
     {
         height: auto;
+    }
+    .leading-brands-logos__list
+    {
+        flex-direction: column;
     }
 }

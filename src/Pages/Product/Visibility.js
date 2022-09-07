@@ -227,10 +227,7 @@ export default function Visibility() {
 
       {/* Request A Demo */}
 
-      <div className="mt-15"></div>
-
-      
-      <section style={{ background: "url('../images/product/visibility/productbg.png')" }}>
+      <section  className="mt-15" style={{ background: "url('../images/product/visibility/productbg.png')" }}>
         <div className="container">
           <div className="ready d-flex flex-column justify-content-center align-items-center">
             <div className="ready-heading">

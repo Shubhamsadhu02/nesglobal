@@ -83,7 +83,7 @@ export default function Leadership() {
               <h3>Ready to Get Started?</h3>
             </div>
             <div className="ready-paragraph text-center mt-3" style={{ width: "435px" }}>
-              <p>Talk	to	a	supply	chain	solutions	expert	and	see	the	NES	Platform	in	action.</p>
+              <p>Talk	to	a	supply	chain	solutions	expert	and	see	the	NES	Platform in	action.</p>
             </div>
             <div className="reday-btn mt-3">
               <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Request A Demo</button>

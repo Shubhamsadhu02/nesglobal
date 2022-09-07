@@ -23,33 +23,38 @@ export default function AboutUs() {
 
             <section>
                 <div className="container mt-15">
-                    <div className="row">
-                        <div className="col-lg-6 d-flex flex-column justify-content-center">
-                            <div className="product-topic1 mb-4">
-                                <h4>THE NES VISION</h4>
-                            </div>
-                            <div className="product-heading1">
-                                <h3 style={{color: "#403F3E"}}></h3>
-                            </div>
-                            <div className="product-paragraph">
-                                <p style={{color: "#737171"}}>The Nes Mission is to address complexities of global economic relationships in international trade and ensure that the exporting and importing communities enjoy the benefits of a connected supply chain on the NES digital platform thereby setting progressive standards in International trade.</p>
+                  <div className="product-item mt-15">
+                      <div className="row">
+                        <div className="col-lg-6 d-flex flex-column justify-content-center order-md-1 order-2">
+                          <div className="product-container">
+                              <div className="product-topic1 mb-4">
+                                  <h4>THE NES VISION</h4>
+                              </div>
+                              <div className="product-heading1">
+                                  <h3 style={{color: "#403F3E"}}></h3>
+                              </div>
+                              <div className="product-paragraph">
+                                  <p style={{color: "#737171"}}>The Nes Mission is to address complexities of global economic relationships in international trade and ensure that the exporting and importing communities enjoy the benefits of a connected supply chain on the NES digital platform thereby setting progressive standards in International trade.</p>
+                              </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 order-md-2 order-1">
                             <div className="product-img">
                                 <img src='../images/Company/aboutus/aboutus1.png' />
                             </div>
                         </div>
+                      </div>
+                    </div>
 
-                        <div className="mt-15"></div>
-
-
+                    <div className="product-item mt-15">
+                      <div className="row">
                         <div className="col-lg-6">
                             <div className="product-img">
                                 <img src='../images/Company/aboutus/aboutus2.png' />
                             </div>
                         </div>
                         <div className="col-lg-6 d-flex flex-column justify-content-center">
+                          <div className="product-container">
                             <div className="product-topic1 mb-4">
                                 <h4>THE NES PLATFORM</h4>
                             </div>
@@ -62,7 +67,9 @@ export default function AboutUs() {
                             <div className="learn-more-btn mt-4">
                                 <button type='submit'>Sign in</button>
                             </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
                 </div>
             </section>
@@ -72,12 +79,14 @@ export default function AboutUs() {
                   <div className="leading-brands text-center">
                       <h3>Companies Of All Sizes—From Emerging Brands To Fortune 500s—Used Flexport Technology To Move Nearly $19B Of Merchandise Across 112 Countries in 2021</h3>
                   </div>
-                  <div className="leading-brands-logos d-flex flex-row justify-content-between align-items-center mt-5">
-                      <img src='../images/product/nesplatform/sonos-logo.png' height={61} width={131} />
-                      <img src='../images/product/nesplatform/Fairphone-logo.png' height={65} width={182}/>
-                      <img src='../images/product/nesplatform/outdoor-voices-logo.png' height={77} width={220}/>
-                      <img src='../images/product/nesplatform/jlab-audio-logo.png' height={61} width={170}/>
-                      <img src='../images/product/nesplatform/Rothy_s-logo.png' height={54} width={145}/>
+                  <div className="leading-brands-logos mt-5">
+                    <ul className="leading-brands-logos__list">
+                      <li> <img src='../images/product/nesplatform/sonos-logo.png' height={61} width={131} /></li>
+                      <li><img src='../images/product/nesplatform/Fairphone-logo.png' height={65} width={182}/></li>
+                      <li><img src='../images/product/nesplatform/outdoor-voices-logo.png' height={77} width={220}/></li>
+                      <li><img src='../images/product/nesplatform/jlab-audio-logo.png' height={61} width={170}/></li>
+                      <li><img src='../images/product/nesplatform/Rothy_s-logo.png' height={54} width={145}/></li>
+                    </ul>
                   </div>
                   <div className="see-more-btn text-center mt-5">
                       <button type='submit'>Read Customers Stories</button>
@@ -87,12 +96,14 @@ export default function AboutUs() {
 
           <section>
             <div className="container mt-15">
-              <div className="trade">
-                <h2>International Trade </h2>
-              </div>
-              <div className="trade-paragraph" style={{width: "632px"}}>
-                <p>Trade has evolved from the historical Barter system to Mercantilism to trade fueled by industrialization and in the modern era technology driven platforms moving a fragmented foreign trade to a connected ecosystem. This allows industries involved in foreign trade to participate in a global economy, fuels economic and job growth, and can raise living standards for all. The NES platform is for enabling International trade and enable the force of GOOD.</p>
-              </div>
+                <div className="trade">
+                  <h2>International Trade </h2>
+                </div>
+                <div className="trade-paragraph" style={{width: "632px"}}>
+                  <p>Trade has evolved from the historical Barter system to Mercantilism to trade fueled by industrialization and in the modern era technology driven platforms moving a fragmented foreign trade to a connected ecosystem. This allows industries involved in foreign trade to participate in a global economy, fuels economic and job growth, and can raise living standards for all. The NES platform is for enabling International trade and enable the force of GOOD.</p>
+                </div>
+
+
               <div className="row mt-5">
                 <div className="col-lg-4">
                   <div className="trade-img">
