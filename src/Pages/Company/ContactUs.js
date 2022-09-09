@@ -1,14 +1,18 @@
-import React from 'react'
-
-import Footer from '../../Partials/Footer'
-import Header from '../../Partials/Header'
+import React from 'react';
+import Header from '../../Partials/Header';
+import {useNavigate} from "react-router-dom"
 
 export default function ContactUs() {
+    const naviagte= useNavigate();
+    const handleBack = () =>  {
+        naviagte(-1);
+    }
+
   return (
     <>
     <Header showNav={true} isWhite={true} />
 
-    <section style={{ background: "#10243E" }}>
+    {/* <section style={{ background: "#10243E" }}>
         <div className="container">
             <div className="top-section" style={{paddingTop: "90px", height: "690px"}}>
                 <div className="row">
@@ -72,6 +76,84 @@ export default function ContactUs() {
                     </div>
                 </div>
             </div>
+        </div>
+    </section> */}
+    <section className='contactBg' style={{ background: "#10243E", height: "122vh" }}>
+        <div className="container">
+                <div className="row">
+                    <div className="col-lg-6 d-flex flex-column justify-content-center">
+                        <div className="contactus">
+                            <div className="contactus-content">
+                                <div className="contact-back mb-4" onClick={handleBack}>
+                                    <h3><img src='/images/contacts/back-arrow.svg'/>Go back</h3>
+                                </div>
+                                <div className="contact-head mb-5" style={{paddingRight: "6rem"}}>
+                                    <h1>Connect with us</h1>
+                                </div>
+                                <div className="contact-paragraph">
+                                    <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
+                                </div>
+                            </div>
+                            <div className="contact-image mt-5">
+                                <img src='/images/contacts/Active-Support-cuate.png' alt=''/>
+                            </div>
+                        </div>
+                    </div>
+   
+                    <div className="col-lg-6">
+                      <div className="enquiry-box">
+                        <div className="row">
+                          <div className="col-lg-6">
+                            <label for="firstname">Firstname</label>   
+                            <input type="text" id="firstname" name="ftname" placeholder= "Firstname" />  
+                          </div>
+                          <div className="col-lg-6">
+                            <label for="company">Company Name</label>   
+                            <input type="text" id="company" name="Company" placeholder= "Company" />  
+                          </div>
+
+                          <div className="mb-4"></div>
+
+                          <div className="col-lg-6">
+                            <label for="companyMailId">Company Mail ID</label>   
+                            <input type="email" id="companyMailId" name="Company Mail ID" placeholder= "Company Mail ID" />  
+                          </div>
+                          <div className="col-lg-6">
+                            <label for="designation">Designation</label>   
+                            <input type="text" id="designation" name="Designation" placeholder= "Designation" />  
+                          </div>
+
+                          <div className="mb-4"></div>
+
+                          <div className="col-lg-6">
+                            <label for="companyPhoneNo">Company Phone Number</label>   
+                            <input type="tel" id="companyPhoneNo" name="Company Phone Number" placeholder= "+91" />  
+                          </div>
+                          <div className="col-lg-6">
+                            <label for="noAirFreight">No. of Air Freight Shipments</label>   
+                            <input type="text" id="noAirFreight" name="No. of Air Freight Shipments" placeholder= "##" />  
+                          </div>
+
+                          <div className="mb-4"></div>
+
+
+                          <div className="col-lg-12 d-flex flex-column">
+                              <label for="address">Company Postal Address</label>
+                              <textarea type="text" id="address" name="address" placeholder='Enter Address' />
+                          </div>
+
+                          <div className="send-btn mt-4">
+                              <button type='submit'>Sumbit</button>
+                          </div>
+
+                          <div className="enquiry-terms mt-3">
+                            <p>By continuing, you agree to accept our <a><span style={{color: "#0060BE", fontWeight: "500"}}> Privacy Policy </span></a> and <a><span style={{color: "#0060BE", fontWeight: "500"}}>Terms of Service</span></a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            
         </div>
     </section>
     </>

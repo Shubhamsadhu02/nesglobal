@@ -406,4 +406,9 @@ nav
     {
         font-size: 14px;
     }
+
+    .offcanvas .search-nav li:first-child
+    {
+        display: block;
+    }
 }
