@@ -125,9 +125,6 @@ nav
     padding-left: 5px;
 }
 
-.dropdown-menu {
-    min-width: fit-content;
-}
 
 .dropdown .dropbtn {
   font-size: 16px;  

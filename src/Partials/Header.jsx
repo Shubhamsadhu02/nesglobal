@@ -67,7 +67,21 @@ export default function header(props) {
         },
         {
             title: 'Resources',
-            link: '#contact'
+            link: '#contact',
+            children: [
+                {
+                    title: 'Blog',
+                    link: '#',
+                },
+                {
+                    title: 'Help Center',
+                    link: '#',
+                },
+                {
+                    title: 'Glossary',
+                    link: '#',
+                },
+            ]
         },
         {
             title: 'Company',
@@ -78,17 +92,17 @@ export default function header(props) {
                     link: '/about-us',
                 },
                 {
-                    title: 'Engineering',
-                    link: '/engineering',
+                    title: 'Nescare',
+                    link: '/nescare',
                 },
                 {
                     title: 'Contact Us',
                     link: '/contact-us',
                 },
                 {
-                    title: 'Nescare',
-                    link: '/nescare',
-                },
+                    title: 'Engineering',
+                    link: '/engineering',
+                },               
                 {
                     title: 'Reach Carbon',
                     link: '/reach-carbon',
@@ -125,19 +139,24 @@ export default function header(props) {
                         <Offcanvas.Header closeButton>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
+                        {showNav ?
                             <Nav className="justify-content-center flex-grow-1 pe-3" style={{color: isWhite ? "#E6E5E5" : '#0060BE'}}>
                                 {
                                     menuItems.map(item => {
                                         if (item.children != undefined) {
-                                            return <NavDropdown
+                                            return <NavDropdown 
                                                 title={item.title}
                                                 id={`offcanvasNavbarDropdown-expand-md`}
                                             >
-                                                {
-                                                    item.children.map(dropdown => <Link className={"dropdown-item"}
-                                                                                        to={item.link + dropdown.link}>{dropdown.title}</Link>
+                                        
+                                                 {
+                                                    item.children.map(dropdown =>                                                   
+                                                        <Link className={"dropdown-item"}
+                                                            to={item.link + dropdown.link}>{dropdown.title}</Link>
+                                            
                                                     )
-                                                }
+                                                 }
+                                                
 
                                             </NavDropdown>
                                         } else {
@@ -146,7 +165,7 @@ export default function header(props) {
 
                                     })
                                 }
-                            </Nav>
+                            </Nav> :""}
                             {showNav ?
                                 <div className="search-nav">
                                     <ul>
@@ -160,7 +179,7 @@ export default function header(props) {
                                     </ul>
                                 </div>
                                 : 
-                                <div className="search-nav">
+                                <div className="d-flex justify-content-end flex-grow-1 search-nav">
                                     <ul>
                                         <li>
                                             <a href='#'><button type='submit' className='carbon-cal__btn' >Carbon Calculator</button></a>

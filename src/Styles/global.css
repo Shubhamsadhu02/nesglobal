@@ -129,10 +129,6 @@ nav
     padding-left: 5px;
 }
 
-.dropdown-menu {
-    min-width: fit-content;
-}
-
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
@@ -158,6 +154,24 @@ nav
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 6px;
+}
+
+.dropdown-menu
+{
+    min-width: fit-content;
+    box-shadow: 0px 4px 20px rgba(79, 108, 144, 0.12);
+    border-radius: 16px;
+}
+
+.dropdown-item
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #595858;
+    padding: .50rem 1rem;
 }
 
 .menu-list .dropdown .dropdown-content a {
