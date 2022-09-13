@@ -64,7 +64,7 @@ export default function Home() {
             <h3>Deep Diving Into Your Supply Chain</h3>
         </div>
         <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 d-flex justify-content-center">
                 <img src='images/Home/NES_Platform_V2.gif' />
             </div>
             <div className="col-lg-6 p-5 d-flex flex-column justify-content-center">
@@ -78,13 +78,13 @@ export default function Home() {
 
 
 <section className="mt-15 mb-15">
-        <div className="container">
-            <div className="row">
-                <div className="two-column__section">
+        <div className="container">            
+            <div className="two-column__section">
+                <div className="row">
                     <div className="col-sm-12 col-md-5 col-lg-5 d-flex flex-column justify-content-center">
                         <img src='images/Home/partnering.png' />
                     </div>
-                    <div className="col-sm-12 col-nd-7 col-lg-7">
+                    <div className="col-sm-12 col-md-7 col-lg-7">
                         <div className="keySucess-container">
                             <div className="keySucess-head">
                                 <h3 style={{width: "430px"}}>Why is Partnering with NES the new Imperative:</h3>
