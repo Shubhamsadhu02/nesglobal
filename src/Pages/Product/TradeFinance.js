@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
@@ -24,7 +25,7 @@ export default function TradeFinance() {
                             Connect with us to learn more.</p>
                     </div>
                     <div className="product-get-started mt-4">
-                        <button type='submit'>Talk To Us</button>
+                      <Link to={"/company/contact-us"}><button type='submit'>Talk To Us</button></Link>
                     </div>
                 </div>
                

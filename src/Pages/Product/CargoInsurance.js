@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
@@ -8,7 +9,7 @@ export default function CargoInsurance() {
     <>
     <Header showNav={true} isWhite={true} />
 
-<section style={{ background: "url('../images/product/cargo_insurance/home.png')", backgroundSize: "cover", height: "580px", backgroundPosition: "center" }}>
+<section style={{ background: "url('../images/product/cargo_insurance/home.png')", backgroundSize: "cover", height: "590px", backgroundPosition: "center" }}>
     <div className="container">
         <div className="top-section d-flex align-items-center">
             <div className="row">
@@ -19,8 +20,8 @@ export default function CargoInsurance() {
                     <div className="product-heading mt-4">
                         <h1>Tailor make your policy as per your convenience</h1>
                     </div>
-                    <div className="product-get-started mt-4">
-                        <button type='submit'>Connect with our advisor</button>
+                    <div className="product-get-started mt-5">
+                        <Link to={"/product/trade-advisory"}><button type='submit'>Connect with our advisor</button></Link>
                     </div>
                 </div>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
@@ -209,7 +210,7 @@ export default function ProjectAirAndOceanCharters() {
               <p style={{ color: "#E6E5E5" }}>Click below to speak to our advisor</p>
             </div>
             <div className="reday-btn mt-3">
-              <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Talk to advisor</button>
+              <Link to={"/company/contact-us"}><button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Talk to advisor</button></Link>
             </div>
           </div>
         </div>

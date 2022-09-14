@@ -26,7 +26,7 @@ export default function NesDigitalPlatform() {
                                 </p>
                         </div>
                         <div className="product-signin mt-4">
-                            <button type='submit'>Welcome & Sign In</button>
+                            <Link to={"#"}><button type='submit'>Welcome & Sign In</button></Link>
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@ export default function NesDigitalPlatform() {
               <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
             </div>
             <div className="supply-learn-more">
-                <a href="/product/visibility">Learn More<i class="far fa-angle-right"></i></a>
+                <Link to={"/product/visibility"}>Learn More<i class="far fa-angle-right"></i></Link>
             </div>
           </div>
       </div>
@@ -227,7 +227,7 @@ export default function NesDigitalPlatform() {
               <h3>Join Us Today</h3>
             </div>
             <div className="reday-btn mt-3">
-              <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Join Now</button>
+              <Link to={"/company/contact-us"}><button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Join Now</button></Link>
             </div>
           </div>
         </div>

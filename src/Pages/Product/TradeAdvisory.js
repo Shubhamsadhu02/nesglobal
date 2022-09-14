@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
@@ -26,7 +27,7 @@ export default function TradeAdvisory() {
                             larger	strategy	for	your	organization.</p>
                     </div>
                     <div className="product-get-started mt-4">
-                        <button type='submit'>Talk To Us</button>
+                         <Link to={"/company/contact-us"}><button type='submit'>Talk To Us</button></Link>
                     </div>
                 </div>
                
@@ -97,7 +98,7 @@ export default function TradeAdvisory() {
                             <p style={{color: "#737171"}}>The	HTS	codes	in	your	NES	Product	Library	are	used	for	total	transactional	consistency.	Data	is	structured	to	advance	trade	strategy:	With	the	right	eyes	on	it,	your	six	to	ten-digit	codes	could	reveal	six-digit	or	higher	financial	opportunities.</p>
                         </div>
                         <div className="learn-more-btn mt-4">
-                        <button type='submit'>Talk To Us</button>
+                            <Link to={"/company/contact-us"}><button type='submit'>Talk To Us</button></Link>
                         </div>
                     </div>
                 </div>
