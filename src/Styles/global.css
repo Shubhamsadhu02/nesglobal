@@ -1137,6 +1137,39 @@ footer hr
     max-width: 32px;
 }
 
+.nes-box5
+{
+    width: 375px;
+    height: 312px;
+    padding: 56px 24px;
+    background: #FAFAFA;
+}
+
+.nes-box6
+{
+    width: 375px;
+    height: 384px;
+    padding: 56px 24px;
+    background: #FAFAFA;
+}
+
+.nes-box7
+{
+    width: 375px;
+    height: 408px;
+    padding: 56px 24px;
+    background: #FAFAFA;
+    margin-top: -77px;
+}
+
+.nes-box8
+{
+    width: 375px;
+    height: 332px;
+    padding: 56px 24px;
+    background: #FAFAFA;
+}
+
 @media (max-width: 500px){
     .video-final video
     {
@@ -1292,10 +1325,16 @@ footer hr
     {
         padding: 1rem 0rem!important;
     }
-    .nes-box1,.nes-box2,.nes-box3,.nes-box4
+    .nes-box1,.nes-box2,.nes-box3,.nes-box4,.nes-box5, .nes-box6,.nes-box7,.nes-box8
     {
         height: auto;
     }
+
+    .nes-box7
+    {
+        margin-top: 0;
+    }
+
     .leading-brands-logos__list
     {
         flex-direction: column;

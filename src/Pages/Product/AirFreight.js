@@ -95,7 +95,7 @@ export default function AirFreight() {
 
         <div className="row mt-5" style={{rowGap: "25px"}}>
           <div className="col-lg-4">
-            <div className="nes-box">
+            <div className="nes-box5">
               <div className="product-tag-head">
                 <h4>Load us with your Priorities</h4>
               </div>
@@ -105,7 +105,7 @@ export default function AirFreight() {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="nes-box">
+            <div className="nes-box6">
               <div className="product-tag-head">
                 <h4>Plan, Technology & Capacity</h4>
               </div>
@@ -115,7 +115,7 @@ export default function AirFreight() {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="nes-box">
+            <div className="nes-box5">
               <div className="product-tag-head">
                 <h4>Goals, Gaps and Information</h4>
               </div>
@@ -125,7 +125,7 @@ export default function AirFreight() {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="nes-box">
+            <div className="nes-box7">
               <div className="product-tag-head">
                 <h4>Goals, Gaps and Information</h4>
               </div>
@@ -135,7 +135,7 @@ export default function AirFreight() {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="nes-box">
+            <div className="nes-box8">
               <div className="product-tag-head">
                 <h4>That’s called Value</h4>
               </div>
@@ -145,7 +145,7 @@ export default function AirFreight() {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="nes-box">
+            <div className="nes-box7">
               <div className="product-tag-head">
                 <h4>End to End Visibility</h4>
               </div>
