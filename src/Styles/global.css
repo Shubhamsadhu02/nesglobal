@@ -1157,6 +1157,34 @@ footer hr
         margin-left: 0!important;
     }
 
+    .nav-bar
+    {
+        align-items: initial !important;
+        margin-left: 15px;
+    }
+
+    .nav-dropdown-box
+    {
+        display: block !important;
+    }
+
+    .dropdown-menu
+    {
+        box-shadow: none;
+    }
+
+    .nav-dropdown-box
+    {
+        padding: 0px 20px;
+    }
+
+    .offcanvas-header
+    {
+        justify-content: end !important;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+
     .home-details h1
     {
         font-size: 40px;
@@ -1283,7 +1311,7 @@ footer hr
     }
     .offcanvas .nav-link
     {
-        font-size: 14px !important;
-        margin-top: 15px !important;
+        font-size: 20px !important;
+        margin-top: 20px !important;
     }
 }

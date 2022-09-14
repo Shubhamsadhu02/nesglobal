@@ -146,7 +146,7 @@ export default function header(props) {
                 <Container>
                     <Navbar.Brand href="/"><img src={isWhite ? "/images/Home/logowhite1.png" : "/images/Home/logo.png"}
                         height={20} width={150} /></Navbar.Brand>
-                    <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} style={{ background: isWhite ? "white" : "none" }} />
+                    <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-md`}
                         aria-labelledby={`offcanvasNavbarLabel-expand-md`}
@@ -157,7 +157,7 @@ export default function header(props) {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             {showNav ?
-                                <Nav className="justify-content-center flex-grow-1 align-items-center pe-3">
+                                <Nav className="nav-bar justify-content-center flex-grow-1 align-items-center pe-3">
                                     {
                                         menuItems.map(item => {
                                             if (item.children) {
