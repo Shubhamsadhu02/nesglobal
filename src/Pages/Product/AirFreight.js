@@ -82,7 +82,7 @@ export default function AirFreight() {
     </section>
 
 
-    <section>
+    <section className='airfreight-boxes'>
       <div className="container mt-15">
         <div className="nes text-center">
           <div className="nes-head">
@@ -93,7 +93,7 @@ export default function AirFreight() {
           </div>
         </div>
 
-        <div className="row mt-5">
+        <div className="row mt-5" style={{rowGap: "25px"}}>
           <div className="col-lg-4">
             <div className="nes-box">
               <div className="product-tag-head">

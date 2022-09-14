@@ -28,18 +28,17 @@ export default function Footer() {
                                 </div>
                                 <div className="footer-list">
                                     <ul>
-                                        <li>Flexport Platform</li>
-                                        <li>Visibility</li>
-                                        <li>Order Management</li>
-                                        <li>Customs</li>
-                                        <li>Climate</li>
-                                        <li>Ocean Freight</li>
-                                        <li>Air Freight</li>
-                                        <li>Trucking</li>
-                                        <li>Trade Finance</li>
-                                        <li>Trade Advisory</li>
-                                        <li>Duty Drawback</li>
-                                        <li>Cargo Insurance</li>
+                                        <li><Link to={"/product/nes-platform"}>Nes Platform</Link></li>
+                                        <li><Link to={"/product"}>Order Management</Link></li>
+                                        <li><Link to={"/product/visibility"}>Visibility</Link></li>
+                                        <li><Link to={"/product/customs"}>Customs</Link></li>
+                                        <li><Link to={"/product/project-air-and-ocean-charters"}>Climate</Link></li>
+                                        <li><Link to={"/product/ocean-freight"}>Ocean Freight</Link></li>
+                                        <li><Link to={"/product/air-freight"}>Air Freight</Link></li>
+                                        <li><Link to={"/product/trade-finance"}>Trade Finance</Link></li>
+                                        <li><Link to={"/product/trade-advisory"}>Trade Advisory</Link></li>
+                                        <li><Link to={"/product/duty-drawbacks"}>Duty Drawback</Link></li>
+                                        <li><Link to={"/product/cargo-insurance"}>Cargo Insurance</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -50,14 +49,12 @@ export default function Footer() {
                                 </div>
                                 <div className="footer-list">
                                     <ul>
-                                        <li>Blog</li>
-                                        <li>Market Updates</li>
-                                        <li>Research</li>
-                                        <li>Videos and Webinars</li>
-                                        <li>White Papers</li>
-                                        <li>FlexU</li>
-                                        <li>Help Center</li>
-                                        <li>Glossary</li>
+                                        <li><Link to={""}>Blog</Link></li>
+                                        <li><Link to={""}>Market Updates</Link></li>                                       
+                                        <li><Link to={""}>Videos and Webinars</Link></li>
+                                        <li><Link to={""}>NES School</Link></li>                                        
+                                        <li><Link to={""}>Help Center</Link></li>
+                                        <li><Link to={""}>Glossary</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -68,15 +65,15 @@ export default function Footer() {
                                 </div>
                                 <div className="footer-list">
                                     <ul>
-                                        <li>About Us</li>
-                                        <li>Customers</li>
-                                        <li>Engineering</li>
-                                        <li>Newsroom</li>
-                                        <li>Contact</li>
-                                        <li>Leadership</li>
-                                        <li>Flexport.org</li>
-                                        <li>Global Network</li>
-                                        <li>Events</li>
+                                        <li><Link to={"/company/about-us"}>About Us</Link></li>
+                                        <li><Link to={"/company"}>Customers</Link></li>                                       
+                                        <li><Link to={"/company"}>Newsroom</Link></li>
+                                        <li><Link to={"/company/contact-us"}>Contact</Link></li>
+                                        <li><Link to={"/company"}>Leadership</Link></li>
+                                        <li><Link to={"/company"}>Careers</Link></li>
+                                        <li><Link to={"/company/nescare"}>Nescare.org</Link></li>                                       
+                                        <li><Link to={"/company"}>Events</Link></li>
+                                        <li><Link to={"/company"}>FAQs</Link></li>
                                     </ul>
                                 </div>
                             </div>
