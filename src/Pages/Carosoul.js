@@ -18,19 +18,19 @@ export default () => {
     const slide = [
         {
             "description": "After your Order is ready for dispatch, send your pickup request to the Nes online and leave it to the NES ops team to execute",
-            "link": "#"
+            "link": "/product/nes-platform"
         },
         {
             "description": "Visibility is the catalyst to seamless trade. Shipment and data visibility is critical for control of the supply chain.",
-            "link": "#"
+            "link": "/product/nes-platform"
         },
         {
             "description": "Nes platform helps you explore the most feasible mode through a selection of top shipping lines and airlines in a matter of seconds.",
-            "link": "#"
+            "link": "/product/nes-platform"
         },
         {
             "description": "Aligning to regulations is critical and the NES team helps you though their experience as well as well-designed resources",
-            "link": "#"
+            "link": "/product/nes-platform"
         },
     ]
 
@@ -54,7 +54,7 @@ export default () => {
                         <p>{ele.description}</p>
                     </div>
                     <div className="supply-learn-more">
-                        <a href="#">Learn More<i class="far fa-angle-right"></i></a>
+                        <Link to={ele.link}>Learn More<i class="far fa-angle-right"></i></Link>
                     </div>
                 </div>
               </SwiperSlide>

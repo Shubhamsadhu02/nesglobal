@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../Partials/Footer'
 import Header from '../Partials/Header'
 import Signup from '../Partials/Signup'
@@ -14,18 +15,21 @@ export default function Home() {
         <div className="container">
             <div className="top-section  d-flex align-items-center">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-8">
                         <div className="home-details">
-                            <h1>Take Control of your Supply Chain.</h1>
-                            <p>Accelerate performance and growth for your entire supply chain. Ship to and from anywhere. Track everything. Collaborate with everyone</p>
+                            <h1>Nes Platform: The New Trade Imperative</h1>
+                            <p>Nes is created on the pledge to transition transportation to the Digital sphere, giving the community of
+exporters &amp; importers the benefit, of speed, security, collaboration, efficiency and control thereby ushering in prosperity to the community.
+
+</p>
                         </div>
                         <div className="home-bottom d-flex align-items-center mt-5">
                             <div className="talk-to-expert">
-                                <button type='submit'>Talk to an Expert</button>
+                               <Link to={"/company/contact-us"}> <button type='submit'>Talk to an Expert</button></Link>
                             </div>
                             <div className="watch-video" style={{marginLeft: "60px"}}>
                                 <a href='#'><img src='images/Home/playicon.png' height={48} width={48} /></a>
-                                <a href='#'>Watch Demo</a>
+                                <a href='#'>Introduction</a>
                             </div>
                         </div>
                     </div>

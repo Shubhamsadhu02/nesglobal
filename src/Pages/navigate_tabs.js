@@ -60,7 +60,7 @@ export default () => {
                             <p style={{ color: "#737171" }}>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi...</p>
                         </div>
                         <div className="supply-learn-more">
-                            <a href="#">Learn More<i class="far fa-angle-right"></i></a>
+                            <Link to={"/product/ocean-freight"}>Learn More<i class="far fa-angle-right"></i></Link>
                         </div>
                     </div>
 
@@ -75,7 +75,7 @@ export default () => {
                             <p style={{ color: "#737171" }}>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi...</p>
                         </div>
                         <div className="supply-learn-more">
-                            <a href="#">Learn More<i class="far fa-angle-right"></i></a>
+                            <Link to={"/product/air-freight"}>Learn More<i class="far fa-angle-right"></i></Link>
                         </div>
                     </div>
                 </div>
