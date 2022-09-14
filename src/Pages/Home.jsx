@@ -19,9 +19,8 @@ export default function Home() {
                         <div className="home-details">
                             <h1>Nes Platform: The New Trade Imperative</h1>
                             <p>Nes is created on the pledge to transition transportation to the Digital sphere, giving the community of
-exporters &amp; importers the benefit, of speed, security, collaboration, efficiency and control thereby ushering in prosperity to the community.
-
-</p>
+                                exporters &amp; importers the benefit, of speed, security, collaboration, efficiency and control thereby ushering in prosperity to the community.
+                            </p>
                         </div>
                         <div className="home-bottom d-flex align-items-center mt-5">
                             <div className="talk-to-expert">

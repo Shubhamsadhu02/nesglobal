@@ -15,7 +15,7 @@ export default function header(props) {
             children: [
                 {
                     "menu-item-type": "header-list",
-                    header: "Logistic ",
+                    header: "Logistics Management",
                     list_items: [
                         {
                             title: 'Nes Platform',
@@ -33,7 +33,7 @@ export default function header(props) {
                 },
                 {
                     "menu-item-type": "header-list",
-                    header: "Logistic ",
+                    header: "Transportation",
                     list_items: [
                         {
                             title: 'Air Freight',
@@ -51,7 +51,7 @@ export default function header(props) {
                 },
                 {
                     "menu-item-type": "header-list",
-                    header: "Logistic ",
+                    header: "Trade Management",
                     list_items: [
                         {
                             title: 'Trade Finance',
@@ -151,6 +151,7 @@ export default function header(props) {
                         id={`offcanvasNavbar-expand-md`}
                         aria-labelledby={`offcanvasNavbarLabel-expand-md`}
                         placement="end"
+                        className="activewhite"
                     >
                         <Offcanvas.Header closeButton>
                         </Offcanvas.Header>
@@ -162,7 +163,7 @@ export default function header(props) {
                                             if (item.children) {
                                                 return <NavDropdown
                                                     title={item.title}
-                                                    id={`offcanvasNavbarDropdown-expand-md`}
+                                                    id={`offcanvasNavbarDropdown-expand-md`}                                                    
                                                 >
                                                     <div className="nav-dropdown-box d-flex">
 

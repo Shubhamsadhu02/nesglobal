@@ -46,6 +46,11 @@ textarea:focus
     outline: none;
 }
 
+.navbar-light .navbar-nav .show>.nav-link
+{
+    color: #0060BE;
+}
+
 nav
 {
     position: fixed;
