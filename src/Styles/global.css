@@ -161,6 +161,40 @@ nav
     min-width: fit-content;
     box-shadow: 0px 4px 20px rgba(79, 108, 144, 0.12);
     border-radius: 16px;
+    margin-top: 16px !important;
+}
+
+.nav-dropdown-box
+{
+    padding: 25px 30px;
+    min-width: max-content;
+}
+
+.nav-dropdown-content
+{
+    min-width: max-content;
+    padding-right: inherit;
+}
+
+.nav-dropdown-content h6
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #595858;
+}
+
+.nav-list-name
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #595858 !important;
+    line-height: 35px;
 }
 
 .dropdown-item
@@ -1193,5 +1227,10 @@ footer hr
     .contactus .contactus-content
     {
         height: auto;
+    }
+    .offcanvas .nav-link
+    {
+        font-size: 14px !important;
+        margin-top: 15px !important;
     }
 }
