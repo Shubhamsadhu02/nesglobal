@@ -73,7 +73,7 @@ export default function nescare() {
                                 of your CO₂ emissions, meet environmental and social responsibility goals, and enhance supply chain sustainability.</p>
                         </div>
                         <div className="ways-learn-more mt-4">
-                            <a href='#' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
+                            <a href='/company/reach-carbon' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-3">
@@ -87,7 +87,7 @@ export default function nescare() {
                             <p>We offer significant discounts on international shipping services to NGOs and nonprofits, plus dedicated support for greater shipping efficiency.</p>
                         </div>
                         <div className="ways-learn-more mt-4">
-                            <a href='#' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
+                            <a href='/company/services' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-3">
@@ -101,7 +101,7 @@ export default function nescare() {
                             <p>Your products don’t have to go to waste. Whether it’s a one-time shipment or ongoing donations, Flexport.org enables discounted freight services for donated products.</p>
                         </div>
                         <div className="ways-learn-more mt-4">
-                            <a href='#' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
+                            <a href='/company/excess-inventory' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-3">
@@ -115,7 +115,7 @@ export default function nescare() {
                             <p>Donate to the Flexport.org Fund to help cover the cost of aid shipments. With your help, we can increase the impact of aid globally.</p>
                         </div>
                         <div className="ways-learn-more mt-4">
-                            <a href='#' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
+                            <a href='/company/inventory' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
