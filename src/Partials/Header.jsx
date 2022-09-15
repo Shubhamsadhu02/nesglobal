@@ -114,26 +114,6 @@ export default function header(props) {
                         {
                             title: 'Contact Us',
                             link: '/contact-us',
-                        },
-                        {
-                            title: 'Engineering',
-                            link: '/engineering',
-                        },
-                        {
-                            title: 'Reach Carbon',
-                            link: '/reach-carbon',
-                        },
-                        {
-                            title: 'Services',
-                            link: '/services',
-                        },
-                        {
-                            title: 'Inventory',
-                            link: '/inventory',
-                        },
-                        {
-                            title: 'Excess Inventory',
-                            link: '/excess-inventory',
                         }
                     ]
                 }
