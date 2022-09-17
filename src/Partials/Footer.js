@@ -28,7 +28,7 @@ export default function Footer() {
                                 </div>
                                 <div className="footer-list">
                                     <ul>
-                                        <li><Link to={"/product/nes-platform"}>Nes Platform</Link></li>
+                                        <li><Link to={"/product/nes-platform"}>NES Platform</Link></li>
                                         <li><Link to={"/product"}>Order Management</Link></li>
                                         <li><Link to={"/product/visibility"}>Visibility</Link></li>
                                         <li><Link to={"/product/customs"}>Customs</Link></li>

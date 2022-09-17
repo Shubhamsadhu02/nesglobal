@@ -55,7 +55,7 @@ export default function nescare() {
 
 
     <section style={{background: "#10243E"}}>
-        <div className="container py-5">
+        <div className="container py-5 mt-15">
             <div className="ways">
                 <div className="ways-heading">
                     <h1>Four Ways To Make a Difference</h1>
@@ -101,7 +101,7 @@ export default function nescare() {
                             <p>Your products don’t have to go to waste. Whether it’s a one-time shipment or ongoing donations, Flexport.org enables discounted freight services for donated products.</p>
                         </div>
                         <div className="ways-learn-more mt-4">
-                            <a href='/company/excess-inventory' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
+                            <a href='/company/inventory' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-3">
@@ -115,7 +115,7 @@ export default function nescare() {
                             <p>Donate to the Flexport.org Fund to help cover the cost of aid shipments. With your help, we can increase the impact of aid globally.</p>
                         </div>
                         <div className="ways-learn-more mt-4">
-                            <a href='/company/inventory' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
+                            <a href='/company/excess-inventory' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>

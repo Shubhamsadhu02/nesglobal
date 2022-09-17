@@ -13,7 +13,7 @@ export default function signup() {
                         <h3>Sign-Up for Our Intelligent Commerce Newsletter</h3>
                     </div>
                     <div className="signup-paragraph">
-                        <p style={{color: "#595858"}}>Trade perspectives, Business News & Trending discussions </p>
+                        <p>Trade perspectives, Business News & Trending discussions </p>
                     </div>
                 </div>
 

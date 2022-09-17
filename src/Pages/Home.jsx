@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="row">
                     <div className="col-lg-8">
                         <div className="home-details">
-                            <h1>Nes Platform: The New Trade Imperative</h1>
+                            <h1>NES Platform: The New Trade Imperative</h1>
                             <p>Nes is created on the pledge to transition transportation to the Digital sphere, giving the community of
                                 exporters &amp; importers the benefit, of speed, security, collaboration, efficiency and control thereby ushering in prosperity to the community.
                             </p>
@@ -46,7 +46,7 @@ export default function Home() {
     <section className="mt-15 mb-15">
         <div className="container">
             <div className="row">
-                <div className="col-lg-8 d-flex flex-column justify-content-center">
+                <div className="col-lg-7 d-flex flex-column justify-content-center">
                     <div className="keySucess-head">
                         <h3>Key to Success</h3>
                     </div>
@@ -55,7 +55,7 @@ export default function Home() {
                             </p>
                     </div> 
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-5 p-5">
                     <img src='images/Home/keySucess.png' />
                 </div>
             </div>

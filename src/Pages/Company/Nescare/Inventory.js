@@ -14,7 +14,7 @@ export default function Inventory() {
     <div className="container" style={{paddingTop: "7rem"}}>
         <div className="nescare-top pt-5">
             <div className="row">
-                <div className="col-lg-6 d-flex flex-column justify-content-center">
+                <div className="col-lg-6 d-flex flex-column">
                     <div className="nescare-top__section">
                         <div className="nescare-heading">
                             <h1>Don’t Need It? <br/>

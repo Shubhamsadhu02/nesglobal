@@ -41,7 +41,7 @@ export default function ExcessInventory() {
             <div className="nescare-item mt-15">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src='../images/Company/nescare/help.png' />
+                        <img src='../images/Company/nescare/nutrition.png' />
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
                         <div className="nescare-container">

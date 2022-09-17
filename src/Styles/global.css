@@ -197,7 +197,6 @@ nav
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 14px;
     color: #595858 !important;
     line-height: 35px;
 }
@@ -343,13 +342,12 @@ nav
     font-weight: 600;
     font-size: 32px;
     line-height: 130%;
-    color: #595858;
+    color: #403F3E;
 }
 
 .keySucess-paragraph p,
 .find-paragraph p,
 .case-paragraph p,
-.signup-paragraph p
 .signup-agree,
 .nes-community__paragrapgh p,
 .supply-paragrapgh p,
@@ -359,7 +357,7 @@ nav
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: #6D7886;
+    color:  #595858;
 }
 
 /* .supply-chain-build--details a
@@ -598,7 +596,7 @@ footer hr
 .further-paragraph p,
 .keySucess-paragraph p
 {
-    color: #737171;
+    color:  #737171;;
 }
 
 .product-tag img,
@@ -1056,12 +1054,11 @@ footer hr
     color: #FFFFFF;
 }
 
-
 .supply_chain--whitebx
 {
     background: #FFFFFF;
     box-shadow: 0px 12px 40px rgba(12, 30, 53, 0.08);
-    margin-top: -220px;
+    margin-top: 30px;
     padding: 80px 95px;
 }
 
@@ -1170,6 +1167,47 @@ footer hr
     background: #FAFAFA;
 }
 
+.nav-tabs
+{
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+.nav-tabs .nav-link
+{
+    border: none;
+    padding: 12px 32px;
+}
+
+.nav-tabs .nav-link:hover
+{
+    color: #FAFAFA;
+}
+
+.nav-tabs .nav-link.active
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: none;
+    border-color: none !important;
+    border-bottom: 1px solid #FFFFFF;
+}
+
 @media (max-width: 500px){
     .video-final video
     {
@@ -1273,7 +1311,7 @@ footer hr
         font-size: 22px;
     }
 
-    .keySucess-paragraph p, .find-paragraph p, .case-paragraph p, .signup-paragraph p .signup-agree, .nes-community__paragrapgh p, .supply-paragrapgh p, .signup-paragraph p
+    .keySucess-paragraph p, .find-paragraph p, .case-paragraph p, .signup-paragraph p .signup-agree, .nes-community__paragrapgh p, .supply-paragrapgh p
     ,.product-paragraph p, .product-tag-paragraph p, .collaboration-paragraph p, .ready-paragraph p, .further-paragraph p, .nes-paragraph p
     {
         font-size: 14px;
