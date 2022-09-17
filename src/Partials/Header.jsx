@@ -189,7 +189,7 @@ export default function header(props) {
                                             <a href='#'><button type='submit' className='carbon-cal__btn' >Carbon Calculator</button></a>
                                         </li>
                                         <li>
-                                            <a href='#'><button type='submit' className='contact-btn'>Contact us</button></a>
+                                            <a href='/company/contact-us'><button type='submit' className='contact-btn'>Contact us</button></a>
                                         </li>
                                     </ul>
                                 </div>

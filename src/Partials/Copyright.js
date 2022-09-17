@@ -10,7 +10,7 @@ export default function Copyright() {
                     <h5>Copyright © 2022 Nes Global, Inc.</h5>
                 </div>
                 <div className="terms">
-                    <h5>Terms of Use / Privacy Policy</h5>
+                    <a href='/terms'><h5>Terms of Use / Privacy Policy</h5></a>
                 </div>
             </div>
         </div>

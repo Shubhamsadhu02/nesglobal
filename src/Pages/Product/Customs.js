@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../Partials/Header'
 import Footer from '../../Partials/Footer'
+import { Link } from 'react-router-dom'
 
 export default function Customs() {
   return (
@@ -47,6 +48,9 @@ export default function Customs() {
                   </div>
                   <div className="product-paragraph">
                     <p style={{ color: "#737171" }}>Availability of data from the Master Product Library would help the customer to compare transactions and spend and also asses the landed cost of goods. Using this information the NES Custom house agents can guide and direct the customer on any and all aspects of improving the overall financial health of his supply chain.</p>
+                  </div>
+                  <div className="learn-more-btn mt-4">
+                    <Link to={"/product/trade-advisory"}><button type='submit'>Learn More</button></Link>
                   </div>
                 </div>
               </div>

@@ -13,7 +13,7 @@ export default function ContactUs() {
     <Header showNav={true} isWhite={true} />
 
    
-    <section className='contactBg' style={{ background: "#10243E", height: "122vh" }}>
+    <section className='contactBg' style={{ background: "#10243E", height: "125vh" }}>
         <div className="container">
                 <div className="row">
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -36,7 +36,7 @@ export default function ContactUs() {
                     </div>
    
                     <div className="col-lg-6">
-                      <div className="enquiry-box">
+                      <div className="enquiry-box" style={{marginTop: "90px"}}>
                         <div className="row">
                           <div className="col-lg-6">
                             <label for="firstname">Firstname</label>   
