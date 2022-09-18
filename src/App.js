@@ -1,5 +1,9 @@
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 import './Styles/global.css'
+import './Styles/Nescare.css'
+import './Styles/Blog.scss'
+import './Styles/CarbonCalculator.scss'
+import './Styles/Faq.scss'
 
 import Home from './Pages/Home';
 
@@ -28,6 +32,12 @@ import ExcessInventory from "./Pages/Company/Nescare/ExcessInventory";
 import Terms from "./Pages/TermsAndCondition/Terms";
 import OceanTnC from "./Pages/TermsAndCondition/OceanTnC";
 import Privacy from "./Pages/TermsAndCondition/Privacy";
+
+import Blog from "./Pages/Resources/Blog";
+import Faq from "./Pages/Resources/Faq";
+import Glossary from "./Pages/Resources/Glossary";
+
+import Index from "./Pages/CarbonCalculator/index";
 
 function App() {
   return (
@@ -61,6 +71,12 @@ function App() {
         <Route path="/terms" element={<Terms/>}/>
         <Route path="/terms-and-condition/ocean-tnc" element={<OceanTnC/>}/>
         <Route path="/privacy" element={<Privacy/>}/>
+
+        <Route path="/resources/blog" element={<Blog/>} />
+        <Route path="/resources/faq" element={<Faq/>} />
+        <Route path="/resources/glossary" element={<Glossary/>} />
+
+        <Route path="/carboncalculator" element={<Index/>}/>
         
       </Routes>
     </Router>

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link, NavLink, Route, useParams } from 'react-router-dom'
-import { Navbar, Offcanvas, Nav, Button, Container, NavDropdown, Form, FormControl, Col, Row } from "react-bootstrap";
+import { Link} from 'react-router-dom'
+import { Navbar, Offcanvas, Nav, Container, NavDropdown } from "react-bootstrap";
 import '../Styles/Header.scss';
 
 
@@ -75,22 +75,22 @@ export default function header(props) {
         },
         {
             title: 'Resources',
-            link: '#contact',
+            link: '/resources',
             children: [
                 {
                     "menu-item-type": "list",
                     list_items: [
                         {
                             title: 'Blog',
-                            link: '#',
+                            link: '/blog',
                         },
                         {
                             title: 'Help Center',
-                            link: '#',
+                            link: '/faq',
                         },
                         {
                             title: 'Glossary',
-                            link: '#',
+                            link: '/glossary',
                         }
                     ]
                 }
@@ -125,7 +125,7 @@ export default function header(props) {
             <Navbar key='md' expand='md' variant={isWhite ? 'dark' : 'light'} style={{ background: isWhite ? '#10243E' : '#FFFFFF' }}>
                 <Container>
                     <Navbar.Brand href="/"><img src={isWhite ? "/images/Home/logowhite1.png" : "/images/Home/logo.png"}
-                        height={20} width={150} /></Navbar.Brand>
+                        height={20} width={150} alt="Brand logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-md`}
@@ -166,8 +166,8 @@ export default function header(props) {
                                             // else {
                                             //     return <Link to={item.link} className="nav-link">{item.title}</Link>
                                             // }
-
-                                        })
+                                            
+                                        })                                    
                                     }
                                 </Nav> : ""}
                             {showNav ?
@@ -186,7 +186,7 @@ export default function header(props) {
                                 <div className="d-flex justify-content-end flex-grow-1 search-nav">
                                     <ul>
                                         <li>
-                                            <a href='#'><button type='submit' className='carbon-cal__btn' >Carbon Calculator</button></a>
+                                            <a href='/carboncalculator'><button type='submit' className='carbon-cal__btn' >Carbon Calculator</button></a>
                                         </li>
                                         <li>
                                             <a href='/company/contact-us'><button type='submit' className='contact-btn'>Contact us</button></a>

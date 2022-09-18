@@ -478,9 +478,14 @@ nav
     display: flex;
     height: 40px;
     justify-content: center;
-    margin: 0 5px;
+    margin-left: 30px;
     padding: 10px;
     width: 40px;
+}
+
+.team-social-links i
+{
+    margin: 0 5px;
 }
 
 .footer-heading h5
@@ -1390,5 +1395,10 @@ footer hr
     {
         font-size: 20px !important;
         margin-top: 20px !important;
+    }
+
+    .social-icon i
+    {
+        margin-left: 10px;
     }
 }

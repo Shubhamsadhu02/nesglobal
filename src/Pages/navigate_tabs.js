@@ -102,7 +102,7 @@ export default function Navigate_tabs () {
             "product-topic": "Nes Care",
             "product-heading": "Delivering the Good’NES to Humanity",
             "description": "NES Global aims at enabling organizations to deliver the global aid and impact to meet their sustainability goals with ease and in an economically efficient way.",
-            "link": "/product/nescare",
+            "link": "/company/nescare",
             children: [
                 {
                     "col-content":"with-image",

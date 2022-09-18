@@ -9,7 +9,7 @@ export default function Footer() {
         <section style={{backgroundColor: "#10243E"}}>
             <div className="container">
                 <div className="footer py-5">
-                    <div className="footer-top d-flex justify-content-between">
+                    <div className="footer-top d-flex justify-content-between align-items-center">
                         <div className="footer-logo">
                             <Link to={"/"}><img src='/images/Home/logowhite.png' height={25} width={160} /></Link>
                         </div>
@@ -69,7 +69,7 @@ export default function Footer() {
                                         <li><Link to={"/company"}>Customers</Link></li>                                       
                                         <li><Link to={"/company"}>Newsroom</Link></li>
                                         <li><Link to={"/company/contact-us"}>Contact</Link></li>
-                                        <li><Link to={"/company"}>Leadership</Link></li>
+                                        <li><Link to={"/company/leadership"}>Leadership</Link></li>
                                         <li><Link to={"/company"}>Careers</Link></li>
                                         <li><Link to={"/company/nescare"}>Nescare.org</Link></li>                                       
                                         <li><Link to={"/company"}>Events</Link></li>

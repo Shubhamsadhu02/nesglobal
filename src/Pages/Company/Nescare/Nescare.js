@@ -2,7 +2,6 @@ import React from 'react'
 import Copyright from '../../../Partials/Copyright'
 
 import Header from '../../../Partials/Header'
-import '../../../Styles/Nescare.css'
 
 export default function nescare() {
   return (
