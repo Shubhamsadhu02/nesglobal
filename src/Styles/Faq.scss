@@ -218,13 +218,35 @@ ul {
     }
 }
 
+.glossary-detail-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #595858;
+}
+
+.related-links {
+    &--item {
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0060BE;
+        margin-top: 12px;
+    }
+}
+
+
 .offcanvas-end {
     width: 40%;
 }
 
 .offcanvas-header {
     flex-direction: column;
-    background-color: #10243E;
+    
     align-items: flex-start;
     padding: 48px;
     position: relative;
@@ -245,7 +267,9 @@ ul {
     }
 
     & .offcanvas-sub-heading {
+        font-family: 'Epilogue';
         font-weight: 500;
+        font-size: 16px;
         color: #fff;
         margin-top: 10px;
         order: 4;
@@ -257,7 +281,6 @@ ul {
     left: 100%;
     order: 1;
     color: #fff;
-    background-image: url('../../public/images/resources/offcanvas-close.svg');
 }
 
 .offcanvas-body {
@@ -272,28 +295,12 @@ ul {
     }
 }
 
-.glossary-detail-title {
+.glossary-detail-paragraph
+{
     font-family: 'Epilogue';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    /* identical to box height, or 24px */
-
-
-    /* Typography/800 */
-
-    color: #595858;
-}
-
-.related-links {
-    &--item {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: #0060BE;
-        margin-top: 12px;
-    }
+    color: #6D7886;
 }

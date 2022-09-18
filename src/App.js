@@ -4,6 +4,7 @@ import './Styles/Nescare.css'
 import './Styles/Blog.scss'
 import './Styles/CarbonCalculator.scss'
 import './Styles/Faq.scss'
+import './Styles/Responsive.css'
 
 import Home from './Pages/Home';
 

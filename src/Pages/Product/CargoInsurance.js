@@ -21,7 +21,7 @@ export default function CargoInsurance() {
                         <h1>Tailor make your policy as per your convenience</h1>
                     </div>
                     <div className="product-get-started mt-5">
-                        <Link to={"/product/trade-advisory"}><button type='submit'>Connect with our advisor</button></Link>
+                        <Link to={"/company/contact-us"}><button type='submit'>Connect with our advisor</button></Link>
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@ export default function CargoInsurance() {
               <p>Your faster, easier application process starts right now.</p>
             </div> */}
             <div className="reday-btn mt-3">
-              <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Apply Now</button>
+              <a href='/company/contact-us'><button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Apply Now</button></a>
             </div>
           </div>
         </div>

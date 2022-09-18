@@ -28,7 +28,7 @@ export default function Glossary() {
                             </h1>
                             <form action="#" className="form-inline faq-form">
                                 <input type="text" placeholder='Search by term or phrase...' />
-                                <button className="search-btn btn-primary" type='submit'>Search</button>
+                                <a href='#'><button className="search-btn btn-primary" type='submit'>Search</button></a>
                             </form>
                             <h6 className='faq-sub-heading'>
                                 Already a Flexport Client? <a className='link'>Log in</a> for assistance
@@ -56,7 +56,7 @@ export default function Glossary() {
                 </div>
             </section>
             <Offcanvas show={show} onHide={handleClose} placement={'end'}>
-                <Offcanvas.Header closeButton>
+                <Offcanvas.Header closeButton style={{backgroundColor: "#10243E"}}>
                     <h6 className="faq-super-heading heading-6 text-uppercase">
                         Glossary
                     </h6>
@@ -69,7 +69,7 @@ export default function Glossary() {
                     <h2 className="glossary-detail-title">
                         What is an air waybill?
                     </h2>
-                    <p>
+                    <p className="glossary-detail-paragraph">
                         An air waybill (AWB) is a non-negotiable document issued by a carrier when goods are transported by air.<br />
                         An air waybill acts as delivery instructions, a contract of carriage, and a cargo receipt for airfreight.
                     </p>

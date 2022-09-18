@@ -29,33 +29,33 @@ export default function ContactForm() {
                 <div className="row">
                     <div className="col-lg-6">
                         <label for="firstname">Firstname</label>
-                        <input type="text" id="firstname" name="ftname" placeholder="Firstname" />
+                        <input type="text" id="firstname" name="ftname" placeholder="Firstname" required />
                     </div>
                     <div className="col-lg-6">
                         <label for="company">Company Name</label>
-                        <input type="text" id="company" name="Company" placeholder="Company" />
+                        <input type="text" id="company" name="Company" placeholder="Company" required />
                     </div>
 
                     <div className="mb-4"></div>
 
                     <div className="col-lg-6">
                         <label for="companyMailId">Company Mail ID</label>
-                        <input type="email" id="companyMailId" name="Company Mail ID" placeholder="Company Mail ID" />
+                        <input type="email" id="companyMailId" name="Company Mail ID" placeholder="Company Mail ID" required />
                     </div>
                     <div className="col-lg-6">
                         <label for="designation">Designation</label>
-                        <input type="text" id="designation" name="Designation" placeholder="Designation" />
+                        <input type="text" id="designation" name="Designation" placeholder="Designation" required />
                     </div>
 
                     <div className="mb-4"></div>
 
                     <div className="col-lg-6">
                         <label for="companyPhoneNo">Company Phone Number</label>
-                        <input type="tel" id="companyPhoneNo" name="Company Phone Number" placeholder="+91" />
+                        <input type="tel" id="companyPhoneNo" name="Company Phone Number" placeholder="+91" required />
                     </div>
                     <div className="col-lg-6">
                         <label for="noAirFreight">No. of Air Freight Shipments</label>
-                        <input type="text" id="noAirFreight" name="No. of Air Freight Shipments" placeholder="##" />
+                        <input type="number" id="noAirFreight" name="No. of Air Freight Shipments" placeholder="##" required />
                     </div>
 
                     <div className="mb-4"></div>
@@ -63,7 +63,7 @@ export default function ContactForm() {
 
                     <div className="col-lg-12 d-flex flex-column">
                         <label for="address">Company Postal Address</label>
-                        <textarea type="text" id="address" name="address" placeholder='Enter Address' />
+                        <textarea type="text" id="address" name="address" placeholder='Enter Address' required />
                     </div>
 
                     <div className="send-btn mt-4">

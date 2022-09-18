@@ -55,7 +55,7 @@ export default function ProductClassification() {
                                     <p style={{color: "#737171"}}>Trade Compliance is key to building trust in international trade and also opens doors to benefits of products are classified accurately. Product Classification is a standalone fee based service offered by NES Global to ensure that the customer can sanitize their invoices and declarations and facilitate minimized customs duties and a seamless custom clearance of their shipments. The advisors would also assist in building a compliant harmonized product library for the products which would mitigate future risks and also reduce duty exposures or seek trade benefits impacting to making healthy bottom lines.</p>
                                 </div>
                                 <div className="learn-more-btn mt-4">
-                                    <Link to={"/product/trade-advisory"}><button type='submit'>Connect with our advisor</button></Link>
+                                    <Link to={"/company/contact-us"}><button type='submit'>Connect with our advisor</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ export default function ProductClassification() {
                                     <p style={{color: "#737171"}}>Minor physical changes to the product could lead to classifying the product to a harmonized code that could avail lower duty tariffs. This is a clever and 100% compliant practice in trade that the NES advisors can guide the customer to avail significant trade benefits.</p>
                                 </div>
                                 <div className="learn-more-btn mt-4">
-                                    <Link to={"/product/trade-advisory"}><button type='submit'>Connect with our advisor</button></Link>
+                                    <Link to={"/company/contact-us"}><button type='submit'>Connect with our advisor</button></Link>
                                 </div>
                             </div>
                         </div>
