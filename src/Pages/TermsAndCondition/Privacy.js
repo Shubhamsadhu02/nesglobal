@@ -8,7 +8,7 @@ export default function Privacy() {
     <>
     <Header/>
     <section>
-        <div className="container mb-15" style={{padding: "10rem 6rem 0 6rem"}}>
+        <div className="container mb-15 mt-15">
             <div className="terms-heading">
                 <h1>NES Global Privacy Policy</h1>
             </div>
