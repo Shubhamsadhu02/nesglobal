@@ -8,7 +8,7 @@ export default function OceanTnC() {
     <Header />
 
     <section>
-        <div className="container mb-15" style={{padding: "10rem 6rem 0 6rem"}}>
+        <div className="container mb-15 mt-15">
             <div className="termsdate mb-3">
                 <h3 style={{color: "#737171"}}>Revised: 4-04-2022</h3>
             </div>
