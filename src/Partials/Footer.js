@@ -73,7 +73,7 @@ export default function Footer() {
                                         <li><Link to={"/company"}>Careers</Link></li>
                                         <li><Link to={"/company/nescare"}>Nescare.org</Link></li>                                       
                                         <li><Link to={"/company"}>Events</Link></li>
-                                        <li><Link to={"/company/faq"}>FAQs</Link></li>
+                                        <li><Link to={"/resources/faq"}>FAQs</Link></li>
                                     </ul>
                                 </div>
                             </div>
