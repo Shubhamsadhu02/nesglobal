@@ -32,6 +32,9 @@ import ExcessInventory from "./Pages/Company/Nescare/ExcessInventory";
 
 import Terms from "./Pages/TermsAndCondition/Terms";
 import OceanTnC from "./Pages/TermsAndCondition/OceanTnC";
+import AirTnC from "./Pages/TermsAndCondition/AirTnC";
+import CustomsTnc from "./Pages/TermsAndCondition/CustomsTnc";
+import VisibilityTnc from "./Pages/TermsAndCondition/VisibilityTnc";
 import Privacy from "./Pages/TermsAndCondition/Privacy";
 
 import Blog from "./Pages/Resources/Blog";
@@ -70,7 +73,10 @@ function App() {
         <Route path="/company/excess-inventory" element={<ExcessInventory/>}/>
 
         <Route path="/terms" element={<Terms/>}/>
-        <Route path="/terms-and-condition/ocean-tnc" element={<OceanTnC/>}/>
+        <Route path="/ocean-tnc" element={<OceanTnC/>}/>
+        <Route path="/air-tnc" element={<AirTnC/>}/>
+        <Route path="/customs-tnc" element={<CustomsTnc/>}/>
+        <Route path="/visibility-tnc" element={<VisibilityTnc/>}/>
         <Route path="/privacy" element={<Privacy/>}/>
 
         <Route path="/resources/blog" element={<Blog/>} />

@@ -9,24 +9,24 @@ export default function OceanTnC() {
 
     <section>
         <div className="container mb-15" style={{padding: "10rem 6rem 0 6rem"}}>
-            <div className="termsdate pb-3">
+            <div className="termsdate mb-3">
                 <h3 style={{color: "#737171"}}>Revised: 4-04-2022</h3>
             </div>
             <div className="terms-heading">
-                <h1>International Ocean Bill of Lading Terms & Conditions – Nes Global LLP</h1>
+                <h1>International Ocean Bill of Lading Terms &amp; Conditions – NES Global LLP</h1>
             </div>
-            <div className="terms-subheading pt-3">
-                <h3 style={{color: "#403F3E"}}>Nes Global LLP</h3>
+            <div className="terms-subheading mt-3">
+                <h3 style={{color: "#403F3E"}}>NES Global LLP</h3>
             </div>
             <div className="terms-paragrapgh">
                 <p style={{color: "#737171"}}>
-                    By requesting or accepting goods or services from Nes Global, and/or its subsidiaries and affiliates (collectively, “Nes Global”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
+                    By requesting or accepting goods or services from NES Global, and/or its subsidiaries and affiliates (collectively, “NES Global”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                     <br/>
                     <br/>
-                    Nes Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{color: "#0060BE", fontWeight: "500"}}>www.nesglobal.in/terms</span></a>. Nes Global Privacy Policy: <a href='/Privacy'><span style={{color: "#0060BE", fontWeight: "500"}}>www.nesglobal.in/privacy</span></a>
+                    NES Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{color: "#0060BE", fontWeight: "500"}}>www.nesglobal.in/terms</span></a>. Nes Global Privacy Policy: <a href='/Privacy'><span style={{color: "#0060BE", fontWeight: "500"}}>www.nesglobal.in/privacy</span></a>
                     <br/>
                     <br/>
-                    Below are terms and conditions for shipping with Nes Global a licensed non-vessel operating common carrier (NVOCC) FMC# 025219NF. Terms and conditions are the same as are currently printed on the Nes Global LLP Bills of Lading.
+                    Below are terms and conditions for shipping with NES Global a licensed non-vessel operating common carrier (NVOCC) FMC# 025219NF. Terms and conditions are the same as are currently printed on the Nes Global LLP Bills of Lading.
                     <br/>
                     <br/>
                     By accepting terms and conditions for any mode (domestic air, international air, international ocean, domestic trucking and international trucking) you are accepting the terms and conditions for all modes:

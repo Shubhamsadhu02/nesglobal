@@ -18,7 +18,7 @@ export default function Privacy() {
                 <br/>
                 <br/>
                 1.1. NES Global LLP is a Company, incorporated and organized under the laws of India and having its registered office at Nes Global LLP incorporated under the Indian Companies Act, 1956 and having its registered office at Nes Global LLP, HC 036, WE WORK DLF, Two Horizon Center 5th Floor, DLF
-                    Phase 5 Sector 43,Golf Course Road Gurugram, Haryana 122002 is the sole and exclusive owner of the website registered under the domain name www.nesglobal.in (hereinafter referred to as “NES Platform”). We are highly committed to the privacy of your data and information and in providing excellent service to all of our customers and visitors to the NES Platform. By visiting the NES Platform, you are accepting to and are in satisfaction of the practices described in this Policy.
+                    Phase 5 Sector 43, Golf Course Road Gurugram, Haryana 122002 is the sole and exclusive owner of the website registered under the domain name www.nesglobal.in (hereinafter referred to as “NES Platform”). We are highly committed to the privacy of your data and information and in providing excellent service to all of our customers and visitors to the NES Platform. By visiting the NES Platform, you are accepting to and are in satisfaction of the practices described in this Policy.
                 <br/>
                 <br/>
                 1.2. Unless restricted by applicable law, you agree that all your personal information collected by the NES Platform may be used and disclosed in a manner as set out in this Policy (see Personal Information Usage)

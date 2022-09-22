@@ -874,7 +874,10 @@ footer hr
     line-height: 150%;
     color: #FFFFFF;
 }
-
+.terms-paragrapgh p
+{
+    margin-top: 6rem;
+}
 .terms-subheading  h3
 {
     font-family: 'Prompt';
@@ -883,7 +886,6 @@ footer hr
     font-size: 32px;
     line-height: 130%;
     color: #FFFFFF;
-    margin-bottom: 6rem;
 }
 
 .termsdate h3

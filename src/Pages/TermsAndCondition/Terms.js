@@ -19,28 +19,28 @@ export default function Terms() {
                             <h1>NES GLOBAL TERMS & CONDITIONS</h1>
                         </div>
                         <div className="terms-paragrapgh">
-                            <p style={{color: "#737171"}}>By requesting or accepting goods or services from Nes Global LLP and/or its subsidiariesand affiliates (collectively, “NES GLOBAL”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
+                            <p style={{color: "#737171"}}>By requesting or accepting goods or services from NES Global LLP and/or its subsidiariesand affiliates (collectively, “NES GLOBAL”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                                 <br/>
                                 <br/>
                                 NES GLOBAL may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{color: "#0060BE", fontWeight: "500"}}>www.Nesglobal.in/terms</span></a>.
                                 <br/>
                                 <br/>
-                                Nesglobal Privacy Policy: <a href='/Privacy'><span style={{color: "#0060BE", fontWeight: "500"}}>www.Nesglobal.in/privacy</span></a>
+                                NES Global Privacy Policy: <a href='/Privacy'><span style={{color: "#0060BE", fontWeight: "500"}}>www.Nesglobal.in/privacy</span></a>
                             </p>
                         </div>
                         <div className="terms-list mt-5">
                             <ul>
                                 <li>
-                                    <a href='/TermsAndCondition/OceanTnC'>International Ocean Bill of Lading Terms & Conditions – Nes Global LLP</a>
+                                    <a href='/ocean-tnc'>International Ocean Bill of Lading Terms &amp; Conditions – Nes Global LLP</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Nes Global International Air Waybill Terms & Conditions</a>
+                                    <a href='/air-tnc'>Nes Global International Air Waybill Terms &amp; Conditions</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Nes Global Customs Brokerage and General Terms & Conditions</a>
+                                    <a href='/customs-tnc'>Nes Global Customs Brokerage and General Terms &amp; Conditions</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Nes Global Software and Visibility Terms & Conditions</a>
+                                    <a href='/visibility-tnc'>Nes Global Software and Visibility Terms &amp; Conditions</a>
                                 </li>
                             </ul>
                         </div>

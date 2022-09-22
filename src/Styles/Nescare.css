@@ -235,7 +235,10 @@ nav
     font-size: 32px;
     line-height: 130%;
     color: #FFFFFF;
-    margin-bottom: 6rem;
+}
+.terms-paragrapgh p
+{
+    margin-top: 6rem;
 }
 
 .ways-tag img
