@@ -97,7 +97,7 @@
 
     .keySucess-head h3, .supply-chain__head h3, .find-heading h3, .case-study-head h3, .case-header h3, .signup-heading h3, .collaboration-head h3, .nes-community__header h3,
     .leading-brands h3, .product-heading1 h3, .collaboration-header h3, .ready-heading h3, .product-faq-heading h3, .further-head h3, .nes-head h3, .blog-title,
-    .offcanvas-header .offcanvas-title
+    .offcanvas-header .offcanvas-title, .terms-subheading h3
     {
         font-size: 22px;
     }
@@ -108,12 +108,12 @@
     {
         font-size: 14px;
     }
-    .product-heading h1
+    .product-heading h1, .terms-heading h1
     {
         font-size: 30px;
     }
     .product-topic h4,
-    .nes-tailor h3
+    .nes-tailor h3, .termsdate h3
     {
         font-size: 16px;
     }
@@ -206,5 +206,9 @@
     }
     .offcanvas .search-nav li:first-child {
         display: block !important;
+    }
+    .terms-paragrapgh p
+    {
+        margin-top: 2rem;
     }
 }
