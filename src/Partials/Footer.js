@@ -49,12 +49,12 @@ export default function Footer() {
                                 </div>
                                 <div className="footer-list">
                                     <ul>
-                                        <li><Link to={""}>Blog</Link></li>
-                                        <li><Link to={""}>Market Updates</Link></li>                                       
-                                        <li><Link to={""}>Videos and Webinars</Link></li>
-                                        <li><Link to={""}>NES School</Link></li>                                        
-                                        <li><Link to={""}>Help Center</Link></li>
-                                        <li><Link to={""}>Glossary</Link></li>
+                                        <li><Link to={"/resources/blog"}>Blog</Link></li>
+                                        <li><Link to={"/resources"}>Market Updates</Link></li>                                       
+                                        <li><Link to={"/resources"}>Videos and Webinars</Link></li>
+                                        <li><Link to={"/resources"}>NES School</Link></li>                                        
+                                        <li><Link to={"/resources/faq"}>Help Center</Link></li>
+                                        <li><Link to={"/resources/glossary"}>Glossary</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ export default function Footer() {
                                         <li><Link to={"/company"}>Careers</Link></li>
                                         <li><Link to={"/company/nescare"}>Nescare.org</Link></li>                                       
                                         <li><Link to={"/company"}>Events</Link></li>
-                                        <li><Link to={"/company"}>FAQs</Link></li>
+                                        <li><Link to={"/company/faq"}>FAQs</Link></li>
                                     </ul>
                                 </div>
                             </div>
