@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Link,NavLink, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className="footer py-5">
                     <div className="footer-top d-flex justify-content-between align-items-center">
                         <div className="footer-logo">
-                            <Link to={"/"}><img src='/images/Home/logowhite.png' height={25} width={160} /></Link>
+                            <Link to={"/"}><img src='/images/Home/logowhite.png' height={25} width={160} alt="" /></Link>
                         </div>
                         <div className="social-icon d-flex">
                             <i class="fab fa-facebook-f"></i>
@@ -21,8 +21,8 @@ export default function Footer() {
                     </div>
 
                     <div className="footer-middle mt-5">
-                        <div className="row">
-                            <div className="col-sm-12 col-lg-3">
+                        <div className="row" style={{rowGap: "25px"}}>
+                            <div className="col-sm-6 col-md-3 col-lg-3">
                                 <div className="footer-heading mb-4">
                                     <h5>PRODUCTS</h5>
                                 </div>
@@ -43,7 +43,7 @@ export default function Footer() {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3">
+                            <div className="col-sm-6 col-md-3 col-lg-3">
                                 <div className="footer-heading mb-4">
                                     <h5>RESOUCES</h5>
                                 </div>
@@ -59,7 +59,7 @@ export default function Footer() {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3">
+                            <div className="col-sm-6 col-md-3 col-lg-3">
                                 <div className="footer-heading mb-4">
                                     <h5>COMPANY</h5>
                                 </div>

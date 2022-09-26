@@ -26,7 +26,7 @@ export default function NesDigitalPlatform() {
                                 </p>
                         </div>
                         <div className="product-signin mt-4">
-                            <Link to={"#"}><button type='submit'>Welcome & Sign In</button></Link>
+                            <Link to={"#"}><button type='submit'>Welcome &amp; Sign In</button></Link>
                         </div>
                     </div>
                 </div>
