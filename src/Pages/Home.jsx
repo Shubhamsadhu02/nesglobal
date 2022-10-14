@@ -27,13 +27,15 @@ export default function Home() {
                                <Link to={"/company/contact-us"}> <button type='submit'>Talk to an Expert</button></Link>
                             </div>
                             <div className="watch-video" style={{marginLeft: "60px"}}>
-                                <a href='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></a>
-                                <a href='#' onClick={toggle}>Introduction</a>
+                                {/* <a href='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></a>
+                                <a href='#' onClick={toggle}>Introduction</a> */}
+                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'><img src='images/Home/playicon.png' height={48} width={48} /></a>
+                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'>Introduction</a>
                             </div>
-                            <div className="video-final">
+                            {/* <div className="video-final">
                                 <video src='/videoes/final-video.mp4' controls="true"></video>
                                 <img src='/images/close.png' className='close' alt='' onClick={toggle} />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -133,11 +135,11 @@ export default function Home() {
   )
 }
 
-function toggle(){
-    var videofinal=document.querySelector(".video-final");
-    var video=document.querySelector("video");
+// function toggle(){
+//     var videofinal=document.querySelector(".video-final");
+//     var video=document.querySelector("video");
 
-    videofinal.classList.toggle("active");
-    video.pause();
-    video.currentTime=0;
-}
+//     videofinal.classList.toggle("active");
+//     video.pause();
+//     video.currentTime=0;
+// }
