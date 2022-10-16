@@ -29,7 +29,7 @@ export default function Footer() {
                                 <div className="footer-list">
                                     <ul>
                                         <li><Link to={"/product/nes-platform"}>NES Platform</Link></li>
-                                        <li><Link to={"/product"}>Order Management</Link></li>
+                                        {/* <li><Link to={"/product"}>Order Management</Link></li> */}
                                         <li><Link to={"/product/visibility"}>Visibility</Link></li>
                                         <li><Link to={"/product/customs"}>Customs</Link></li>
                                         <li><Link to={"/product/project-air-and-ocean-charters"}>Climate</Link></li>
@@ -50,9 +50,9 @@ export default function Footer() {
                                 <div className="footer-list">
                                     <ul>
                                         <li><Link to={"/resources/blog"}>Blog</Link></li>
-                                        <li><Link to={"/resources"}>Market Updates</Link></li>                                       
-                                        <li><Link to={"/resources"}>Videos and Webinars</Link></li>
-                                        <li><Link to={"/resources"}>NES School</Link></li>                                        
+                                        {/* <li><Link to={"/resources"}>Market Updates</Link></li> */}
+                                        {/* <li><Link to={"/resources"}>Videos and Webinars</Link></li> */}
+                                        {/* <li><Link to={"/resources"}>NES School</Link></li> */}
                                         <li><Link to={"/resources/faq"}>Help Center</Link></li>
                                         <li><Link to={"/resources/glossary"}>Glossary</Link></li>
                                     </ul>
@@ -66,13 +66,13 @@ export default function Footer() {
                                 <div className="footer-list">
                                     <ul>
                                         <li><Link to={"/company/about-us"}>About Us</Link></li>
-                                        <li><Link to={"/company"}>Customers</Link></li>                                       
-                                        <li><Link to={"/company"}>Newsroom</Link></li>
+                                        {/* <li><Link to={"/company"}>Customers</Link></li> */}
+                                        {/* <li><Link to={"/company"}>Newsroom</Link></li> */}
                                         <li><Link to={"/company/contact-us"}>Contact</Link></li>
                                         <li><Link to={"/company/leadership"}>Leadership</Link></li>
-                                        <li><Link to={"/company"}>Careers</Link></li>
+                                        {/* <li><Link to={"/company"}>Careers</Link></li> */}
                                         <li><Link to={"/company/nescare"}>Nescare.org</Link></li>                                       
-                                        <li><Link to={"/company"}>Events</Link></li>
+                                        {/* <li><Link to={"/company"}>Events</Link></li> */}
                                         <li><Link to={"/resources/faq"}>FAQs</Link></li>
                                     </ul>
                                 </div>
