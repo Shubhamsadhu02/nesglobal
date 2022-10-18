@@ -109,7 +109,7 @@ export default function Customs() {
               <h3>Get Exactly What You Want</h3>
             </div>
             <div className="reday-btn mt-3">
-              <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Apply Now</button>
+              <a href='/company/contact-us'><button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Apply Now</button></a>
             </div>
           </div>
         </div>

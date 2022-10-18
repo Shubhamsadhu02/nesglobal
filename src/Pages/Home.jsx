@@ -27,15 +27,19 @@ export default function Home() {
                                <Link to={"/company/contact-us"}> <button type='submit'>Talk to an Expert</button></Link>
                             </div>
                             <div className="watch-video" style={{marginLeft: "60px"}}>
-                                {/* <a href='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></a>
-                                <a href='#' onClick={toggle}>Introduction</a> */}
-                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'><img src='images/Home/playicon.png' height={48} width={48} /></a>
-                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'>Introduction</a>
+                                <a href='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></a>
+                                <a href='#' onClick={toggle}>Introduction</a>
+                                {/* <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'><img src='images/Home/playicon.png' height={48} width={48} /></a>
+                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'>Introduction</a> */}
                             </div>
-                            {/* <div className="video-final">
-                                <video src='/videoes/final-video.mp4' controls="true"></video>
-                                <img src='/images/close.png' className='close' alt='' onClick={toggle} />
-                            </div> */}
+                            
+                            <div className="video-final">
+                                <iframe className='final-video' src='https://player.vimeo.com/video/761381603?h=5675f1efb6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+                                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                ></iframe>
+                                
+                                <img src='/images/close.png' className='close' id='pauseVideo' alt='' onClick={toggle} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,11 +139,11 @@ export default function Home() {
   )
 }
 
-// function toggle(){
-//     var videofinal=document.querySelector(".video-final");
-//     var video=document.querySelector("video");
+function toggle(){
+    var videofinal=document.querySelector(".video-final");
+    var video=document.querySelector("iframe");
 
-//     videofinal.classList.toggle("active");
-//     video.pause();
-//     video.currentTime=0;
-// }
+    videofinal.classList.toggle("active");
+    video.pause();
+    video.currentTime=0;
+}

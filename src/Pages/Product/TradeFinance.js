@@ -154,7 +154,7 @@ export default function TradeFinance() {
               <p>Your faster, easier application process starts right now.</p>
             </div> */}
             <div className="reday-btn mt-3">
-              <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Apply Now</button>
+              <a href='/company/contact-us'><button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Apply Now</button></a>
             </div>
           </div>
         </div>

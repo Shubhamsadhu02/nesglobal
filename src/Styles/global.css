@@ -1124,11 +1124,13 @@ footer hr
     opacity: 1;
 }
 
-.video-final video
+.video-final iframe
 {
     position: relative;
     max-width: 900px;
     outline: none;
+    width: 700px;
+    height: 600px;
 }
 
 .close

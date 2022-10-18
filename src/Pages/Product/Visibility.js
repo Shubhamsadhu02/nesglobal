@@ -237,7 +237,7 @@ export default function Visibility() {
               <p>Talk	to	a	supply	chain	solutions	expert	and	see	the	NES	Platform	in	action.</p>
             </div>
             <div className="reday-btn mt-3">
-              <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Request A Demo</button>
+              <a href='/company/contact-us'><button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Request A Demo</button></a>
             </div>
           </div>
         </div>
