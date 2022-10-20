@@ -71,7 +71,7 @@ export default function ContactForm() {
                     </div>
 
                     <div className="enquiry-terms mt-3">
-                        <p>By continuing, you agree to accept our <a><span style={{ color: "#0060BE", fontWeight: "500" }}> Privacy Policy </span></a> and <a><span style={{ color: "#0060BE", fontWeight: "500" }}>Terms of Service</span></a></p>
+                        <p>By continuing, you agree to accept our <a href='/Privacy'><span style={{ color: "#0060BE", fontWeight: "500" }}> Privacy Policy </span></a> and <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>Terms of Service</span></a></p>
                     </div>
                 </div>
             </form>

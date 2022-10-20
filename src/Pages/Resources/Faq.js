@@ -279,7 +279,7 @@ export default function Faq() {
                                         return <Tab.Content>
                                             <Tab.Pane eventKey={`${index}`}>
                                                 <div className="accordion-container">
-                                                    <Accordion defaultActiveKey="1" hide>
+                                                    <Accordion hide>
                                                         {
                                                             ele.Children.map((item, idx) => {
                                                                 return <Accordion.Item eventKey={`${idx}`}>
