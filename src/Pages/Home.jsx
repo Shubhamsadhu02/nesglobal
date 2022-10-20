@@ -29,8 +29,8 @@ export default function Home() {
                             <div className="watch-video" style={{marginLeft: "60px"}}>
                                 {/* <a href='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></a>
                                 <a href='#' onClick={toggle}>Introduction</a> */}
-                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'><img src='images/Home/playicon.png' height={48} width={48} /></a>
-                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'>Introduction</a>
+                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0?wtime=0s'><img src='images/Home/playicon.png' height={48} width={48} /></a>
+                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0?wtime=0s'>Introduction</a>
                             </div>
                             
                             {/* <div className="video-final">

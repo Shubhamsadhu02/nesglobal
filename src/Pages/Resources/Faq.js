@@ -1,4 +1,4 @@
-import {React, useState, useEffect} from 'react'
+import { React, useState, useEffect, Children } from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../../Partials/Header'
 import Footer from '../../Partials/Footer'
@@ -6,34 +6,177 @@ import Accordion from 'react-bootstrap/Accordion';
 import '../../Styles/Faq.scss';
 import onClassChange from '../../Helpers/ClassMutationObserver';
 
+import Nav from 'react-bootstrap/Nav';
+import Tab from 'react-bootstrap/Tab';
 
 export default function Faq() {
 
-    const faqItems=[
+    const faqItems = [
         {
-            "header": "Can NES be my customs broker without handling my freight?",
-            "description": "Yes, NES offers brokerage as a standalone service. Our brokers will work with your freight forwarder, carrier, or any of your supply chain partners to clear your goods. As a customs brokerage customer, you'll have access to our technology and Platform for data analytics at the PO and SKU level, Standard reporting includes landed costs when the Platform can capture all of the costs of acquiring a product internationally.",
-            "link": "#"
+            "title": "Custom",
+            Children: [
+                {
+                    "header": "Can NES be my customs broker without handling my freight?",
+                    "description": "Yes, NES offers brokerage as a standalone service. Our brokers will work with your freight forwarder, carrier, or any of your supply chain partners to clear your goods. As a customs brokerage customer, you'll have access to our technology and Platform for data analytics at the PO and SKU level, Standard reporting includes landed costs when the Platform can capture all of the costs of acquiring a product internationally.",
+
+                },
+                {
+                    "header": "How does NES charge for customs brokerage services?",
+                    "description": "NES charges a flat management fee per customs entry. Our technology helps'to minimize the accessorial charges that have plagued logistics.",
+
+                },
+                {
+                    "header": "What is the value of digitizing your supply chain?",
+                    "description": "Too often supply chains are an operational gray area where costs and outcomes are unpredictable. The NES Platform structures your product-level data and becomes your single source of truth, providing visibility and control from end to end. Plus you gain timely business analytics for better decision making and feedback loops.",
+
+                },
+                {
+                    "header": "Should I be getting more visibility from my current customs broker?",
+                    "description": "Your supply chain is inventory in motion. You should have near real-time access to every step in the process, along with access to completed entries and historical data.",
+
+                },
+                {
+                    "header": "Have I assigned the right harmonized tariff schedule (HTS) number to my product?",
+                    "description": "HTS codes are what most customs' authorities use to determine costs and admissibility. Many products are hard to categorize correctly, or with small changes could be placed in a different category. Misclassification can cause major delays and potential penalties. NES brokers and technology limit errors to expedite better outcomes.",
+
+                }
+            ]
         },
         {
-            "header": "How does NES charge for customs brokerage services?",
-            "description": "NES charges a flat management fee per customs entry. Our technology helps'to minimize the accessorial charges that have plagued logistics.",
-            "link": "#"
+            "title": "Visibility",
+            Children: [
+                {
+                    "header": "I see your office locations don't match with my physical location. Can I still use NES?",
+                    "description": "Absolutely. NES provides end to end coverage, globally. In areas where we do not have our own offices, we have aligned with strategic partners to provide our clients with best in class local operations. Each strategic partner is held to the same strict standards of compliance and service to which we hold ourselves.",
+
+                },
+                {
+                    "header": "Do vendors have to book via the Platform?",
+                    "description": "The NES Platform is designed to streamline booking submission between you and your supplier. If your supplier chooses not to use the Platform to submit and manage bookings, Flexport is able to accept bookings via email.",
+
+                },
+                {
+                    "header": "How long does it take to get set up with NES?",
+                    "description": "EDI, API, JSON, XML, CSV, and other delimited files. NES Professional Services team also works with customers to build custom integrations.",
+
+                },
+                {
+                    "header": "Do you have a minimum number of shipments that we must book with you?",
+                    "description": "No, there is no minimum number of bookings. However, pricing depends on the lane and volume you’d like to move. Please reach out to our Sales team to discuss further.",
+
+                }
+            ]
         },
         {
-            "header": "What is the value of digitizing your supply chain?",
-            "description": "Too often supply chains are an operational gray area where costs and outcomes are unpredictable. The NES Platform structures your product-level data and becomes your single source of truth, providing visibility and control from end to end. Plus you gain timely business analytics for better decision making and feedback loops.",
-            "link": "#"
+            "title": "Air Freight",
+            Children: [
+                {
+                    "header": "I see your office locations don't match with my physical location. Can I still use NES?",
+                    "description": "Absolutely. Flexport provides end to end coverage, globally. In areas where we do not have our own offices, we have aligned with strategic partners to provide our clients with best in class local operations. Each strategic partner is held to the same strict standards of compliance and service to which we hold ourselves.",
+
+                },
+                {
+                    "header": "Does NES have a global network?",
+                    "description": "NES global network includes CFS locations and partners on the ground, around the world. We service over 116 countries around the world and we have aligned with strategic partners to provide the best in class service with the best in class local operations.",
+
+                },
+                {
+                    "header": "Does NES offer real-time tracking of my air shipments?",
+                    "description": "Our online platform allows our clients to create, manage, and track all international and domestic freight shipments in a single online dashboard. NES receives data from satellites, geofences, and integrations with third party providers that enable us to generate real-time milestone updates throughout the shipment lifecycle.",
+
+                },
+                {
+                    "header": "Does NES store all documents related to my air shipments?",
+                    "description": "At NES, we upload each of your trade documents into our Platform and digitize them to make them completely searchable. Additionally, we structure the data in such a way that enables our clients to run reports across all available supply chain data, down to the PO and SKU-level, with ease.",
+
+                }
+            ]
         },
         {
-            "header": "Should I be getting more visibility from my current customs broker?",
-            "description": "Your supply chain is inventory in motion. You should have near real-time access to every step in the process, along with access to completed entries and historical data.",
-            "link": "#"
-        },{
-            "header": "Have I assigned the right harmonized tariff schedule (HTS) number to my product?",
-            "description": "HTS codes are what most customs' authorities use to determine costs and admissibility. Many products are hard to categorize correctly, or with small changes could be placed in a different category. Misclassification can cause major delays and potential penalties. NES brokers and technology limit errors to expedite better outcomes.",
-            "link": "#"
-        }
+            "title": "Trade Advisory",
+            Children: [
+                    {
+                        "header": "Can You Engineer Lower Duties? Yes, if You Can Find the Customs Codes",
+                        "description": "Rules don’t have to be broken to lower or limit duties. <br/> Certain circumstances allow for tariff engineering, shaping the design of goods for better duty rates.",
+
+                    },
+                    {
+                        "header": "Article",
+                        "description": "In times of global trade turmoil, simple steps to keep your business thriving are always worth considering—but when it comes to customs compliance, how do you unearth the options? Clearing goods can present serious hiccups if not done properly. The cargo delays, the risk of penalties . . . There’s no doubt compliance is non-negotiable. But rules don’t have to be broken to lower or limit duties. Instead, certain circumstances allow for tariff engineering, the genius practice of legitimately shaping supply chains or goods for better duty rates. The strategy hinges on the classification codes in one sprawling resource: the Harmonized Tariff System. Let’s dive in.",
+
+                    },
+                    {
+                        "header": "What Is the Harmonized Tariff System?",
+                        "description": "Consider the Harmonized Tariff System, or HTS, your ultimate and only guide for determining tariff classifications. \nHTS codes determine eligibility for free trade agreements and other preference programs. They also define super-fun stuff like duty rates, restrictions, prohibitions, and more.\n Fortunately for most supply chain directors, a customs broker is the one who reads the Harmonized Tariff System and cross-checks it, ad nausea.\n But every company is responsible for its own accuracy and compliance. So it’s crucial you share the most up-to-date product information from your suppliers. Your broker delivers HTS codes for your approval based on the info you provide.",
+
+                    },
+                    {
+                        "header": "Why You Need a Customs Broker",
+                        "description": "To unlock the best duty rates possible, you need full mastery of classification codes. Scale this across hundreds or hundred thousands of products from multiple countries, and you’re looking at a mind-boggling amount of data. Automation must help, right? It definitely does, but you’d be surprised. Much of customs classification is still done by brainpower. It’s a working partnership between you and your broker. The easy part: Once uploaded to the Flexport platform, classifications follow products across a product library. They automatically populate in support of everything from order management to duty reconciliation. This represents a major time savings and, as long as you get the codes right in the first place, helps to ensure accuracy across your supply chain. Once the work of classification is done, your company can continue to reap these benefits—until the codes update. Which they do, annually, and, more thoroughly, every five years. When this happens, a customs broker can help make sure your product library updates, too. Thinking about getting in touch? The next five-year update kicks off in January 2022. ",
+
+                    },
+                    {
+                        "header": "Optimizing Classification Codes",
+                        "description": "Impeccable classification is just your foundation, though. Customs brokers work with the codes on a daily basis to ensure compliance and optimize your tariff scenarios. This is where tariff engineering comes in. For instance, the codes tell your broker whether you’re on the hook for recent trade-war tariffs. In the US, examples could include Section 301 tariffs on goods from China or Section 232 tariffs on steel and aluminum. At their core, these tariffs are intended as trade remedies—actions taken by governments to counter what it deems unfair practices in other countries. Each administration can mold trade remedies to suit its policies. The resulting tariff lists can span thousands of pages in a tiny font, and the pages aren’t always clickable. But a broker can give you actionable insights. Sometimes, advice is wonderfully simple: Procure square steel rods instead of round ones or vice versa. Other times, it’s more complex. Take the glass screen protector of a smart watch. A flat glass from China is subject to a high Section 301 duty rate. But if the glass is bent or curved, the duty rate is far lower. Seems like an obvious choice, right? Except smart watches are about wearability and aesthetics, too. The manufacturer needs to consider which glass truly fits the watch best. Some tinkering might be involved before a final decision is made. ",
+
+                    },
+                    {
+                        "header": "Leveling Up Your Customs Game",
+                        "description": "Think of tariff engineering as a game. HTS classifications are official definitions. If you can buy or design goods within certain parameters, you might be able to pay less in duties. Savvy classification is the first step in upgrading your customs strategies to your advantage. For expert help classifying your goods, reach out to Enquiries@nesglobal.com.",
+    
+                   }
+            ]
+        },
+        {
+            "title": "Trade Finance",
+            Children: [
+                {
+                    "header": "What if I already have a cargo insurance policy?",
+                    "description": "Make sure your existing coverage matches your business needs. Our free coverage analysis can help you evaluate coverage and cost effectiveness. For more information, request a comparison.",
+
+                },
+                {
+                    "header": "Do I really need insurance? I don’t want to pay for it.",
+                    "description": "Consider what you have invested in a single shipment and where you would be with a total loss. NES competitive pricing is a small fraction of your shipment value, but provides total peace of mind. Contact us today to learn more about our low rates.",
+
+                },
+                {
+                    "header": "We use a different freight forwarder. Can I still insure my shipments with NES?",
+                    "description": "First, why would you do that? Kidding. Second, NES can insure cargo regardless of who ships it. Supply chains are complex, but insuring them doesn’t need to be. We simplify the process and give you peace of mind, no matter who moves your goods.",
+
+                },
+                {
+                    "header": "Can we partner with NES to distribute cargo insurance products?",
+                    "description": "AYes. Through our white label program, you can provide NES Insurance Solutions to your clients. Contact us to learn how Flexport can provide the same great rates, consistent experience, and peace of mind we provide to our own clients.",
+
+                },
+                {
+                    "header": "Do you do all your underwriting in-house?",
+                    "description": "NES partners with XXXXX, The Hartford Financial Services Group, Inc., and Zurich Insurance Group Ltd. for our underwriting. Our insurance partners provide deep risk assessment expertise that pairs with our knowledge of global logistics to provide clients with low cost, targeted coverage they can trust.",
+
+                }
+            ]
+        },
+        {
+            "title": "Trade Advisory or NES Platform",
+            Children: [
+                {
+                    "header": "Can I hire NES Trade Advisors even if I ship freight with someone else?",
+                    "description": "Yes. NES Trade Advisors are enthusiastic advocates for all clients, no matter who you partner with for shipping. We draw on our expertise as a global logistics provider, but our trade management services are available to anyone who wants to find the best strategies for their supply chains.",
+
+                },
+                {
+                    "header": "Can I extract my data on my own?",
+                    "description": "Yes, but it can be a lot of trial and error. In many other countries, the importer or exporter of record bears full legal responsibility for accurate, timely, and fully compliant documentation. So it’s usually worth it to get help. We can extend in to your in-house team, too.",
+
+                },
+                {
+                    "header": "Can you share costs for consulting services?",
+                    "description": "NES Trade Advisory solutions are tiered for your specific needs. Initial client meetings are complimentary, and short engagements can still move the needle for many companies. We’re talking about savings or capture of millions of dollars for some clients. Trade advisors will give you the info you need to make your own decision about moving forward.",
+
+                }
+            ]
+        },
     ]
 
     const [itemsToWatch, setItemsToWatch] = useState([]);
@@ -42,13 +185,13 @@ export default function Faq() {
         var itemToWatch = document.querySelectorAll('.accordion-collapse');
         setItemsToWatch(itemToWatch);
     }, [])
-    
-    
+
+
     itemsToWatch.forEach(element => {
         onClassChange(element, (node) => {
-            if(node.classList.contains('show')){
+            if (node.classList.contains('show')) {
                 node.parentNode.style.borderColor = "#0060BE";
-            }else{
+            } else {
                 node.parentNode.style.borderColor = "#E6E6E6";
             }
         });
@@ -84,79 +227,86 @@ export default function Faq() {
             </section>
             <section className='faq-body'>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <div className="faq-categories">
-                                <h6>Customs and Compliance</h6>
-                                <ul>
-                                    {/* { [...Array(10)].map(ele => <li>Air Freight</li>)} */}
-                                    <li><a href='#'>Air Freight</a></li>
-                                    <li><a href='#'>Sea Freight</a></li>
-                                    <li><a href='#'>Trade Finance</a></li>
-                                    <li><a href='#'>Trade Advisory</a></li>
-                                    <li><a href='#'>Platform Refresh</a></li>
-                                    <li><a href='#'>Quotes, Pricing, and Billing</a></li>
-                                    <li><a href='#'>Services and Capabilities</a></li>
-                                    <li><a href='#'>Shipment Essentials</a></li>
-                                    <li><a href='#'>Shipping to Amazon FBA</a></li>
-                                    <li><a href='#'>Sustainability product</a></li>
-                                    
-                                </ul>
+                    <Tab.Container id="left-tabs-example" defaultActiveKey={0}>
+                        <div className="row">
+                            <div className="col-md-4">
+                                <div className="faq-categories">
+                                    <h6>Customs and Compliance</h6>
+                                    <ul>
+                                        {
+                                            faqItems.map((ele, index) => {
+                                                return <li>
+                                                    <Nav variant="pills" className="flex-column">
+                                                        <Nav.Item>
+                                                            <Nav.Link eventKey={`${index}`}>{ele.title}</Nav.Link>
+                                                        </Nav.Item>
+                                                    </Nav>
+                                                </li>
+                                            })
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-md-8">
+                                <h1 className="heading-1 faq-title">Customs and Compliance</h1>
+                                <h6 className="heading-6 sub-title">Frequently asked questions about Customs, compliance, and regulations.</h6>
+                                {
+                                    faqItems.map((ele, index) => {
+                                        return <Tab.Content>
+                                            <Tab.Pane eventKey={`${index}`}>
+                                                <div className="accordion-container">
+                                                    <Accordion defaultActiveKey="1" hide>
+                                                        {
+                                                            ele.Children.map((item, idx) => {
+                                                                return <Accordion.Item eventKey={`${idx}`}>
+                                                                    <Accordion.Header>{item.header}</Accordion.Header>
+                                                                    <Accordion.Body>{item.description}
+                                                                        {/* <Link to={item.link} className="faq-read-more">Read More<span><i class="ri-arrow-right-s-line"></i></span></Link> */}
+                                                                    </Accordion.Body>
+                                                                </Accordion.Item>
+                                                            })
+                                                        }
+                                                    </Accordion>
+                                                </div>
+                                            </Tab.Pane>
+                                        </Tab.Content>
+                                    })
+                                }
                             </div>
                         </div>
-                        <div className="col-md-8">
-                            <h1 className="heading-1 faq-title">Customs and Compliance</h1>
-                            <h6 className="heading-6 sub-title">Frequently asked questions about Customs, compliance, and regulations.</h6>
-                            <div className="accordion-container">
-                                <Accordion defaultActiveKey="1" hide>
-                                    {
-                                        faqItems.map((item,index)=> {
-                                            return <Accordion.Item  eventKey={`${index}`}>
-                                                <Accordion.Header>{item.header}</Accordion.Header>
-                                                <Accordion.Body>{item.description}                                                
-                                                <Link to={item.link} className="faq-read-more">Read More<span><i class="ri-arrow-right-s-line"></i></span></Link>
-                                                </Accordion.Body>
-                                            </Accordion.Item>
-                                        })
-                                    }                                   
-                                </Accordion>
+                    </Tab.Container>
+                </div>
+            </section>
 
-                               
+            <section>
+                <div className="container mt-15 mb-15">
+                    <div className="product-item mt-15">
+                        <div className="row">
+                            <div className="col-lg-6 d-flex flex-column justify-content-center">
+                                <div className="product-container">
+                                    <div className="product-topic1 mb-4">
+                                        <h4>NES Platform: NOW ENROLLING</h4>
+                                    </div>
+                                    <div className="product-heading1">
+                                        <h3 style={{ color: "#403F3E" }}>Your Quickest Path to Supply Chain Expertise</h3>
+                                    </div>
+                                    <div className="product-paragraph">
+                                        <p style={{ color: "#737171" }}>FlexU courses feature short video tutorials taught by seasoned logistics experts. Sign up today.</p>
+                                    </div>
+                                    <div className="learn-more-btn mt-4">
+                                        <Link to={"#"}><button type='submit'>Start Learning</button></Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="product-img">
+                                    <img src='../images/resources/enrolling.png' />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-    <section>
-        <div className="container mt-15 mb-15">
-          <div className="product-item mt-15">
-              <div className="row">                
-                <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-container">
-                        <div className="product-topic1 mb-4">
-                            <h4>NES Platform: NOW ENROLLING</h4>
-                        </div>
-                        <div className="product-heading1">
-                            <h3 style={{color: "#403F3E"}}>Your Quickest Path to Supply Chain Expertise</h3>
-                        </div>
-                        <div className="product-paragraph">
-                            <p style={{color: "#737171"}}>FlexU courses feature short video tutorials taught by seasoned logistics experts. Sign up today.</p>
-                        </div>
-                        <div className="learn-more-btn mt-4">
-                            <Link to={"#"}><button type='submit'>Start Learning</button></Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-6">
-                    <div className="product-img">
-                        <img src='../images/resources/enrolling.png' />
-                    </div>
-                </div>
-              </div>
-            </div>
-            </div>
-        </section>
             <Footer />
         </>
     )

@@ -178,7 +178,7 @@ export default function header(props) {
                                                 style={{ color: isWhite ? "#E6E5E5" : '#0060BE' }}></i></a>
                                         </li>
                                         <li>
-                                            <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'><button type='submit'>Introduction</button></a>
+                                            <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0?wtime=0s'><button type='submit'>Introduction</button></a>
                                         </li>
                                     </ul>
                                 </div>

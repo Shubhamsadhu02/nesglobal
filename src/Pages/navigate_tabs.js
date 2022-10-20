@@ -201,13 +201,13 @@ function getContent(list){
      </>
     }
     else{
-     return <div>
+     return <>
      {
-                    list.list_items.map(item => <div className="product-img d-flex justify-content-end">
-                         <img src={item.image} alt="" height={286} />
-                     </div>
-         )
+        list.list_items.map(item => <div className="product-img d-flex justify-content-end">
+                <img src={item.image} alt="" height={286} />
+            </div>
+        )
      }
-    </div>
+    </>
     }
 }
