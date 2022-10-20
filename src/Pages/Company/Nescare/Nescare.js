@@ -59,7 +59,7 @@ export default function nescare() {
                 <div className="ways-heading">
                     <h1>Four Ways To Make a Difference</h1>
                 </div>
-                <div className="row" style={{rowGap: "60px"}}>
+                <div className="row" style={{rowGap: "60px", marginTop: "5rem"}}>
                     <div className="col-lg-3">
                         <div className="ways-tag">
                             <img src='../images/Company/nescare/waystag1.png'/>
