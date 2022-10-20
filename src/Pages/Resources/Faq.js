@@ -52,7 +52,7 @@ export default function Faq() {
                 },
                 {
                     "header": "Do vendors have to book via the Platform?",
-                    "description": "The NES Platform is designed to streamline booking submission between you and your supplier. If your supplier chooses not to use the Platform to submit and manage bookings, Flexport is able to accept bookings via email.",
+                    "description": "The NES Platform is designed to streamline booking submission between you and your supplier. If your supplier chooses not to use the Platform to submit and manage bookings, Nes Global is able to accept bookings via email.",
 
                 },
                 {
@@ -72,7 +72,7 @@ export default function Faq() {
             Children: [
                 {
                     "header": "I see your office locations don't match with my physical location. Can I still use NES?",
-                    "description": "Absolutely. Flexport provides end to end coverage, globally. In areas where we do not have our own offices, we have aligned with strategic partners to provide our clients with best in class local operations. Each strategic partner is held to the same strict standards of compliance and service to which we hold ourselves.",
+                    "description": "Absolutely. Nes Global provides end to end coverage, globally. In areas where we do not have our own offices, we have aligned with strategic partners to provide our clients with best in class local operations. Each strategic partner is held to the same strict standards of compliance and service to which we hold ourselves.",
 
                 },
                 {
@@ -97,32 +97,56 @@ export default function Faq() {
             Children: [
                     {
                         "header": "Can You Engineer Lower Duties? Yes, if You Can Find the Customs Codes",
-                        "description": "Rules don’t have to be broken to lower or limit duties. <br/> Certain circumstances allow for tariff engineering, shaping the design of goods for better duty rates.",
+                        "description": "Rules don’t have to be broken to lower or limit duties. Certain circumstances allow for tariff engineering, shaping the design of goods for better duty rates.",
 
                     },
                     {
                         "header": "Article",
-                        "description": "In times of global trade turmoil, simple steps to keep your business thriving are always worth considering—but when it comes to customs compliance, how do you unearth the options? Clearing goods can present serious hiccups if not done properly. The cargo delays, the risk of penalties . . . There’s no doubt compliance is non-negotiable. But rules don’t have to be broken to lower or limit duties. Instead, certain circumstances allow for tariff engineering, the genius practice of legitimately shaping supply chains or goods for better duty rates. The strategy hinges on the classification codes in one sprawling resource: the Harmonized Tariff System. Let’s dive in.",
+                        "description": `In times of global trade turmoil, simple steps to keep your business thriving are always worth considering—but when it comes to customs compliance, how do you unearth the options?
+                        <br/><br/>Clearing goods can present serious hiccups if not done properly. The cargo delays, the risk of penalties . . . There’s no doubt compliance is non-negotiable.
+                        <br/><br/>But rules don’t have to be broken to lower or limit duties. Instead, certain circumstances allow for tariff engineering, the genius practice of legitimately shaping supply chains or goods for better duty rates.
+                        <br/><br/>The strategy hinges on the classification codes in one sprawling resource: the Harmonized Tariff System. Let’s dive in.
+                        `,
 
                     },
                     {
                         "header": "What Is the Harmonized Tariff System?",
-                        "description": "Consider the Harmonized Tariff System, or HTS, your ultimate and only guide for determining tariff classifications. \nHTS codes determine eligibility for free trade agreements and other preference programs. They also define super-fun stuff like duty rates, restrictions, prohibitions, and more.\n Fortunately for most supply chain directors, a customs broker is the one who reads the Harmonized Tariff System and cross-checks it, ad nausea.\n But every company is responsible for its own accuracy and compliance. So it’s crucial you share the most up-to-date product information from your suppliers. Your broker delivers HTS codes for your approval based on the info you provide.",
+                        "description": `Consider the Harmonized Tariff System, or HTS, your ultimate and only guide for determining tariff classifications.
+                        <br/><br/>HTS codes determine eligibility for free trade agreements and other preference programs. They also define super-fun stuff like duty rates, restrictions, prohibitions, and more.
+                        <br/><br/>Fortunately for most supply chain directors, a customs broker is the one who reads the Harmonized Tariff System and cross-checks it, ad nausea.
+                        <br/><br/>But every company is responsible for its own accuracy and compliance. So it’s crucial you share the most up-to-date product information from your suppliers. Your broker delivers HTS codes for your approval based on the info you provide.
+                        `,
 
                     },
                     {
                         "header": "Why You Need a Customs Broker",
-                        "description": "To unlock the best duty rates possible, you need full mastery of classification codes. Scale this across hundreds or hundred thousands of products from multiple countries, and you’re looking at a mind-boggling amount of data. Automation must help, right? It definitely does, but you’d be surprised. Much of customs classification is still done by brainpower. It’s a working partnership between you and your broker. The easy part: Once uploaded to the Flexport platform, classifications follow products across a product library. They automatically populate in support of everything from order management to duty reconciliation. This represents a major time savings and, as long as you get the codes right in the first place, helps to ensure accuracy across your supply chain. Once the work of classification is done, your company can continue to reap these benefits—until the codes update. Which they do, annually, and, more thoroughly, every five years. When this happens, a customs broker can help make sure your product library updates, too. Thinking about getting in touch? The next five-year update kicks off in January 2022. ",
+                        "description": `To unlock the best duty rates possible, you need full mastery of classification codes.
+                        <br/><br/>Scale this across hundreds or hundred thousands of products from multiple countries, and you’re looking at a mind-boggling amount of data.
+                        <br/><br/>Automation must help, right? It definitely does, but you’d be surprised. Much of customs classification is still done by brainpower. It’s a working partnership between you and your broker.
+                        <br/><br/>The easy part: Once uploaded to the Nes Global platform, classifications follow products across a product library. They automatically populate in support of everything from order management to duty reconciliation.
+                        <br/><br/>This represents a major time savings and, as long as you get the codes right in the first place, helps to ensure accuracy across your supply chain. Once the work of classification is done, your company can continue to reap these benefits—until the codes update.
+                        <br/><br/>Which they do, annually, and, more thoroughly, every five years. When this happens, a customs broker can help make sure your product library updates, too.
+                        <br/><br/>Thinking about getting in touch? The next five-year update kicks off in January 2022.
+                        `,
 
                     },
                     {
                         "header": "Optimizing Classification Codes",
-                        "description": "Impeccable classification is just your foundation, though. Customs brokers work with the codes on a daily basis to ensure compliance and optimize your tariff scenarios. This is where tariff engineering comes in. For instance, the codes tell your broker whether you’re on the hook for recent trade-war tariffs. In the US, examples could include Section 301 tariffs on goods from China or Section 232 tariffs on steel and aluminum. At their core, these tariffs are intended as trade remedies—actions taken by governments to counter what it deems unfair practices in other countries. Each administration can mold trade remedies to suit its policies. The resulting tariff lists can span thousands of pages in a tiny font, and the pages aren’t always clickable. But a broker can give you actionable insights. Sometimes, advice is wonderfully simple: Procure square steel rods instead of round ones or vice versa. Other times, it’s more complex. Take the glass screen protector of a smart watch. A flat glass from China is subject to a high Section 301 duty rate. But if the glass is bent or curved, the duty rate is far lower. Seems like an obvious choice, right? Except smart watches are about wearability and aesthetics, too. The manufacturer needs to consider which glass truly fits the watch best. Some tinkering might be involved before a final decision is made. ",
+                        "description": `Impeccable classification is just your foundation, though. Customs brokers work with the codes on a daily basis to ensure compliance and optimize your tariff scenarios. This is where tariff engineering comes in.
+                        <br/><br/>For instance, the codes tell your broker whether you’re on the hook for recent trade-war tariffs. In the US, examples could include Section 301 tariffs on goods from China or Section 232 tariffs on steel and aluminum.
+                        <br/><br/>At their core, these tariffs are intended as trade remedies—actions taken by governments to counter what it deems unfair practices in other countries. Each administration can mold trade remedies to suit its policies.
+                        <br/><br/>The resulting tariff lists can span thousands of pages in a tiny font, and the pages aren’t always clickable. But a broker can give you actionable insights.
+                        <br/><br/>Sometimes, advice is wonderfully simple: Procure square steel rods instead of round ones or vice versa.
+                        <br/><br/>Other times, it’s more complex. Take the glass screen protector of a smart watch. A flat glass from China is subject to a high Section 301 duty rate. But if the glass is bent or curved, the duty rate is far lower.
+                        <br/><br/>Seems like an obvious choice, right? Except smart watches are about wearability and aesthetics, too. The manufacturer needs to consider which glass truly fits the watch best. Some tinkering might be involved before a final decision is made.
+                        `,
 
                     },
                     {
                         "header": "Leveling Up Your Customs Game",
-                        "description": "Think of tariff engineering as a game. HTS classifications are official definitions. If you can buy or design goods within certain parameters, you might be able to pay less in duties. Savvy classification is the first step in upgrading your customs strategies to your advantage. For expert help classifying your goods, reach out to Enquiries@nesglobal.com.",
+                        "description": `Think of tariff engineering as a game. HTS classifications are official definitions. If you can buy or design goods within certain parameters, you might be able to pay less in duties.
+                        <br/><br/>Savvy classification is the first step in upgrading your customs strategies to your advantage. For expert help classifying your goods, reach out to <a href="mailto:Enquiries@nesglobal.com">Enquiries@nesglobal.com</a>.
+                        `,
     
                    }
             ]
@@ -147,7 +171,7 @@ export default function Faq() {
                 },
                 {
                     "header": "Can we partner with NES to distribute cargo insurance products?",
-                    "description": "AYes. Through our white label program, you can provide NES Insurance Solutions to your clients. Contact us to learn how Flexport can provide the same great rates, consistent experience, and peace of mind we provide to our own clients.",
+                    "description": "AYes. Through our white label program, you can provide NES Insurance Solutions to your clients. Contact us to learn how Nes Global can provide the same great rates, consistent experience, and peace of mind we provide to our own clients.",
 
                 },
                 {
@@ -260,7 +284,8 @@ export default function Faq() {
                                                             ele.Children.map((item, idx) => {
                                                                 return <Accordion.Item eventKey={`${idx}`}>
                                                                     <Accordion.Header>{item.header}</Accordion.Header>
-                                                                    <Accordion.Body>{item.description}
+                                                                        
+                                                                    <Accordion.Body dangerouslySetInnerHTML={{__html:item["description"]}}>
                                                                         {/* <Link to={item.link} className="faq-read-more">Read More<span><i class="ri-arrow-right-s-line"></i></span></Link> */}
                                                                     </Accordion.Body>
                                                                 </Accordion.Item>
