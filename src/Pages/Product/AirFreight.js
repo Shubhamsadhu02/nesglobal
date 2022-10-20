@@ -21,7 +21,7 @@ export default function AirFreight() {
                             <h1>Introducing the NES Freight Forwarding </h1>
                         </div>
                         <div className="product-paragraph mt-4">
-                            <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
+                            <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multimodally across Sea, Air, Rail and Road shipments.</p>
                         </div>
                     </div>
                     <div className="col-lg-1"></div>

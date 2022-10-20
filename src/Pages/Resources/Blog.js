@@ -65,7 +65,7 @@ function Blog(props) {
                 </div>
             </section>
             <section className="flex-port-more">
-                <h3 className="heading-3 text-center">More From Flexport</h3>
+                <h3 className="heading-3 text-center">More From Nes Global</h3>
                 <div className="container blog-more-details">
                     <div className="row">
                         <div className="col-md-6">

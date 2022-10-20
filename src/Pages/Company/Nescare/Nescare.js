@@ -97,7 +97,7 @@ export default function nescare() {
                             <h3>Donate Excess Inventory</h3>
                         </div>
                         <div className="ways-paragraph mt-4">
-                            <p>Your products don’t have to go to waste. Whether it’s a one-time shipment or ongoing donations, Flexport.org enables discounted freight services for donated products.</p>
+                            <p>Your products don&apos;t have to go to waste. Whether it&apos;s a one-time shipment or ongoing donations, Nesglobal.in enables discounted freight services for donated products.</p>
                         </div>
                         <div className="ways-learn-more mt-4">
                             <a href='/company/inventory' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>
@@ -111,7 +111,7 @@ export default function nescare() {
                             <h3>Change the Trajectory of Any Crisis</h3>
                         </div>
                         <div className="ways-paragraph mt-4">
-                            <p>Donate to the Flexport.org Fund to help cover the cost of aid shipments. With your help, we can increase the impact of aid globally.</p>
+                            <p>Donate to the Nesglobal.in Fund to help cover the cost of aid shipments. With your help, we can increase the impact of aid globally.</p>
                         </div>
                         <div className="ways-learn-more mt-4">
                             <a href='/company/excess-inventory' style={{color: "#24C6AF"}}>Learn More<i class="far fa-angle-right"></i></a>

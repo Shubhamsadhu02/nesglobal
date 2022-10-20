@@ -77,7 +77,7 @@ export default function AboutUs() {
             <section style={{background: "#10243E"}}>
               <div className="container mt-15 py-5">
                   <div className="leading-brands text-center">
-                      <h3>Companies Of All Sizes—From Emerging Brands To Fortune 500s—Used Flexport Technology To Move Nearly $19B Of Merchandise Across 112 Countries in 2021</h3>
+                      <h3>Companies Of All Sizes—From Emerging Brands To Fortune 500s—Used Nes Global Technology To Move Nearly $19B Of Merchandise Across 112 Countries in 2021</h3>
                   </div>
                   <div className="leading-brands-logos mt-5">
                     <ul className="leading-brands-logos__list">
@@ -150,7 +150,7 @@ export default function AboutUs() {
                   <h3>Have A Question?</h3>
                 </div>
                 <div className="ready-paragraph text-center mt-3" style={{ width: "435px" }}>
-                  <p>Talk to a supply chain solutions expert and see the Flexport Platform in action.</p>
+                  <p>Talk to a supply chain solutions expert and see the Nes Global Platform in action.</p>
                 </div>
                 <div className="reday-btn mt-3">
                   <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Email Us With Questions</button>

@@ -27,19 +27,19 @@ export default function Home() {
                                <Link to={"/company/contact-us"}> <button type='submit'>Talk to an Expert</button></Link>
                             </div>
                             <div className="watch-video" style={{marginLeft: "60px"}}>
-                                <a href='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></a>
-                                <a href='#' onClick={toggle}>Introduction</a>
-                                {/* <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'><img src='images/Home/playicon.png' height={48} width={48} /></a>
-                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'>Introduction</a> */}
+                                {/* <a href='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></a>
+                                <a href='#' onClick={toggle}>Introduction</a> */}
+                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'><img src='images/Home/playicon.png' height={48} width={48} /></a>
+                                <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0'>Introduction</a>
                             </div>
                             
-                            <div className="video-final">
+                            {/* <div className="video-final">
                                 <iframe className='final-video' src='https://player.vimeo.com/video/761381603?h=5675f1efb6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
                                 allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
                                 ></iframe>
                                 
                                 <img src='/images/close.png' className='close' id='pauseVideo' alt='' onClick={toggle} />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ export default function Home() {
                                 <h3 style={{width: "430px"}}>Why is Partnering with NES the new Imperative:</h3>
                             </div>
                             <div className="keySucess-paragraph">
-                                <p>International trade is crucial for any economy and its no different in India. To execute trade in a fragmented ecosystem puts a significant pressure on exporter or the importer in India. There is an impact of over 14% on the cost of the product manufactured in India due to a fragmented ecosystem. Nes Global is endeavoring to address these factors by the introduction of its digitized platform with an ecosystem which would empower the industry to execute imports and exports seamlessly and more importantly in a compliant manner. All the digital enhancements lead to facilitating global trade via the system and this would contribute to end to end visibility and lowering indirect costs and therefore improving landed costs making Indian products more competitive internationally.</p>
+                                <p>International trade is crucial for any economy and its no different in India. To execute trade in a fragmented ecosystem puts a significant pressure on exporter or the importer in India. There is an impact of over 14% on the cost of the product manufactured in India due to a fragmented ecosystem. Nes Global is endeavoring to address these factors by the introduction of its digitized platform with an ecosystem which would empower the industry to execute imports and exports seamlessly and more importantly in a compliant manner. All the digital enhancements lead to facilitating global trade via the system and this would contribute to end-to-end visibility and lowering indirect costs and therefore improving landed costs making Indian products more competitive internationally.</p>
                             </div>
                         </div>                        
                     </div>
@@ -139,11 +139,13 @@ export default function Home() {
   )
 }
 
-function toggle(){
-    var videofinal=document.querySelector(".video-final");
-    var video=document.querySelector("iframe");
+// function toggle(){
+//     var videofinal=document.querySelector(".video-final");
+//     // var video=document.querySelector("iframe");
+//     var video=document.getElementById("pauseVideo");
 
-    videofinal.classList.toggle("active");
-    video.pause();
-    video.currentTime=0;
-}
+//     videofinal.classList.toggle("active");
+//     // video.pause();
+//     // video.currentTime=0;
+//     video.contentWindow.postMessage( '{"event":"command", "func":"stopVideo", "args":""}', '*');
+// }

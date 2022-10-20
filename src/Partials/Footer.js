@@ -71,7 +71,7 @@ export default function Footer() {
                                         <li><Link to={"/company/contact-us"}>Contact</Link></li>
                                         <li><Link to={"/company/leadership"}>Leadership</Link></li>
                                         {/* <li><Link to={"/company"}>Careers</Link></li> */}
-                                        <li><Link to={"/company/nescare"}>Nescare.org</Link></li>                                       
+                                        <li><Link to={"/company/nescare"}>Nescare.in</Link></li>                                       
                                         {/* <li><Link to={"/company"}>Events</Link></li> */}
                                         <li><Link to={"/resources/faq"}>FAQs</Link></li>
                                     </ul>
@@ -84,7 +84,7 @@ export default function Footer() {
 
                     <div className="footer-bottom d-flex justify-content-between">
                         <div className="copyrights">
-                            <p>Copyright © 2022 Flexport, Inc.</p>
+                            <p>Copyright © 2022 Nes Global, Inc.</p>
                         </div>
                         <div className="policy">
                             <a href='/terms'><p>Terms of Use / Privacy Policy</p></a>

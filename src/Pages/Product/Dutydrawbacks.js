@@ -191,7 +191,7 @@ export default function Dutydrawbacks() {
                             <h4>DATA INTEGRITY</h4>
                         </div>
                         <div className="product-heading1">
-                            <h3 style={{color: "#403F3E"}}>Drawback Backed by the Flexport Platform</h3>
+                            <h3 style={{color: "#403F3E"}}>Drawback Backed by the Nes Global Platform</h3>
                         </div>
                         <div className="product-paragraph">
                             <p style={{color: "#737171"}}>There are no workarounds to drawback. Compliance starts with data accuracy, an easy feat in the NES Platform. Your drawback team from NES takes on all administrative duties, so you can consider it as good as done.

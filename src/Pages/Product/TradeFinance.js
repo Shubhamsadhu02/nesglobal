@@ -67,7 +67,7 @@ export default function TradeFinance() {
               <h4>Financial Liquidity for Purchase</h4>
             </div>
             <div className="product-tag-paragraph mt-3">
-              <p>NES can assist with better financial management plans to ensure the customer focusses on his core growth strategy.</p>
+              <p>NES can assist with better financial management plans to ensure the customer focuses on his core growth strategy.</p>
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function TradeFinance() {
                         <h3 style={{ color: "#403F3E" }}>Reporting for Decision Making</h3>
                     </div>
                     <div className="product-paragraph">
-                        <p style={{ color: "#737171" }}>All spend related data from the platform can be used to track historical spend , cost of freight spent versus landed cost of goods and other customized metrics to facilitate strategizing and decision making.</p>
+                        <p style={{ color: "#737171" }}>All spend related data from the platform can be used to track historical spend , cost of freight spent versus landed cost of goods and other customized metrics to facilitate strategizing and decision-making.</p>
                     </div>
                   </div>
                 </div>

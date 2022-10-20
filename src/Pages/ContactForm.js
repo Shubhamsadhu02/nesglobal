@@ -67,7 +67,7 @@ export default function ContactForm() {
                     </div>
 
                     <div className="send-btn mt-4">
-                        <button type='submit'>Sumbit</button>
+                        <button type='submit'>Submit</button>
                     </div>
 
                     <div className="enquiry-terms mt-3">

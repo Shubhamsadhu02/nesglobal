@@ -48,7 +48,7 @@ export default function TradeAdvisory() {
                         <h4>Set	Up	Your	Records	in	Record	Time</h4>
                     </div>
                     <div className="product-tag-paragraph mt-3">
-                        <p>NES	can	classify	up	to	500	new	SKUs	in	three	days;	up	to	2,000	in	a	week	or	20,000	in	a month.	Codes	then	follow	goods	in	the	Flexport	Platform.	Ship	with	someone	else?	We’ll	still	help,	just	as	fast.</p>
+                        <p>NES	can	classify	up	to	500	new	SKUs	in	three	days;	up	to	2,000	in	a	week	or	20,000	in	a month.	Codes	then	follow	goods	in	the	Nes Global	Platform.	Ship	with	someone	else?	We’ll	still	help,	just	as	fast.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-12">

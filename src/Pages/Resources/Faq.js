@@ -73,7 +73,7 @@ export default function Faq() {
                                 <button className="search-btn btn-primary" type='submit'>Search</button>
                             </form>
                             <h6 className='faq-sub-heading'>
-                                Already a Flexport Client? <a className='link'>Log in</a> for assistance
+                                Already a Nes Global Client? <a className='link'>Log in</a> for assistance
                             </h6>
                         </div>
                         <div className="col-md-6 faq-thumbnail">

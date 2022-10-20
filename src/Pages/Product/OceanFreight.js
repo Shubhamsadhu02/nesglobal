@@ -22,7 +22,7 @@ export default function OceanFreight() {
                             <h1>Introducing the NES Freight Forwarding</h1>
                         </div>
                         <div className="product-paragraph mt-4">
-                            <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
+                            <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multimodally across Sea, Air, Rail and Road shipments.</p>
                         </div>
                     </div>
                     <div className="col-lg-1"></div>
@@ -70,7 +70,7 @@ export default function OceanFreight() {
                             <h4>End to End Visibility</h4>
                         </div>
                         <div className="product-tag-paragraph mt-3">
-                            <p>The NES Platform is updated with updates that give the customer visibility of his shipment when its on the high seas, or when flying on air or moving on road or when its being evaluated by customs at the port of entry. This level of updates help the customer and his supply chain partners with information to monitor movement of goods and make quick resolves in cases of any gaps or errors</p>
+                            <p>The NES Platform is updated with updates that give the customer visibility of his shipment when its on the high seas, or when flying on air or moving on road or when its being evaluated by customs at the port of entry. This level of updates help the customer and his supply chain partners with information to monitor movement of goods and make quick resolves in cases of any gaps or errors.</p>
                         </div>
                     </div>
                 </div>
