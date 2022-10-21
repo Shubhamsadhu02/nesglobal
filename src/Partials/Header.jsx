@@ -240,9 +240,6 @@ function getSubMenu(dropdown, parent_link) {
             <ul style={{ padding: '0px' }}>
                 {
                     dropdown["list_items"].map(item => {
-                        if(Object.hasOwn(item,'is_absolute')){
-                            console.log(item);
-                        }
                         if(!Object.hasOwn(item,'is_absolute')){
                             return <li key={item.title}><Link to={parent_link + item.link} className="nav-list-name">{item.title}</Link></li>
                         }else{
