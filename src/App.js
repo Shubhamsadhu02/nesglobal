@@ -42,11 +42,13 @@ import Faq from "./Pages/Resources/Faq";
 import Glossary from "./Pages/Resources/Glossary";
 
 import Index from "./Pages/CarbonCalculator/index";
+import ScrollToTop from "./Partials/ScrollToTop";
 
 function App() {
   return (
     
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home/>} />
         
