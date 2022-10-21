@@ -69,7 +69,7 @@ export default function Footer() {
                                         {/* <li><Link to={"/company"}>Customers</Link></li> */}
                                         {/* <li><Link to={"/company"}>Newsroom</Link></li> */}
                                         <li><Link to={"/company/contact-us"}>Contact</Link></li>
-                                        <li><Link to={"/company/leadership"}>Leadership</Link></li>
+                                        {/* <li><Link to={"/company/leadership"}>Leadership</Link></li> */}
                                         {/* <li><Link to={"/company"}>Careers</Link></li> */}
                                         <li><Link to={"/company/nescare"}>Nescare.in</Link></li>                                       
                                         {/* <li><Link to={"/company"}>Events</Link></li> */}

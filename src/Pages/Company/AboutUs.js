@@ -74,12 +74,12 @@ export default function AboutUs() {
                 </div>
             </section>
 
-            <section style={{background: "#10243E"}}>
-              <div className="container mt-15 py-5">
-                  <div className="leading-brands text-center">
+            <section className='leading-brands mt-15' style={{background: "#10243E", padding: "96px 230px"}}>
+              <div className="container">
+                  <div className="leading-brands--header text-center">
                       <h3>Companies Of All Sizes—From Emerging Brands To Fortune 500s—Used NES Global Technology To Move Nearly $19B Of Merchandise Across 112 Countries in 2021</h3>
                   </div>
-                  <div className="leading-brands-logos mt-5">
+                  {/* <div className="leading-brands-logos mt-5">
                     <ul className="leading-brands-logos__list">
                       <li> <img src='../images/product/nesplatform/sonos-logo.png' height={61} width={131} /></li>
                       <li><img src='../images/product/nesplatform/Fairphone-logo.png' height={65} width={182}/></li>
@@ -90,7 +90,7 @@ export default function AboutUs() {
                   </div>
                   <div className="see-more-btn text-center mt-5">
                       <button type='submit'>Read Customers Stories</button>
-                  </div>
+                  </div> */}
               </div>
             </section>
 
@@ -149,11 +149,11 @@ export default function AboutUs() {
                 <div className="ready-heading">
                   <h3>Have A Question?</h3>
                 </div>
-                <div className="ready-paragraph text-center mt-3" style={{ width: "435px" }}>
+                <div className="ready-paragraph text-center mt-3" style={{ width: "485px" }}>
                   <p>Talk to a supply chain solutions expert and see the NES Global Platform in action.</p>
                 </div>
                 <div className="reday-btn mt-3">
-                  <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Email Us With Questions</button>
+                  <a href='/company/contact-us'><button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Email Us</button></a>
                 </div>
               </div>
             </div>
