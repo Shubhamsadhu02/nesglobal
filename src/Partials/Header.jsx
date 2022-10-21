@@ -110,6 +110,7 @@ export default function header(props) {
                         {
                             title: 'Nescare',
                             link: '/nescare',
+                            is_absolute: true,
                         },
                         {
                             title: 'Contact Us',
