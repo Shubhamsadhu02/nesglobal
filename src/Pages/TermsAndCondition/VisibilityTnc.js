@@ -20,7 +20,7 @@ export default function VisibilityTnc() {
                             By requesting or accepting goods or services from NES Global., and/or its subsidiaries and affiliates (collectively, “NES Global”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                             <br />
                             <br />
-                            nes Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/terms</span></a>.
+                            NES Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/terms</span></a>.
                             <br />
                             <br />
                             NES Global Privacy Policy: <a href='/Privacy'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/privacy</span></a>
@@ -35,7 +35,7 @@ export default function VisibilityTnc() {
                             1.1 Company: shall mean Nes Global, Inc., its subsidiaries, successors or assigns, related companies, including, without limitation, other authorized agents and/or representatives.
                             <br />
                             <br />
-                            1.2 Customer: shall mean the person for which the Company is rendering service or accessing the Services (defined below) at www.nesglobal.in as well as its agents, representatives, and/or transactional counterparties, including, but not limited to, suppliers, vendors, shippers, customers, importers, exporters, carriers, secured parties, warehousemen, buyers and/or sellers, shipper's agents, insurers and underwriters, break-bulk agents, consignees, etc. It is the responsibility of the Customer to provide notice and copy(s) of these terms and conditions of service to all such agents or representatives.
+                            1.2 Customer: shall mean the person for whom the Company is rendering service or accessing the Services (defined below) at www.nesglobal.in as well as its agents, representatives, and/or transactional counterparties, including, but not limited to, suppliers, vendors, shippers, customers, importers, exporters, carriers, secured parties, warehousemen, buyers and/or sellers, shipper's agents, insurers and underwriters, break-bulk agents, consignees, etc. It is the responsibility of the Customer to provide notice and copy(s) of these terms and conditions of service to all such agents or representatives.
                             <br />
                             <br />
                             1.3 Application Data: shall mean any data associated with or related to the Services provided by Company to Customer (excluding any User Content or any other data managed by Company on behalf of other customers or with other services or offerings not included in the Services) including but not limited to ports, carriers, tariffs, cargo manifests, invoices, price quotes to customers and the metadata surrounding the price quotes (weight, volume, geolocations, ports etc.). Notwithstanding anything to the contrary herein, all Application Data shall be considered Confidential Information of Company.
@@ -83,7 +83,7 @@ export default function VisibilityTnc() {
                             2.9 Third-party vendors: Customer understands that Company uses third-party vendors and hosting service providers or partners to provide the necessary hardware, software, networking, storage, and related technology required to provide the Services, and customer agrees that Company is not and will not be liable or responsible for the acts or omissions of such third-party vendors or hosting service providers or partners.
                             <br />
                             <br />
-                            2.10 Electronic communication: By using the Services, Customer consents to receiving electronic communication from Company for all purposes, including but not limited to logistical and marketing purposes.
+                            2.10 Electronic communication: By using the Services, Customer consents to receive electronic communication from Company for all purposes, including but not limited to logistical and marketing purposes.
                             <br />
                             <br />
                             3. NES GLOBAL VISIBILITY SERVICES
@@ -123,7 +123,7 @@ export default function VisibilityTnc() {
                             5.1 Company owns all rights, title and interest in and to the Services, and all Intellectual Property Rights therein. The look and feel of the Services, including but not limited to any custom graphics, button icons, and scripts are also the property of Company, and Customer may not copy, imitate, or use them, in whole or in part, without Company's prior written consent. Company reserves all rights not expressly granted to Customer in these Terms and Conditions, and Company does not grant any licenses to Customer or to any other party under these Terms and Conditions, whether by implication, estoppel or otherwise, except as expressly set forth herein.
                             <br />
                             <br />
-                            5.2 Customer acknowledges and agrees that any Company names, trademarks, service marks, logos, trade dress, or other branding included on the Website or as part of the Services are owned by Company, unless otherwise noted, and may not be copied, imitated, or used (in whole or in part) without Company's prior written consent. All other trademarks, names, or logos referenced on the Website or the Services as "Third-Party Trademarks" are the property of their respective owners, and the use of such Third-Party Trademarks inure to the benefit of their respective owners.
+                            5.2 Customer acknowledges and agrees that any Company names, trademarks, service marks, logos, trade dress, or other branding included on the Website or as part of the Services are owned by Company, unless otherwise noted, and may not be copied, imitated, or used (in whole or in part) without Company's prior written consent. All other trademarks, names, or logos referenced on the Website or the Services as "Third-Party Trademarks" are the property of their respective owners, and the use of such Third-Party Trademarks inures to the benefit of their respective owners.
                             <br />
                             <br />
                             6. SERVICE GUARANTEES
@@ -213,7 +213,7 @@ export default function VisibilityTnc() {
                             16. GOVERNING LAW
                             <br />
                             <br />
-                            These Terms and Conditions shall be governed by and construed in accordance with the controlling laws of the India  The parties agree that the UN Convention on Contracts for the International Sale of Goods (Vienna, 1980) and the Uniform Computer Information Transaction Act or similar federal or state laws or regulations shall not apply to these Terms and Conditions nor to any dispute or transaction arising out of these Terms and Conditions.
+                            These Terms and Conditions shall be governed by and construed in accordance with the controlling laws of India  The parties agree that the UN Convention on Contracts for the International Sale of Goods (Vienna, 1980) and the Uniform Computer Information Transaction Act or similar federal or state laws or regulations shall not apply to these Terms and Conditions nor to any dispute or transaction arising out of these Terms and Conditions.
                             <br />
                             <br />
                             17. LIMITATIONS ON SERVICES AND THIRD-PARTY RELATIONSHIPS.

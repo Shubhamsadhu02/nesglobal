@@ -19,7 +19,7 @@ export default function Terms() {
                             <h1>NES GLOBAL TERMS & CONDITIONS</h1>
                         </div>
                         <div className="terms-paragrapgh">
-                            <p style={{color: "#737171"}}>By requesting or accepting goods or services from NES Global LLP and/or its subsidiariesand affiliates (collectively, “NES GLOBAL”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
+                            <p style={{color: "#737171"}}>By requesting or accepting goods or services from NES Global LLP and/or its subsidiaries and affiliates (collectively, “NES GLOBAL”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                                 <br/>
                                 <br/>
                                 NES GLOBAL may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{color: "#0060BE", fontWeight: "500"}}>www.Nesglobal.in/terms</span></a>.

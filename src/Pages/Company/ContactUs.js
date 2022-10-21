@@ -14,7 +14,7 @@ export default function ContactUs() {
     <Header showNav={true} isWhite={true} />
 
    
-    <section className='contactBg' style={{ background: "#10243E", height: "125vh" }}>
+    <section className='contactBg' style={{ background: "#10243E", height: "155vh" }}>
         <div className="container">
                 <div className="row">
                     <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -27,7 +27,7 @@ export default function ContactUs() {
                                     <h1>Connect with us</h1>
                                 </div>
                                 <div className="contact-paragraph">
-                                    <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
+                                    <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specializes in transporting shipments multi-modally across Sea, Air, Rail and Road shipments.</p>
                                 </div>
                             </div>
                             <div className="contact-image mt-5">

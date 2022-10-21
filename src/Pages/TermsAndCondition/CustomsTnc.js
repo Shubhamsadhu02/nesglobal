@@ -20,7 +20,7 @@ export default function CustomsTnc() {
                             By requesting or accepting goods or services from NES Global., and/or its subsidiaries and affiliates (collectively, “NES Global”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                             <br />
                             <br />
-                            nes Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/terms</span></a>.
+                            NES Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/terms</span></a>.
                             <br />
                             <br />
                             NES Global Privacy Policy: <a href='/Privacy'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/privacy</span></a>
@@ -29,7 +29,7 @@ export default function CustomsTnc() {
                             STANDARD TRADING CONDITIONS
                             <br />
                             <br />
-                            In the absence of a special contract containing special conditions, the following are the only conditions on which Nes Global LLP contracts and carry out business or operate
+                            In the absence of a special contract containing special conditions, the following are the only conditions on which Nes Global LLP contracts and carries out business or operates.
                             <br />
                             <br />
                             <div className="terms-subheading mt-3">
@@ -37,7 +37,7 @@ export default function CustomsTnc() {
                             </div>
                             <br />
                             <br />
-                            1. In these conditions the following words shall have the meanings give below:
+                            1. In these conditions the following words shall have the meanings given below:
                             <br />
                             <br />
                             <b>COMPANY</b> –  Nes Global LLP incorporated under the Indian Companies Act, 1956 and having its registered office at Nes Global LLP, HC 036, W WORK DLF, Two Horizon Center 5th Floor, DLF Phase 5 Sector 43,Golf Course Road Gurugram, Haryana 122002 and acting in the capacity of a Customs House Agent, Freight Forwarder, Warehouse Keeper and Transporter, as the case may be.
@@ -70,7 +70,7 @@ export default function CustomsTnc() {
                             <b>OWNER</b> – Owner of the Goods or Transport Unit and any other Person who is or may become interested in them.
                             <br />
                             <br />
-                            <b>SDR</b> – Refers to Special Drawing Rate. The SDR shall be defined by the International Monetary Fund and the value of the SDR shall be calculated as at the date when the settlement is agreed.
+                            <b>SDR</b> – Refers to Special Drawing Rate. The SDR shall be defined by the International Monetary Fund and the value of the SDR shall be calculated as of the date when the settlement is agreed upon.
                             <br />
                             <br />
                             2. (A). Subject to sub-paragraph (B) below, all and any activities of the Company in the course of business, whether gratuitous or not, are undertaken subject to these conditions.

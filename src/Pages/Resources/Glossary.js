@@ -31,7 +31,7 @@ export default function Glossary() {
                                 <a href='#'><button className="search-btn btn-primary" type='submit'>Search</button></a>
                             </form>
                             <h6 className='faq-sub-heading'>
-                                Already a Nes Global Client? <a className='link'>Log in</a> for assistance
+                                Already a NES Global Client? <a href='#' className='link'>Log in</a> for assistance
                             </h6>
                         </div>
                         <div className="col-md-6 faq-thumbnail">
@@ -113,7 +113,7 @@ export default function Glossary() {
                             <h3 style={{color: "#403F3E"}}>Your Quickest Path to Supply Chain Expertise</h3>
                         </div>
                         <div className="product-paragraph">
-                            <p style={{color: "#737171"}}>FlexU courses feature short video tutorials taught by seasoned logistics experts. Sign up today.</p>
+                            <p style={{color: "#737171"}}>NES Global courses feature short video tutorials taught by seasoned logistics experts. Sign up today.</p>
                         </div>
                         <div className="learn-more-btn mt-4">
                             <Link to={"#"}><button type='submit'>Start Learning</button></Link>

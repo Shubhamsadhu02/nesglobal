@@ -183,10 +183,7 @@ export default function header(props) {
                                         </li>
                                     </ul>
                                     <div className="video-final">
-                                        <iframe className='final-video' src='https://player.vimeo.com/video/761381603?h=5675f1efb6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
-                                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Nes global-video"
-                                        ></iframe>
-
+                                        <iframe src='https://player.vimeo.com/video/761381603?h=5675f1efb6&title=0&byline=0&portrait=0' controls={true}></iframe>
                                         <img src='/images/close.png' className='close' id='pauseVideo' alt='' onClick={toggle} />
                                     </div>
                                 </div>
@@ -250,11 +247,10 @@ function getSubMenu(dropdown, parent_link) {
 
 function toggle(){
     var videofinal=document.querySelector(".video-final");
-    // var video=document.querySelector("iframe");
-    var video=document.getElementById("pauseVideo");
+    var video=document.querySelector("iframe");
+    // var video=document.getElementById("pauseVideo");
 
     videofinal.classList.toggle("active");
-    // video.pause();
-    // video.currentTime=0;
-    video.contentWindow.postMessage( '{"event":"command", "func":"stopVideo", "args":""}', '*');
+    video.pause();
+    video.currentTime=0;
 }

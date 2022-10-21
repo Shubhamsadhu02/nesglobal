@@ -21,7 +21,7 @@ export default function AirTnC() {
                             By requesting or accepting goods or services from NES Global., and/or its subsidiaries and affiliates (collectively, “NES Global”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                             <br />
                             <br />
-                            nes Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/terms</span></a>.
+                            NES Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/terms</span></a>.
                             <br />
                             <br />
                             NES Global Privacy Policy: <a href='/Privacy'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/privacy</span></a>
@@ -34,7 +34,7 @@ export default function AirTnC() {
                             </div>
                             <br />
                             <br />
-                            If the carriage involves an ultimate destination or stop in a country other than the country of departure, the Montreal Convention or the Warsaw Convention may be applicable to the liability of the Carrier in respect of loss of, damage or delay to cargo. Carrier's limitation of liability in accordance with those Conventions shall be as set forth in subparagraph 4 unless a higher value is declared.
+                            If the carriage involves an ultimate destination or stops in a country other than the country of departure, the Montreal Convention or the Warsaw Convention may be applicable to the liability of the Carrier in respect of loss of, damage or delay to cargo. Carrier's limitation of liability in accordance with those Conventions shall be as set forth in subparagraph 4 unless a higher value is declared.
                             <br />
                             <br />
                             <div className="terms-subheading mt-3">
@@ -93,7 +93,7 @@ export default function AirTnC() {
                             2.2.2.5 rights of the Carrier and limitations concerning delay or failure to perform service, including schedule changes, substitution of alternate Carrier or aircraft and rerouting.
                             <br />
                             <br />
-                            3. The agreed stopping places (which may be altered by Carrier in case of necessity) are those places, except the place of departure and place of destination, set forth on the face hereof or shown in Carrier’s timetables as scheduled stopping places for the route. Carriage to be performed hereunder by several successive Carriers is regarded as a single operation.
+                            3. The agreed to stop places (which may be altered by Carrier in case of necessity) are those places, except the place of departure and place of destination, set forth on the face hereof or shown in Carrier’s timetables as scheduled stopping places for the route. Carriage to be performed hereunder by several successive Carriers is regarded as a single operation.
                             <br />
                             <br />
                             4. For carriage to which the Montreal Convention does not apply, Carrier’s liability limitation for cargo lost, damaged or delayed shall be 22 SDRs per kilogram unless a greater per kilogram monetary limit is provided in any applicable Convention or in Carrier’s tariffs or general conditions of carriage.

@@ -62,7 +62,7 @@ export default function AboutUs() {
                                 <h3 style={{color: "#403F3E"}}>The New Community</h3>
                             </div>
                             <div className="product-paragraph">
-                                <p style={{color: "#737171"}}>Technology driven solutions are key to address problems through sustainable solutions. The importance of global trade is significant for any country and therefore a technology solution that addresses the challenges of global trade by powering every part of the economy and creating a efficient system to buy, sell, pay and get paid is the new imperative. The motivated team of Nes embarked on this objective and have been creating a ecosystem of global trade to empower its users from the exporting and importing communities to have a control of their supply chains, reduce and mitigate the risks and flourish in trade.</p>
+                                <p style={{color: "#737171"}}>Technology-driven solutions are key to address problems through sustainable solutions. The importance of global trade is significant for any country and therefore a technology solution that addresses the challenges of global trade by powering every part of the economy and creating an efficient system to buy, sell, pay and get paid is the new imperative. The motivated team of Nes embarked on this objective and has been creating an ecosystem of global trade to empower its users from the exporting and importing communities to have control of their supply chains, reduce and mitigate the risks and flourish in trade.</p>
                             </div>
                             <div className="learn-more-btn mt-4">
                                 <button type='submit'>Sign in</button>
@@ -77,7 +77,7 @@ export default function AboutUs() {
             <section style={{background: "#10243E"}}>
               <div className="container mt-15 py-5">
                   <div className="leading-brands text-center">
-                      <h3>Companies Of All Sizes—From Emerging Brands To Fortune 500s—Used Nes Global Technology To Move Nearly $19B Of Merchandise Across 112 Countries in 2021</h3>
+                      <h3>Companies Of All Sizes—From Emerging Brands To Fortune 500s—Used NES Global Technology To Move Nearly $19B Of Merchandise Across 112 Countries in 2021</h3>
                   </div>
                   <div className="leading-brands-logos mt-5">
                     <ul className="leading-brands-logos__list">
@@ -100,7 +100,7 @@ export default function AboutUs() {
                   <h2>International Trade </h2>
                 </div>
                 <div className="trade-paragraph" style={{width: "632px"}}>
-                  <p>Trade has evolved from the historical Barter system to Mercantilism to trade fueled by industrialization and in the modern era technology driven platforms moving a fragmented foreign trade to a connected ecosystem. This allows industries involved in foreign trade to participate in a global economy, fuels economic and job growth, and can raise living standards for all. The NES platform is for enabling International trade and enable the force of GOOD.</p>
+                  <p>Trade has evolved from the historical Barter system to Mercantilism to trade fueled by industrialization and in the modern era technology-driven platforms moving a fragmented foreign trade to a connected ecosystem. This allows industries involved in foreign trade to participate in a global economy, fuels economic and job growth, and can raise living standards for all. The NES platform is for enabling International trade and enabling the force of GOOD.</p>
                 </div>
 
 
@@ -124,7 +124,7 @@ export default function AboutUs() {
                     <h3>Facilitating Entrepreneurship</h3>
                   </div>
                   <div className="trade-paragraph mt-3">
-                    <p>Entrepreneurs from any Industry involved in foreign trade are freed from a complex and fragmented ecosystems challenges,, businesses thrive, and we all benefit from innovative solutions. By connecting everyone in the global economy, we enable commerce, creativity, and progress.</p>
+                    <p>Entrepreneurs from any Industry involved in foreign trade are freed from complex and fragmented ecosystems challenges,, businesses thrive, and we all benefit from innovative solutions. By connecting everyone in the global economy, we enable commerce, creativity, and progress.</p>
                   </div>
                 </div>
                 <div className="col-lg-4">
@@ -150,7 +150,7 @@ export default function AboutUs() {
                   <h3>Have A Question?</h3>
                 </div>
                 <div className="ready-paragraph text-center mt-3" style={{ width: "435px" }}>
-                  <p>Talk to a supply chain solutions expert and see the Nes Global Platform in action.</p>
+                  <p>Talk to a supply chain solutions expert and see the NES Global Platform in action.</p>
                 </div>
                 <div className="reday-btn mt-3">
                   <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Email Us With Questions</button>
