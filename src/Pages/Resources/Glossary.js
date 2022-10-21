@@ -83,7 +83,7 @@ export default function Glossary() {
                                     {
                                         glossaries[item].map((i) => {
                                     return <li className="glossary-list-item col-md-4" onClick={() => handleShow(i)}>
-                                        {i['question']}
+                                        {i['title']}
                                     </li>
                                         })
                                     }
