@@ -18,7 +18,7 @@ export default function header(props) {
                     header: "Logistics Management",
                     list_items: [
                         {
-                            title: 'Nes Platform',
+                            title: 'NES Platform',
                             link: '/nes-platform',
                         },
                         {

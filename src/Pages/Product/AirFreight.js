@@ -41,7 +41,7 @@ export default function AirFreight() {
             <h3 style={{ color: "#595858" }}>Why NES?</h3>
           </div>
           <div className="nes-paragraph mt-5">
-            <p style={{ color: "#403F3E", padding: "0 210px"}}>The Nes Platform can accommodate all the stakeholders including the NES Global ops and brokerage teams giving them full access ad control to fast track all work flows within the supply chain</p>
+            <p style={{ color: "#403F3E", padding: "0 210px"}}>The NES Platform can accommodate all the stakeholders including the NES Global ops and brokerage teams giving them full access ad control to fast track all work flows within the supply chain</p>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ export default function AirFreight() {
                 <h4>Load us with your Priorities</h4>
               </div>
               <div className="product-tag-paragraph mt-3">
-                <p>Fly your time critical and high value shipments faster through our platform which is backed by our expertise, reliable connections and global partner network. The Nes platform frees you from repetitive and menial tasks and focuses on delivering control of your shipment.</p>
+                <p>Fly your time critical and high value shipments faster through our platform which is backed by our expertise, reliable connections and global partner network. The NES platform frees you from repetitive and menial tasks and focuses on delivering control of your shipment.</p>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function AirFreight() {
                 <h4>Goals, Gaps and Information</h4>
               </div>
               <div className="product-tag-paragraph mt-3">
-                <p>The Nes Platform can accommodate all the stakeholders including the NES Global ops and brokerage teams giving them full access ad control to fast track all work flows within the supply chain.</p>
+                <p>The NES Platform can accommodate all the stakeholders including the NES Global ops and brokerage teams giving them full access ad control to fast track all work flows within the supply chain.</p>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function AirFreight() {
                 <h4>That’s called Value</h4>
               </div>
               <div className="product-tag-paragraph mt-3">
-                <p>Transit time, landed costs, all broken down to micro shipment levels is data within reach—thanks to the Nes Platform’s power to structure, store, and safeguard your data.</p>
+                <p>Transit time, landed costs, all broken down to micro shipment levels is data within reach—thanks to the NES Platform’s power to structure, store, and safeguard your data.</p>
               </div>
             </div>
           </div>

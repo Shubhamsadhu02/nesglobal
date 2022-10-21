@@ -22,7 +22,7 @@ export default function NesDigitalPlatform() {
                         </div>
                         <div className="product-paragraph mt-4">
                             <p>Technology driven solutions are key to address problems through sustainable solutions. The importance of global trade is significant for any country and therefore a technology solution that addresses the challenges of global trade by powering every part of the economy and creating a efficient system to buy, sell, pay and get paid is the new imperative.
-                                The motivated team of Nes embarked on this objective and have been creating a ecosystem of global trade to empower its users from the exporting and importing communities to have a control of their supply chains, reduce and mitigate the risks and flourish in trade.
+                                The motivated team of NES embarked on this objective and have been creating a ecosystem of global trade to empower its users from the exporting and importing communities to have a control of their supply chains, reduce and mitigate the risks and flourish in trade.
                                 </p>
                         </div>
                         <div className="product-signin mt-4">
@@ -56,7 +56,7 @@ export default function NesDigitalPlatform() {
               <h4>Collaboration leading to Enhanced Customer Experience.</h4>
             </div>
             <div className="product-tag-paragraph mt-3">
-              <p>The Nes Platform can accommodate all the stakeholders including the NES Global ops and brokerage teams giving them full access ad control to fast track all work flows within the supply chain.</p>
+              <p>The NES Platform can accommodate all the stakeholders including the NES Global ops and brokerage teams giving them full access ad control to fast track all work flows within the supply chain.</p>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@ export default function NesDigitalPlatform() {
                             <h3 style={{ color: "#403F3E" }}>File, Record and Review</h3>
                         </div>
                         <div className="product-paragraph">
-                            <p style={{ color: "#737171" }}>The Nes Platform allows the customer to store all shipment related information viz, commercial invoices, payment receipts and all other documents for future reference and also to compare spends.</p>
+                            <p style={{ color: "#737171" }}>The NES Platform allows the customer to store all shipment related information viz, commercial invoices, payment receipts and all other documents for future reference and also to compare spends.</p>
                         </div>
                       </div>
                     </div>

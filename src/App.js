@@ -43,6 +43,7 @@ import Glossary from "./Pages/Resources/Glossary";
 
 import Index from "./Pages/CarbonCalculator/index";
 import ScrollToTop from "./Partials/ScrollToTop";
+import BlogDetail from "./Pages/Resources/BlogDetail";
 
 function App() {
   return (

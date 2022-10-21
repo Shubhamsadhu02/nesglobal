@@ -80,7 +80,7 @@ export default function OceanFreight() {
                             <h4>Collaboration leading to Enhanced Customer Experience</h4>
                         </div>
                         <div className="product-tag-paragraph mt-3">
-                            <p>The Nes Platform can accommodate all the stakeholders including the NES Global ops and brokerage teams giving them full access ad control to fast track all work flows within the supply chain.</p>
+                            <p>The NES Platform can accommodate all the stakeholders including the NES Global ops and brokerage teams giving them full access ad control to fast track all work flows within the supply chain.</p>
                         </div>
                     </div>
                 </div>

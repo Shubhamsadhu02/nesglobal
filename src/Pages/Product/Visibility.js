@@ -41,7 +41,7 @@ export default function Visibility() {
                     <h4>Tracking and Visibility a Critical imperative</h4>
                   </div>
                   <div className="product-tag-paragraph mt-3">
-                    <p>The Nes platform ensures that you can track your container so you are in control of the communication to deliver reliability to your customers. This aligns to the Nes strategy of delivering to a seamless flow via collaboration and support.</p>
+                    <p>The NES platform ensures that you can track your container so you are in control of the communication to deliver reliability to your customers. This aligns to the NES strategy of delivering to a seamless flow via collaboration and support.</p>
                   </div>
                 </div>
               </div>
@@ -56,7 +56,7 @@ export default function Visibility() {
                   </div>
                   <div className="product-tag-paragraph mt-3">
                     <p>Seamless End to end flow is made possible via better exception management via real time updates. This is made possible via the NES product and ops teams and integration with leading shipping
-                        lines to the Nes platform.</p>
+                        lines to the NES platform.</p>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function Visibility() {
                     <h4>Data leads to customization</h4>
                   </div>
                   <div className="product-tag-paragraph mt-3">
-                    <p>By transacting on the Nes platform, one can toggle with data and use the same to build rules to drive optimization and create a competitive advantage for their products.</p>
+                    <p>By transacting on the NES platform, one can toggle with data and use the same to build rules to drive optimization and create a competitive advantage for their products.</p>
                   </div>
                 </div>
               </div>

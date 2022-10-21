@@ -84,7 +84,7 @@ export default function Footer() {
 
                     <div className="footer-bottom d-flex justify-content-between">
                         <div className="copyrights">
-                            <p>Copyright © {new Date().getFullYear()} NES Global, Inc.</p>
+                            <p>Copyright © {new Date().getFullYear()} NES Global Solutions Pvt Ltd.</p>
                         </div>
                         <div className="policy">
                             <a href='/terms'><p>Terms of Use / Privacy Policy</p></a>
