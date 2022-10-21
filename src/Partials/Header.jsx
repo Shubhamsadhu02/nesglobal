@@ -109,7 +109,8 @@ export default function header(props) {
                         },
                         {
                             title: 'Nescare',
-                            link: '/nescare',
+                            link: 'http://www.nescare.in',
+                            is_absolute: true,
                         },
                         {
                             title: 'Contact Us',
@@ -238,7 +239,14 @@ function getSubMenu(dropdown, parent_link) {
         return <div className='nav-dropdown-content'>
             <ul style={{ padding: '0px' }}>
                 {
-                    dropdown["list_items"].map(item => <li key={item.title}><Link to={parent_link + item.link} className="nav-list-name">{item.title}</Link></li>)
+                    dropdown["list_items"].map(item => {
+                        if(!Object.hasOwn(item,'is_absolute')){
+                            return <li key={item.title}><Link to={parent_link + item.link} className="nav-list-name">{item.title}</Link></li>
+                        }else{
+                            return <li key={item.title}><a href={item.link} className="nav-list-name" target="_blank">{item.title}</a></li>
+                        } 
+                        
+                    })
                 }
             </ul>
         </div>

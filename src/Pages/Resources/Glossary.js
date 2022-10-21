@@ -9,9 +9,40 @@ import '../../Styles/Faq.scss';
 export default function Glossary() {
 
     const [show, setShow] = useState(false);
-
+    const [glossaries, setGlossaries] = useState("");
+    const [answer, setAnswer] = useState(""); 
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = (text) => {
+        setAnswer(text);
+        console.log(text);
+        setShow(true)
+    };
+
+
+    async function fetchGlossaries(){
+        var res = await fetch('http://admin.nesglobal.in/api/glossaries');
+        var data = await res.json();
+        return data;
+    }
+    useEffect(() => {
+        const url = "http://admin.nesglobal.in/api/glossaries";
+
+        const fetchData = async () => {
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                setGlossaries(data);
+            } catch (error) {
+                console.log("error", error);
+            }
+        };
+
+        fetchData();
+      return () => {
+        
+      }
+    }, []);
+    
 
     return (
         <>
@@ -42,6 +73,27 @@ export default function Glossary() {
             </section>
             <section className='glossary-body'>
                 <div className="container">
+                    { Object.keys(glossaries).length > 0? 
+                        Object.keys(glossaries).map((item) => {
+                            return <div className="glossary-group">
+                            <h1 className="glossary-group-header">
+                                {item}
+                            </h1>
+                                <ul className="row glossary-list gap-3">
+                                    {
+                                        glossaries[item].map((i) => {
+                                    return <li className="glossary-list-item col-md-4" onClick={() => handleShow(i)}>
+                                        {i['question']}
+                                    </li>
+                                        })
+                                    }
+                                    
+                                </ul>
+                            </div>
+                        })
+                    : "No" }
+                        
+                        
                     <div className="glossary-group">
                         <h1 className="glossary-group-header">
                             a
@@ -60,18 +112,17 @@ export default function Glossary() {
                     <h6 className="faq-super-heading heading-6 text-uppercase">
                         Glossary
                     </h6>
-                    <Offcanvas.Title>Air Waybill (AWB)</Offcanvas.Title>
+                    <Offcanvas.Title>{answer['title']}</Offcanvas.Title>
                     <h6 className='offcanvas-sub-heading'>
-                        Air waybills are the freight documents associated with air shipments.
+                        { answer['sub_title'] }
                     </h6>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <h2 className="glossary-detail-title">
-                        What is an air waybill?
+                        { answer['question'] }
                     </h2>
-                    <p className="glossary-detail-paragraph">
-                        An air waybill (AWB) is a non-negotiable document issued by a carrier when goods are transported by air.<br />
-                        An air waybill acts as delivery instructions, a contract of carriage, and a cargo receipt for airfreight.
+                    <p className="glossary-detail-paragraph" dangerouslySetInnerHTML={createMarkup(answer['answer'])}>
+                        
                     </p>
                     <hr />
                     <h2 className="glossary-detail-title">
@@ -133,4 +184,7 @@ export default function Glossary() {
             <Footer />
         </>
     )
+    function createMarkup(html) {
+        return {__html: html};
+    }
 }
