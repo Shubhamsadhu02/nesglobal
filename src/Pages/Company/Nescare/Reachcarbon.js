@@ -20,7 +20,7 @@ export default function reachcarbon() {
                             <h1>To Reduce Carbon, Start With a Calculator</h1>
                         </div>
                         <div className="nescare-paragraph mt-3">
-                            <p>Measuring your emissions is step one to reducing them. nesglobal.org’s free carbon calculator sets you up for sustainability.
+                            <p>Measuring your emissions is step one to reducing them. NESglobal.in free carbon calculator sets you up for sustainability.
                                 <br/>
                                 <br/>
                                 Featuring its own API and CSV uploader, our carbon calculator is accredited by the Smart Freight Centre in conformance with the Global Logistics Emissions Council (GLEC) Framework.
@@ -49,7 +49,7 @@ export default function reachcarbon() {
                                 <h1 style={{color: "#403F3E"}}>Use Data To <span style={{color: "#24C6AF"}}>Go Lower</span></h1>
                             </div>
                             <div className="nescare-paragraph mt-3">
-                                <p style={{color: "#737171"}}>Find the optimal mix of ocean, rail, air, and trucking to lower your carbon impact. NES platform and the nesglobal.org team can analyze your emissions to find the right reductions for your business.</p>
+                                <p style={{color: "#737171"}}>Find the optimal mix of ocean, rail, air, and trucking to lower your carbon impact. NES platform and the NESglobal.in team can analyze your emissions to find the right reductions for your business.</p>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ export default function reachcarbon() {
                                 <h1 style={{color: "#403F3E"}}>Neutralize <span style={{color: "#24C6AF"}}>the Rest</span></h1>
                             </div>
                             <div className="nescare-paragraph mt-3">
-                                <p style={{color: "#737171"}}>You can offset up to 100% of your shipping-related emissions for a small fee per shipment. The nesglobal.org Offset Program is an easy, meaningful way to work towards your company’s sustainability goals.</p>
+                                <p style={{color: "#737171"}}>You can offset up to 100% of your shipping-related emissions for a small fee per shipment. The NESglobal.org Offset Program is an easy, meaningful way to work towards your company’s sustainability goals.</p>
                             </div>
                         </div>
                     </div>
