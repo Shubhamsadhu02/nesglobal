@@ -148,7 +148,7 @@ export default function Navigate_tabs () {
                                                         <p style={{ color: "#737171" }}>{item.description}</p>
                                                     </div>
                                                     <div className="supply-learn-more">
-                                                        <Link to={item.link}>Learn More<i class="far fa-angle-right"></i></Link>
+                                                        <Link to={item.link}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
                                                     </div>
                                                 </div>
 
@@ -193,7 +193,7 @@ function getContent(list){
                          <p style={{ color: "#737171" }}>{item.description}</p>
                      </div>
                      <div className="supply-learn-more">
-                         <Link to={item.link}>Learn More<i class="far fa-angle-right"></i></Link>
+                         <Link to={item.link}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
                      </div>
                  </>
              )

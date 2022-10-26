@@ -175,7 +175,7 @@ export default function NesDigitalPlatform() {
               <p>Operating on the NES platform is beneficial in many different ways, which stream line regulatory work flows and cascades the benefits to multiple aspects of the business. Additionally...</p>
             </div>
             <div className="supply-learn-more">
-                <Link to={"/product/customs"}>Learn More<i class="far fa-angle-right"></i></Link>
+                <Link to={"/product/customs"}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
             </div>
           </div>
       </div>
@@ -192,7 +192,7 @@ export default function NesDigitalPlatform() {
               <p>The	NES	platform	is	created	in	a	way	to	capture	all	the	critical	elements	of	shipping,	origin,	destination,	schedules,	booking,	SLI,	Purchase	order	tracking,	milestones	and	exceptions	and	more all	to	enable	your	supply	chain,	drive	collaborations	with</p>
             </div>
             <div className="supply-learn-more">
-                <Link to={"/product/visibility"}>Learn More<i class="far fa-angle-right"></i></Link>
+                <Link to={"/product/visibility"}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
             </div>
           </div>
       </div>
@@ -209,7 +209,7 @@ export default function NesDigitalPlatform() {
               <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
             </div>
             <div className="supply-learn-more">
-                <Link to={"/product/visibility"}>Learn More<i class="far fa-angle-right"></i></Link>
+                <Link to={"/product/visibility"}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
             </div>
           </div>
       </div>

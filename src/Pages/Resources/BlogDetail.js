@@ -62,7 +62,7 @@ export default function BlogDetail() {
                                 <p>NESGlobal makes shipping your cargo transparent, reliable, and affordable</p>
                             </div>
                             <div className="supply-learn-more">
-                                <Link to={"#"}>Get Started<i class="far fa-angle-right"></i></Link>
+                                <Link to={"#"}>Get Started<i class="fa-solid fa-angle-right"></i></Link>
                              </div>
                         </div>
                         <div className="col-lg-9" style={{padding: " 0 25px"}}>

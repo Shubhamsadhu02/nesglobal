@@ -54,7 +54,7 @@ export default () => {
                         <p>{ele.description}</p>
                     </div>
                     <div className="supply-learn-more">
-                        <Link to={ele.link}>Learn More<i class="far fa-angle-right"></i></Link>
+                        <Link to={ele.link}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
                     </div>
                 </div>
               </SwiperSlide>
