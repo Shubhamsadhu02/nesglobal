@@ -97,14 +97,14 @@
 
     .keySucess-head h3, .supply-chain__head h3, .find-heading h3, .case-study-head h3, .case-header h3, .signup-heading h3, .collaboration-head h3, .nes-community__header h3,
     .leading-brands h3, .product-heading1 h3, .collaboration-header h3, .ready-heading h3, .product-faq-heading h3, .further-head h3, .nes-head h3, .blog-title,
-    .offcanvas-header .offcanvas-title, .terms-subheading h3
+    .offcanvas-header .offcanvas-title, .terms-subheading h3, .blog-heading h2
     {
         font-size: 22px;
     }
 
     .keySucess-paragraph p, .find-paragraph p, .case-paragraph p, .signup-paragraph p .signup-agree, .nes-community__paragrapgh p, .supply-paragrapgh p
     ,.product-paragraph p, .product-tag-paragraph p, .collaboration-paragraph p, .ready-paragraph p, .further-paragraph p, .nes-paragraph p, .faq-super-heading, .faq-sub-heading,
-    .glossary-detail-paragraph, .related-links--item, .offcanvas-header .offcanvas-sub-heading
+    .glossary-detail-paragraph, .related-links--item, .offcanvas-header .offcanvas-sub-heading, .blog-paragraph p
     {
         font-size: 14px;
     }
@@ -216,4 +216,15 @@
     {
         width: 50% !important;
     }
+    .blog-details, .blog-description
+    {
+        flex-direction: column;
+    }
+    .blog-tags,.blog-share {
+        margin-left: 0 !important;
+    }
+    .blog-description{
+        margin-top: 3rem !important;
+    }
+
 }

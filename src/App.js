@@ -38,12 +38,13 @@ import VisibilityTnc from "./Pages/TermsAndCondition/VisibilityTnc";
 import Privacy from "./Pages/TermsAndCondition/Privacy";
 
 import Blog from "./Pages/Resources/Blog";
+import BlogDetail from "./Pages/Resources/BlogDetail";
 import Faq from "./Pages/Resources/Faq";
 import Glossary from "./Pages/Resources/Glossary";
 
 import Index from "./Pages/CarbonCalculator/index";
 import ScrollToTop from "./Partials/ScrollToTop";
-import BlogDetail from "./Pages/Resources/BlogDetail";
+
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
         <Route path="/privacy" element={<Privacy/>}/>
 
         <Route path="/resources/blog" element={<Blog/>} />
+        <Route path="/resources/blogdetail" element={<BlogDetail/>} />
         <Route path="/resources/faq" element={<Faq/>} />
         <Route path="/resources/glossary" element={<Glossary/>} />
 

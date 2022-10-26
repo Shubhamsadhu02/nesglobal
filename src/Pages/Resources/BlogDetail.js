@@ -1,85 +1,121 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom';
+import Footer from '../../Partials/Footer';
+
 import Header from '../../Partials/Header';
-import BlogCard from "../../Partials/BlogCard";
-import {Link} from "react-router-dom";
-import '../../Styles/Blog.scss'
-import Footer from "../../Partials/Footer";
 
-function BlogDetail(props) {
-    const NEWS_API_KEY = "7ebe63ba26c04c6181a83ee9a68a7b5c";
-    const [posts, setPosts] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
-
-    async function fetchLatestNews() {
-        try {
-            var res = await fetch('https://newsapi.org/v2/everything?domains=wsj.com&apiKey=7ebe63ba26c04c6181a83ee9a68a7b5c');
-            var data = await res.json();
-            if (res.status == 200) {
-                setPosts(data.articles)
-            }
-            console.log(data);
-        } catch (err) {
-            console.log(err);
-        } finally {
-            setIsLoading(false)
-        }
-
-    }
-
-    useEffect(function () {
-        fetchLatestNews();
-    }, [])
+export default function BlogDetail() {
     return (
         <>
-            <Header showNav={true} isWhite={true}/>
-            <section className="blog-header">
+            <Header showNav={true} isWhite={true} />
+
+            <section className="blog-header" style={{ backgroundImage: "url(/images/blog/blogbg.png)", backgroundSize: "cover", opacity: "5", height: "533px", backgroundPosition: "center" }}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 blog-content">
+                        <div className="col-md-8 blog-content">
                             <div className="blog-date text-uppercase">
-                                <h6>May 9, 2022</h6>
+                                <h6>APRIL 20, 2021</h6>
                             </div>
                             <h1 className="blog-title ">
-                                How to Turn Supply Chain Uncertainty Into a Competitive Advantage
+                                Can You Engineer Lower Duties? Yes, if You Can Find the Customs Codes
                             </h1>
-                            <button className="read-btn btn-primary" type='submit'>Read More</button>
+                            <div className='blog-details mt-2 d-flex align-items-center'>
+                                <div className="blog-read--time d-flex align-items-center">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <h4>8 min read</h4>
+                                </div>
+                                <div className="blog-tags d-flex align-items-center" style={{ marginLeft: "3rem" }}>
+                                    <i class="fa-solid fa-tag"></i>
+                                    <div className="blog-tags--names d-flex">
+                                        <h4>Shipping</h4>
+                                        <h4>Insights</h4>
+                                        <h4>Logistics</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='blog-description d-flex align-items-center' style={{ marginTop: "8rem" }}>
+                                <div className="blog-writer">
+                                    <h4 className='mt-2'>Written by: <b>NES Global Team</b></h4>
+                                </div>
+                                <div className="blog-share d-flex align-items-center justify-content-center" style={{ marginLeft: "3rem" }}>
+                                    <h4 className='mt-2'>Share:</h4>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
                         </div>
-                        <div className="col-md-6 blog-thumbnail">
-                            <img src="/images/blog/header-placeholder.png" alt=""/>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section className='blog-details mt-15'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-3" style={{backgroundColor: "#F9F9F9", padding: "25px", borderRadius: "4px"}}>
+                            <div className="blog-heading">
+                                <h2>Ready to Get Started?</h2>
+                            </div>
+                            <div className="blog-paragraph">
+                                <p>NESGlobal makes shipping your cargo transparent, reliable, and affordable</p>
+                            </div>
+                            <div className="supply-learn-more">
+                                <Link to={"#"}>Get Started<i class="far fa-angle-right"></i></Link>
+                             </div>
                         </div>
+                        <div className="col-lg-9" style={{padding: " 0 25px"}}>
+                            {/* Blog contents start */}
+
+                            <div className="blog-paragraph">
+                                <p>NESGlobal makes shipping your cargo transparent, reliable, and affordable</p>
+                            </div>
+
+                            <div className="blog-heading">
+                                <h2>Ready to Get Started?</h2>
+                            </div>
+
+
+                            {/* Blog contents end */}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='releated-articles mt-15'>
+                <div className="container">
+                    <div className="blog-heading">
+                        <h2>Related Articles</h2>
+                    </div>
+                    <div className="blog-paragraph" style={{width: "475px"}}>
+                        <p>Educate	yourself	on	the	big	picture,	and	master	details	that	can	help	you	avoid	costly	mistakes.</p>
                     </div>
                 </div>
             </section>
             
-            <section className="flex-port-more">
-                <h3 className="heading-3 text-center">More From NES Global</h3>
-                <div className="container blog-more-details">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <article className="blog-more-card">
-                                <img src="/images/blog/laptop.png" alt=""/>
-                                <small className="text-uppercase mt-3 d-block">our tech platform</small>
-                                <h4 className="text-capitalize mt-2 mb-4 w-75">Ocean, Air, Ground, All From the Cloud</h4>
-                                <Link to={"/"} className="heading-6 article-read-more"> Read More
-                                    <i className="fal fa-angle-right"></i></Link>
-                            </article>
-                        </div>
 
-                        <div className="col-md-6 mt-3 mt-md-0 mt-lg-0">
-                            <article className="blog-more-card">
-                                <img src="/images/blog/team-chat.png" alt=""/>
-                                <small className="text-uppercase mt-3 d-block">our service modal</small>
-                                <h4 className="text-capitalize mt-2 mb-4 w-75">Expert Teams Dedicated to Your Business</h4>
-                                <Link to={"/"} className="heading-6 article-read-more"> Read More
-                                    <i className="fal fa-angle-right"></i></Link>
-                            </article>
+
+            {/* Request A Demo */}
+
+            <section className="mt-15" style={{ background: "url('../images/product/visibility/productbg.png')" }}>
+                <div className="container">
+                    <div className="ready d-flex flex-column justify-content-center align-items-center">
+                        <div className="ready-heading">
+                            <h3>Ready to Get Started?</h3>
+                        </div>
+                        <div className="ready-paragraph text-center mt-3" style={{ width: "435px" }}>
+                            <p>Talk	to	a	supply	chain	solutions	expert	and	see	the	NES	Platform	in	action.</p>
+                        </div>
+                        <div className="reday-btn mt-3">
+                            <a href='/company/contact-us'><button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Request A Demo</button></a>
                         </div>
                     </div>
                 </div>
             </section>
-            <Footer/>
-        </>
-    );
-}
 
-export default BlogDetail;
+
+            <Footer />
+        </>
+    )
+}
