@@ -180,7 +180,7 @@ export default function header(props) {
                                         </li>
                                         <li>
                                             {/* <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0?wtime=0s' target={"_blank"}><button type='submit'>Introduction</button></a> */}
-                                            <a href='#'><button type='submit'>Introduction</button></a>
+                                            <a href='#' onClick={toggle}><button type='submit'>Introduction</button></a>
                                         </li>
                                     </ul>
                                     <div className="video-final">
