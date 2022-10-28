@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Navbar, Offcanvas, Nav, Container, NavDropdown } from "react-bootstrap";
 import '../Styles/Header.scss';
 
@@ -144,7 +144,7 @@ export default function header(props) {
                                             if (item.children) {
                                                 return <NavDropdown
                                                     title={item.title}
-                                                    id={`offcanvasNavbarDropdown-expand-md`}                                                    
+                                                    id={`offcanvasNavbarDropdown-expand-md`}
                                                 >
                                                     <div className="nav-dropdown-box d-flex">
 
@@ -167,25 +167,26 @@ export default function header(props) {
                                             // else {
                                             //     return <Link to={item.link} className="nav-link">{item.title}</Link>
                                             // }
-                                            
-                                        })                                    
+
+                                        })
                                     }
                                 </Nav> : ""}
                             {showNav ?
                                 <div className="search-nav">
                                     <ul>
                                         <li>
-                                            <a href='#'><i class="far fa-search"
+                                            <a href='#'><i class="fa-solid fa-search"
                                                 style={{ color: isWhite ? "#E6E5E5" : '#0060BE' }}></i></a>
                                         </li>
                                         <li>
                                             {/* <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0?wtime=0s' target={"_blank"}><button type='submit'>Introduction</button></a> */}
-                                            <a href='#' onClick={toggle}><button type='submit'>Introduction</button></a>
+                                            <a href='#'><button type='submit'>Introduction</button></a>
                                         </li>
                                     </ul>
                                     <div className="video-final">
                                         <iframe src='https://player.vimeo.com/video/761381603?h=5675f1efb6&title=0&byline=0&portrait=0' controls={true}></iframe>
-                                        <img src='/images/close.png' className='close' id='pauseVideo' alt='' onClick={toggle} />
+                                        {/* <video  src='https://player.vimeo.com/video/761381603' controls> </video> */}
+                                        <img src='/images/close.png' className='close' alt='' onClick={toggle} />
                                     </div>
                                 </div>
                                 :
@@ -240,12 +241,12 @@ function getSubMenu(dropdown, parent_link) {
             <ul style={{ padding: '0px' }}>
                 {
                     dropdown["list_items"].map(item => {
-                        if(!Object.hasOwn(item,'is_absolute')){
+                        if (!Object.hasOwn(item, 'is_absolute')) {
                             return <li key={item.title}><Link to={parent_link + item.link} className="nav-list-name">{item.title}</Link></li>
-                        }else{
+                        } else {
                             return <li key={item.title}><a href={item.link} className="nav-list-name" target="_blank">{item.title}</a></li>
-                        } 
-                        
+                        }
+
                     })
                 }
             </ul>
@@ -253,12 +254,21 @@ function getSubMenu(dropdown, parent_link) {
     }
 }
 
-function toggle(){
-    var videofinal=document.querySelector(".video-final");
-    var video=document.querySelector("iframe");
+function toggle() {
+    var videofinal = document.querySelector(".video-final");
+    var video = document.querySelectorAll("iframe");
+    const close = document.querySelector('.close')
     // var video=document.getElementById("pauseVideo");
 
     videofinal.classList.toggle("active");
-    video.pause();
-    video.currentTime=0;
+    // video.pause();
+    // video.currentTime=0;
+
+    close.addEventListener('click', () => {
+        video.forEach(i => {
+            const source = i.src
+            i.src = ''
+            i.src = source
+        })
+    })
 }
