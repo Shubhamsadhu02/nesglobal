@@ -178,14 +178,12 @@ export default function header(props) {
                                             <a href='#'><i class="fa-solid fa-search"
                                                 style={{ color: isWhite ? "#E6E5E5" : '#0060BE' }}></i></a>
                                         </li>
-                                        <li>
-                                            {/* <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0?wtime=0s' target={"_blank"}><button type='submit'>Introduction</button></a> */}
+                                        <li>                                            
                                             <a href='#' onClick={toggle}><button type='submit'>Introduction</button></a>
                                         </li>
                                     </ul>
                                     <div className="video-final">
-                                        <iframe src='https://player.vimeo.com/video/761381603?h=5675f1efb6&title=0&byline=0&portrait=0' controls={true}></iframe>
-                                        {/* <video  src='https://player.vimeo.com/video/761381603' controls> </video> */}
+                                        <video  src='/videoes/final-video.mp4' controls={true}> </video>
                                         <img src='/images/close.png' className='close' alt='' onClick={toggle} />
                                     </div>
                                 </div>
@@ -254,21 +252,21 @@ function getSubMenu(dropdown, parent_link) {
     }
 }
 
-function toggle() {
-    var videofinal = document.querySelector(".video-final");
-    var video = document.querySelectorAll("iframe");
-    const close = document.querySelector('.close')
+function toggle(){
+    var videofinal=document.querySelector(".video-final");
+    var video=document.querySelector("video");
+    // const close = document.querySelector('.close')
     // var video=document.getElementById("pauseVideo");
 
     videofinal.classList.toggle("active");
-    // video.pause();
-    // video.currentTime=0;
+    video.pause();
+    video.currentTime=0;
 
-    close.addEventListener('click', () => {
-        video.forEach(i => {
-            const source = i.src
-            i.src = ''
-            i.src = source
-        })
-    })
+    // close.addEventListener('click', () => {
+    //     video.forEach(i => {
+    //        const source = i.src
+    //        i.src = ''
+    //        i.src = source
+    //     })
+    // })
 }

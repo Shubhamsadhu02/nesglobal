@@ -42,7 +42,7 @@ import BlogDetail from "./Pages/Resources/BlogDetail";
 import Faq from "./Pages/Resources/Faq";
 import Glossary from "./Pages/Resources/Glossary";
 
-import Index from "./Pages/CarbonCalculator/index";
+// import Index from "./Pages/CarbonCalculator/index";
 import ScrollToTop from "./Partials/ScrollToTop";
 
 
@@ -88,7 +88,7 @@ function App() {
         <Route path="/resources/faq" element={<Faq/>} />
         <Route path="/resources/glossary" element={<Glossary/>} />
 
-        <Route path="/carboncalculator" element={<Index/>}/>
+        {/* <Route path="/carboncalculator" element={<Index/>}/> */}
         
       </Routes>
     </Router>

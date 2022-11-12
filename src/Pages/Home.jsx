@@ -35,8 +35,8 @@ export default function Home() {
                             </div>
                             
                             <div className="video-final">
-                                <iframe src='https://player.vimeo.com/video/761381603?h=5675f1efb6&title=0&byline=0&portrait=0' controls={true}></iframe>
-                                {/* <video  src='https://player.vimeo.com/video/761381603' controls> </video> */}
+                                {/* <iframe src='https://player.vimeo.com/video/761381603?h=5675f1efb6&title=0&byline=0&portrait=0' controls={true}></iframe> */}
+                                <video  src='/videoes/final-video.mp4' controls={true}  > </video>
                                 <img src='/images/close.png' className='close'  alt='' onClick={toggle} />
                             </div>
                         </div>
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
         <div className="row">
             <div className="col-lg-6 d-flex justify-content-center">
-                <img src='images/Home/NES_Platform_V2.gif' />
+                <img src='images/Home/NES Platform V3_high.gif' height={396} width={396} />
             </div>
             <div className="col-lg-6 p-5 d-flex flex-column justify-content-center">
                 
@@ -140,19 +140,19 @@ export default function Home() {
 
 function toggle(){
     var videofinal=document.querySelector(".video-final");
-    var video=document.querySelectorAll("iframe");
-    const close = document.querySelector('.close')
+    var video=document.querySelector("video");
+    // const close = document.querySelector('.close')
     // var video=document.getElementById("pauseVideo");
 
     videofinal.classList.toggle("active");
-    // video.pause();
-    // video.currentTime=0;
+    video.pause();
+    video.currentTime=0;
 
-    close.addEventListener('click', () => {
-        video.forEach(i => {
-           const source = i.src
-           i.src = ''
-           i.src = source
-        })
-    })
+    // close.addEventListener('click', () => {
+    //     video.forEach(i => {
+    //        const source = i.src
+    //        i.src = ''
+    //        i.src = source
+    //     })
+    // })
 }

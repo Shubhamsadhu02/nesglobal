@@ -20,12 +20,12 @@ export default function Glossary() {
 
 
     async function fetchGlossaries(){
-        var res = await fetch('http://admin.nesglobal.in/api/glossaries');
+        var res = await fetch('https://admin.nesglobal.in/api/glossaries');
         var data = await res.json();
         return data;
     }
     useEffect(() => {
-        const url = "http://admin.nesglobal.in/api/glossaries";
+        const url = "https://admin.nesglobal.in/api/glossaries";
 
         const fetchData = async () => {
             try {

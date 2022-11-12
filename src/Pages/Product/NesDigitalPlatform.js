@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
+import ProductSlider from '../ProductSlider'
 
 
 export default function NesDigitalPlatform() {
@@ -160,62 +161,7 @@ export default function NesDigitalPlatform() {
         </div>
 </section>
 
-<section className='mt-15 mb-15'>
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-4">
-          <div className="product-box">
-            <div className="product-topic1 mb-4">
-                <h4>Customs</h4>
-            </div>
-            <div className="product-tag-head mt-3">
-              <h4>Compliance,	Compliance,	Compliance	for	a	better	Customer	Experience.</h4>
-            </div>
-            <div className="product-tag-paragraph mt-3">
-              <p>Operating on the NES platform is beneficial in many different ways, which stream line regulatory work flows and cascades the benefits to multiple aspects of the business. Additionally...</p>
-            </div>
-            <div className="supply-learn-more">
-                <Link to={"/product/customs"}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
-            </div>
-          </div>
-      </div>
-
-      <div className="col-lg-4">
-          <div className="product-box">
-            <div className="product-topic1 mb-4">
-                <h4>Visibility</h4>
-            </div>
-            <div className="product-tag-head mt-3">
-              <h4>Easy to use, lets work together</h4>
-            </div>
-            <div className="product-tag-paragraph mt-3">
-              <p>The	NES	platform	is	created	in	a	way	to	capture	all	the	critical	elements	of	shipping,	origin,	destination,	schedules,	booking,	SLI,	Purchase	order	tracking,	milestones	and	exceptions	and	more all	to	enable	your	supply	chain,	drive	collaborations	with</p>
-            </div>
-            <div className="supply-learn-more">
-                <Link to={"/product/visibility"}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
-            </div>
-          </div>
-      </div>
-
-      <div className="col-lg-4">
-          <div className="product-box">
-            <div className="product-topic1 mb-4">
-                <h4>Air Freight</h4>
-            </div>
-            <div className="product-tag-head mt-3">
-              <h4>Introducing the NES Freight Forwarding </h4>
-            </div>
-            <div className="product-tag-paragraph mt-3">
-              <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specialize in transporting shipments multi modally across Sea, Air, Rail and Road shipments.</p>
-            </div>
-            <div className="supply-learn-more">
-                <Link to={"/product/visibility"}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-</section>
+<ProductSlider/>
 
 <section style={{ background: "url('../images/product/nesdigitalplatform/GetStartedBG.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="container mt-15">
