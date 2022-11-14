@@ -37,7 +37,7 @@ export default function Home() {
                             <div className="video-final">
                                 {/* <iframe src='https://player.vimeo.com/video/761381603?h=5675f1efb6&title=0&byline=0&portrait=0' controls={true}></iframe> */}
                                 <video  src='/videoes/final-video.mp4' controls={true}  > </video>
-                                <img src='/images/close.png' className='close'  alt='' onClick={toggle} />
+                                <img src='/images/close.png' className='close'  alt='' onClick={pauseVideo} />
                             </div>
                         </div>
                     </div>
@@ -145,14 +145,15 @@ function toggle(){
     // var video=document.getElementById("pauseVideo");
 
     videofinal.classList.toggle("active");
-    video.pause();
+    video.play();
     video.currentTime=0;
 
-    // close.addEventListener('click', () => {
-    //     video.forEach(i => {
-    //        const source = i.src
-    //        i.src = ''
-    //        i.src = source
-    //     })
-    // })
+}
+
+function pauseVideo(){
+    var video=document.querySelector("video");
+    video.pause();
+
+    var videofinal=document.querySelector(".video-final");
+    videofinal.classList.toggle("active");
 }

@@ -184,7 +184,7 @@ export default function header(props) {
                                     </ul>
                                     <div className="video-final">
                                         <video  src='/videoes/final-video.mp4' controls={true}> </video>
-                                        <img src='/images/close.png' className='close' alt='' onClick={toggle} />
+                                        <img src='/images/close.png' className='close' alt='' onClick={pauseVideo} />
                                     </div>
                                 </div>
                                 :
@@ -206,23 +206,6 @@ export default function header(props) {
         </>
     );
 }
-
-// function subMenu(mh, index) {
-//     var menuHeader = Object.keys(mh);
-//     var menuItem = Object.values(mh);
-//     console.log(menuItem[index]);
-//     return <div className='nav-dropdown-content'>
-
-//         <h6>{menuHeader[index].replace('_', ' ')}</h6>
-//         <ul style={{ padding: '0px' }}>
-//             {
-//                 menuItem[index].map(item => <li><Link to={item.link} className="nav-link">{item.title}</Link></li>)
-//             }
-
-//         </ul>
-
-//     </div>
-// }
 
 function getSubMenu(dropdown, parent_link) {
     if (dropdown["menu-item-type"] === "header-list") {
@@ -259,7 +242,7 @@ function toggle(){
     // var video=document.getElementById("pauseVideo");
 
     videofinal.classList.toggle("active");
-    video.pause();
+    video.play();
     video.currentTime=0;
 
     // close.addEventListener('click', () => {
@@ -269,4 +252,12 @@ function toggle(){
     //        i.src = source
     //     })
     // })
+}
+
+function pauseVideo(){
+    var video=document.querySelector("video");
+    video.pause();
+
+    var videofinal=document.querySelector(".video-final");
+    videofinal.classList.toggle("active");
 }
