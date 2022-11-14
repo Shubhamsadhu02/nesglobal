@@ -78,7 +78,7 @@ export default function ProductSlider() {
                         // }}
                         modules={[Autoplay]} className="homeSlider"
                         autoplay={{
-                            delay: 8500,
+                            delay: 5500,
                             disableOnInteraction: false,
                         }}
                     >
@@ -89,7 +89,7 @@ export default function ProductSlider() {
                                     slide.map((ele, index) => {
                                         return (<SwiperSlide key={index}>
                                             <div className="col-lg-4">
-                                                <div className="product-box">
+                                                <div className="product-box product-box__slider" style={{width: "376px"}}>
                                                     <div className="product-topic1 mb-4">
                                                         <h4>{ele.Product_topic}</h4>
                                                     </div>

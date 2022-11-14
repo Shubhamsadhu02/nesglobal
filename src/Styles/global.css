@@ -642,7 +642,6 @@ footer hr
 .product-box
 {
     max-width: initial;
-    width: 376px;
     height: 412px;
     background: #FFFFFF;
     box-shadow: 0px 12px 40px rgba(12, 30, 53, 0.08);
@@ -1231,4 +1230,9 @@ footer hr
 
 .homeSlider .swiper-pagination .swiper-pagination-bullet-active{
     background: rgba(172, 32, 39, 1);
+}
+
+.swiper-wrapper
+{
+    padding: 55px 0;
 }
