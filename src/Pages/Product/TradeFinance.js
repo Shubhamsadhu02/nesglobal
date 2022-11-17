@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
+import ProductSlider from '../ProductSlider'
 
 export default function TradeFinance() {
   return (
@@ -141,6 +142,8 @@ export default function TradeFinance() {
         </div>
 </section>
 
+<ProductSlider/>
+
 <section style={{ background: "url('../images/product/trade_finance/tradefinancebg.png')", backgroundSize: "cover" }}>
         <div className="container mt-15">
           <div className="ready d-flex flex-column justify-content-center">
@@ -260,6 +263,8 @@ export default function TradeFinance() {
           </div>
         </div>
       </section> */}
+
+    
 
     <Footer />
     </>

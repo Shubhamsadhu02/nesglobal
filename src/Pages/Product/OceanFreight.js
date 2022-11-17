@@ -3,6 +3,7 @@ import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
 import Signup from '../../Partials/Signup'
 import ContactForm from '../ContactForm'
+import ProductSlider from '../ProductSlider'
 
 
 export default function OceanFreight() {
@@ -162,6 +163,9 @@ export default function OceanFreight() {
       </div>
 
     </section>
+
+    <ProductSlider/>
+    
     <Signup/>
 
     <Footer />

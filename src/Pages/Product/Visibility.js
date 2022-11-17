@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../Partials/Header'
 import Footer from '../../Partials/Footer'
+import ProductSlider from '../ProductSlider'
 
 export default function Visibility() {
   return (
@@ -242,6 +243,8 @@ export default function Visibility() {
           </div>
         </div>
       </section>
+
+      <ProductSlider/>
 
       <Footer />
     </>

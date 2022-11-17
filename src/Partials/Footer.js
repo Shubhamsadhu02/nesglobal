@@ -87,7 +87,7 @@ export default function Footer() {
                             <p>Copyright © {new Date().getFullYear()} NES Global Solutions Pvt Ltd.</p>
                         </div>
                         <div className="policy">
-                            <a href='/terms'><p>Terms of Use / Privacy Policy</p></a>
+                            <Link to='/terms'><p>Terms of Use / Privacy Policy</p></Link>
                         </div>
                     </div>
                 </div>

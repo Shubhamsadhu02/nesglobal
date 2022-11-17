@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
+import ProductSlider from '../ProductSlider'
 
 export default function TradeAdvisory() {
   return (
@@ -128,6 +129,8 @@ export default function TradeAdvisory() {
           </div>
         </div>
     </section>
+
+    <ProductSlider/>
 
     <Footer />
     </>

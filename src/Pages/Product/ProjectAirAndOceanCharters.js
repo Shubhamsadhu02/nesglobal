@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
+import ProductSlider from '../ProductSlider'
 
 export default function ProjectAirAndOceanCharters() {
   return (
@@ -215,6 +216,8 @@ export default function ProjectAirAndOceanCharters() {
           </div>
         </div>
 </section>
+
+<ProductSlider/>
 
 <Footer/>
     </>

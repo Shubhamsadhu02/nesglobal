@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../Partials/Header'
 import Footer from '../../Partials/Footer'
 import { Link } from 'react-router-dom'
+import ProductSlider from '../ProductSlider'
 
 export default function Customs() {
   return (
@@ -99,6 +100,8 @@ export default function Customs() {
         </div>
       </section>
 
+      <ProductSlider/>
+
       <section style={{ background: "url('../images/product/nesdigitalplatform/GetStartedBG.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="container mt-15">
           <div className="ready d-flex flex-column justify-content-center">
@@ -115,7 +118,7 @@ export default function Customs() {
         </div>
 </section>
 
-      <Footer />
+     <Footer />
     </>
   )
 }

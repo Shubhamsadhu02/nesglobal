@@ -3,6 +3,7 @@ import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
 import Signup from '../../Partials/Signup'
 import ContactForm from '../ContactForm'
+import ProductSlider from '../ProductSlider'
 
 export default function AirFreight() {
   return (
@@ -112,7 +113,7 @@ export default function AirFreight() {
 
 
     <section>
-      <div className="container" >
+      <div className="container mt-15" >
         <div className="nes-img" style={{padding: "2rem 6rem"}}>
           <img src='../images/product/air_freight/Air_freight_V2_10s.gif' />
         </div>
@@ -184,6 +185,8 @@ export default function AirFreight() {
       </div>
 
     </section>
+
+    <ProductSlider/>
     <Signup/>
 
     <Footer />

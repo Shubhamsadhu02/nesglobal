@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom';
 
 export default function ContactForm() {
 
@@ -28,8 +29,8 @@ export default function ContactForm() {
             <form method="post" action="/" onSubmit={handleSubmit} style={{zIndex:submitted?0:2, display:submitted?'none':'block'}}>
                 <div className="row">
                     <div className="col-lg-6">
-                        <label for="firstname">Firstname</label>
-                        <input type="text" id="firstname" name="ftname" placeholder="Firstname" required />
+                        <label for="firstname">Name</label>
+                        <input type="text" id="Name" name="name" placeholder="Name" required />
                     </div>
                     <div className="col-lg-6">
                         <label for="company">Company Name</label>
@@ -71,7 +72,7 @@ export default function ContactForm() {
                     </div>
 
                     <div className="enquiry-terms mt-3">
-                        <p>By continuing, you agree to accept our <a href='/Privacy'><span style={{ color: "#0060BE", fontWeight: "500" }}> Privacy Policy </span></a> and <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>Terms of Service</span></a></p>
+                        <p>By continuing, you agree to accept our <Link to='/Privacy'><span style={{ color: "#0060BE", fontWeight: "500" }}> Privacy Policy </span></Link> and <Link to='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>Terms of Service</span></Link></p>
                     </div>
                 </div>
             </form>

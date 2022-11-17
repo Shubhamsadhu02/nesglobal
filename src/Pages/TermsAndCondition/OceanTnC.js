@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Header from '../../Partials/Header'
 
@@ -23,7 +24,7 @@ export default function OceanTnC() {
                     By requesting or accepting goods or services from NES Global, and/or its subsidiaries and affiliates (collectively, “NES Global”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                     <br/>
                     <br/>
-                    NES Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{color: "#0060BE", fontWeight: "500"}}>www.nesglobal.in/terms</span></a>. Nes Global Privacy Policy: <a href='/Privacy'><span style={{color: "#0060BE", fontWeight: "500"}}>www.nesglobal.in/privacy</span></a>
+                    NES Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <Link to='/terms'><span style={{color: "#0060BE", fontWeight: "500"}}>www.nesglobal.in/terms</span></Link>. Nes Global Privacy Policy: <Link to='/Privacy'><span style={{color: "#0060BE", fontWeight: "500"}}>www.nesglobal.in/privacy</span></Link>
                     <br/>
                     <br/>
                     Below are terms and conditions for shipping with NES Global a licensed non-vessel operating common carrier (NVOCC) FMC# 025219NF. Terms and conditions are the same as are currently printed on the Nes Global LLP Bills of Lading.
@@ -149,7 +150,7 @@ export default function OceanTnC() {
                     Nes Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at www.nesglobal.in/terms.
                     <br/>
                     <br/>
-                    Nes Global Privacy Policy:<a href='/Privacy'><span style={{color: "#0060BE", fontWeight: "500"}}>www.Nesglobal.in/privacy</span></a>
+                    Nes Global Privacy Policy:<Link to='/Privacy'><span style={{color: "#0060BE", fontWeight: "500"}}>www.Nesglobal.in/privacy</span></Link>
                 </p>
             </div>
         </div>

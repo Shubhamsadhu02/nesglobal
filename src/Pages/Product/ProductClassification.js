@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
 import Signup from '../../Partials/Signup'
+import ProductSlider from '../ProductSlider'
 
 export default function ProductClassification() {
     return (
@@ -90,6 +91,7 @@ export default function ProductClassification() {
             </div>
         </section>
 
+        <ProductSlider/>
     <Signup/>
     <Footer />
         </>

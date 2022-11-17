@@ -3,6 +3,7 @@ import React from 'react'
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
 import Signup from '../../Partials/Signup'
+import ProductSlider from '../ProductSlider'
 
 export default function Dutydrawbacks() {
   return (
@@ -206,6 +207,8 @@ export default function Dutydrawbacks() {
             </div>
         </div>
     </section>
+
+    <ProductSlider/>
 
     <Signup/>
 

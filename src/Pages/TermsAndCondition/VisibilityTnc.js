@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Header from '../../Partials/Header'
 
@@ -20,10 +21,10 @@ export default function VisibilityTnc() {
                             By requesting or accepting goods or services from NES Global., and/or its subsidiaries and affiliates (collectively, “NES Global”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                             <br />
                             <br />
-                            NES Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <a href='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/terms</span></a>.
+                            NES Global may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <Link to='/terms'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/terms</span></Link>.
                             <br />
                             <br />
-                            NES Global Privacy Policy: <a href='/Privacy'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/privacy</span></a>
+                            NES Global Privacy Policy: <Link to='/Privacy'><span style={{ color: "#0060BE", fontWeight: "500" }}>www.nesglobal.in/privacy</span></Link>
                             <br />
                             <br />
                             These Terms and Conditions govern the use of Nes Global Logistics Software and applications.

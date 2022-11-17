@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
+import ProductSlider from '../ProductSlider'
 
 export default function CargoInsurance() {
   return (
@@ -83,6 +84,7 @@ export default function CargoInsurance() {
         </div>
     </section>
 
+    <ProductSlider/>
 
 <section style={{ background: "url('../images/product/trade_finance/tradefinancebg.png')", backgroundSize: "cover" }}>
         <div className="container mt-15">
