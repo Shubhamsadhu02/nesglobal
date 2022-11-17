@@ -57,7 +57,7 @@ export default function ContactUs() {
                                 <h4 style={{color: "#403F3E"}}>Our Address</h4>
                             </div>
                             <div className="address">
-                                <p>Nes Global LLP <br/>
+                                <p>Nes Global Solutions Pvt Ltd. <br/>
                                     HD 036, We Work, Two Horizon center, 5th floor, DLF phase 5, sector 43 Golf Course Road, Gurgaon, Haryana HD 122002</p>
                             </div>
                             <div className="connect mt-5 mb-4">

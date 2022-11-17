@@ -19,7 +19,7 @@ export default function Terms() {
                             <h1>NES GLOBAL TERMS & CONDITIONS</h1>
                         </div>
                         <div className="terms-paragrapgh">
-                            <p style={{color: "#737171"}}>By requesting or accepting goods or services from NES Global LLP and/or its subsidiaries and affiliates (collectively, “NES GLOBAL”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
+                            <p style={{color: "#737171"}}>By requesting or accepting goods or services from NES Global Solutions Pvt Ltd. and/or its subsidiaries and affiliates (collectively, “NES GLOBAL”), the Customer agrees to the following terms and conditions of service (“Terms and Conditions”).
                                 <br/>
                                 <br/>
                                 NES GLOBAL may from time to time change these Terms and Conditions. Any changes are effective immediately upon publication on our website at <Link to='/terms'><span style={{color: "#0060BE", fontWeight: "500"}}>www.Nesglobal.in/terms</span></Link>.
@@ -31,7 +31,7 @@ export default function Terms() {
                         <div className="terms-list mt-5">
                             <ul>
                                 <li>
-                                    <Link to='/ocean-tnc'>International Ocean Bill of Lading Terms &amp; Conditions – Nes Global LLP</Link>
+                                    <Link to='/ocean-tnc'>International Ocean Bill of Lading Terms &amp; Conditions – Nes Global Solutions Pvt Ltd.</Link>
                                 </li>
                                 <li>
                                     <Link to='/air-tnc'>Nes Global International Air Waybill Terms &amp; Conditions</Link>

@@ -30,7 +30,7 @@ export default function CustomsTnc() {
                             STANDARD TRADING CONDITIONS
                             <br />
                             <br />
-                            In the absence of a special contract containing special conditions, the following are the only conditions on which Nes Global LLP contracts and carries out business or operates.
+                            In the absence of a special contract containing special conditions, the following are the only conditions on which Nes Global Solutions Pvt Ltd. contracts and carries out business or operates.
                             <br />
                             <br />
                             <div className="terms-subheading mt-3">
@@ -41,7 +41,7 @@ export default function CustomsTnc() {
                             1. In these conditions the following words shall have the meanings given below:
                             <br />
                             <br />
-                            <b>COMPANY</b> –  Nes Global LLP incorporated under the Indian Companies Act, 1956 and having its registered office at Nes Global LLP, HC 036, W WORK DLF, Two Horizon Center 5th Floor, DLF Phase 5 Sector 43,Golf Course Road Gurugram, Haryana 122002 and acting in the capacity of a Customs House Agent, Freight Forwarder, Warehouse Keeper and Transporter, as the case may be.
+                            <b>COMPANY</b> –  Nes Global Solutions Pvt Ltd. incorporated under the Indian Companies Act, 1956 and having its registered office at Nes Global Solutions Pvt Ltd., HC 036, W WORK DLF, Two Horizon Center 5th Floor, DLF Phase 5 Sector 43,Golf Course Road Gurugram, Haryana 122002 and acting in the capacity of a Customs House Agent, Freight Forwarder, Warehouse Keeper and Transporter, as the case may be.
                             <br />
                             <br />
                             <b>CUSTOMER</b> – Any person at whose request or on whose behalf the Company undertakes any business or provides advice, information or services and includes the Owner and his Agent(s)

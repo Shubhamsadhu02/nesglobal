@@ -17,7 +17,7 @@ export default function Privacy() {
                 1. Scope of the Data Protection and Privacy Policy (“Policy”)
                 <br/>
                 <br/>
-                1.1. NES Global LLP is a Company, incorporated and organized under the laws of India and having its registered office at Nes Global LLP incorporated under the Indian Companies Act, 1956 and having its registered office at Nes Global LLP, HC 036, WE WORK DLF, Two Horizon Center 5th Floor, DLF
+                1.1. NES Global Solutions Pvt Ltd. is a Company, incorporated and organized under the laws of India and having its registered office at Nes Global Solutions Pvt Ltd. incorporated under the Indian Companies Act, 1956 and having its registered office at Nes Global Solutions Pvt Ltd., HC 036, WE WORK DLF, Two Horizon Center 5th Floor, DLF
                     Phase 5 Sector 43, Golf Course Road Gurugram, Haryana 122002 is the sole and exclusive owner of the website registered under the domain name www.nesglobal.in (hereinafter referred to as “NES Platform”). We are highly committed to the privacy of your data and information and in providing excellent service to all of our customers and visitors to the NES Platform. By visiting the NES Platform, you are accepting to and are in satisfaction of the practices described in this Policy.
                 <br/>
                 <br/>
@@ -27,7 +27,7 @@ export default function Privacy() {
                 1.3. In reference to this Policy, the term ‘Personal Information’ shall mean and include information relating to identified or identifiable natural person such as name, e-mail address, user account log in information and password for such user account, mobile phone number, landline phone number, gender, date of birth, residential address, official address, but excludes any credit card, debit card, cash card or net-banking details, all of which are stored on Payment Processor’s secure servers and/or in cookies on your computer.
                 <br/>
                 <br/>
-                1.4. You will be providing your Personal Information to NES Global directly. You agree that your information will be the property of NES Global LLP.
+                1.4. You will be providing your Personal Information to NES Global directly. You agree that your information will be the property of NES Global Solutions Pvt Ltd..
                 <br/>
                 <br/>
                 1.5. You are advised to read this Policy carefully. By accessing the services provided on the NES Platform, you agree to the collection and use of your data by us and certain authorized third parties in the manner provided in this Policy. If you do not agree with this Policy, please do not use the NESPlatform.
@@ -88,7 +88,7 @@ export default function Privacy() {
                 5.2. We provide certain required personal and contact information to affiliated companies or other trusted business partners for the purpose of providing the required service on our behalf. We require that these parties agree to process such information based on our instructions and in compliance with this Policy and any other appropriate confidentiality and security measures.
                 <br/>
                 <br/>
-                5.3. Business Transfer - As we continue to develop our business, we might be acquired completely by a company/LLP or merge with any other company. In such transactions, customer information generally is one of the business assets. In such a case, we will ensure the protection of your Personal Information as per this Policy. You hereby specifically consent and grant permission to the disclosure, and transferring, of information to such third parties.
+                5.3. Business Transfer - As we continue to develop our business, we might be acquired completely by a company/Solutions Pvt Ltd. or merge with any other company. In such transactions, customer information generally is one of the business assets. In such a case, we will ensure the protection of your Personal Information as per this Policy. You hereby specifically consent and grant permission to the disclosure, and transferring, of information to such third parties.
                 <br/>
                 <br/>
                 5.4. We release account and other Personal Information when we believe release is appropriate to comply with applicable law; to enforce or apply our Terms and Conditions (see Opt Out T&C Policy) and other relevant agreements; or protect, or safety of company, our users, others. This includes exchanging information with other companies and organizations for fraud protection and other similar matters. You hereby specifically consent and grant permission to disclosure and transferring of information to such third parties, as may be required.
