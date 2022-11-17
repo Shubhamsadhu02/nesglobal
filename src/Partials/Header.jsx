@@ -183,7 +183,10 @@ export default function header(props) {
                                         </li>
                                     </ul>
                                     <div className="video-final">
-                                        <video  src='/videoes/final-video.mp4' controls={true}> </video>
+                                        <video controls={true}> 
+                                            <source src='/videoes/final-video.mp4' type='video/mp4'></source>
+                                            <source src='/videoes/final-video.webm' type='video/webm'></source>
+                                        </video>
                                         <img src='/images/close.png' className='close' alt='' onClick={pauseVideo} />
                                     </div>
                                 </div>

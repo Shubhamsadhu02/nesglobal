@@ -36,7 +36,10 @@ export default function Home() {
                             
                             <div className="video-final">
                                 {/* <iframe src='https://player.vimeo.com/video/761381603?h=5675f1efb6&title=0&byline=0&portrait=0' controls={true}></iframe> */}
-                                <video  src='/videoes/final-video.mp4' controls={true}  > </video>
+                                <video controls={true} > 
+                                    <source src='/videoes/final-video.mp4' type='video/mp4'></source>
+                                    <source src='/videoes/final-video.webm' type='video/webm'></source>
+                                </video>
                                 <img src='/images/close.png' className='close'  alt='' onClick={pauseVideo} />
                             </div>
                         </div>
