@@ -77,7 +77,10 @@ export default function Home() {
         </div>
         <div className="row">
             <div className="col-lg-6 d-flex justify-content-center">
-                <img src='images/Home/NES Platform V3_high.gif' height={396} width={396} />
+                <video src='images/Home/NES_Platform_V4_high.mp4' type="video/mp4" autoPlay
+          loop
+          muted height={396} width={396}></video>
+                {/* <img src='images/Home/NES _Platform_V4_high.gif' height={396} width={396} /> */}
             </div>
             <div className="col-lg-6 p-5 d-flex flex-column justify-content-center">
                 
