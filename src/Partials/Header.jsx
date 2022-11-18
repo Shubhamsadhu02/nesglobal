@@ -125,7 +125,7 @@ export default function header(props) {
         <>
             <Navbar key='md' expand='md' variant={isWhite ? 'dark' : 'light'} style={{ background: isWhite ? '#10243E' : '#FFFFFF' }}>
                 <Container>
-                    <Navbar.Brand href="/"><img src={isWhite ? "/images/Home/logowhite1.png" : "/images/Home/logo.png"}
+                    <Navbar.Brand to="/"><img src={isWhite ? "/images/Home/logowhite1.png" : "/images/Home/logo.png"}
                         height={20} width={150} alt="Brand logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
                     <Navbar.Offcanvas
@@ -175,11 +175,11 @@ export default function header(props) {
                                 <div className="search-nav">
                                     <ul>
                                         <li>
-                                            <a href='#'><i class="fa-solid fa-search"
-                                                style={{ color: isWhite ? "#E6E5E5" : '#0060BE' }}></i></a>
+                                            <Link to='#'><i class="fa-solid fa-search"
+                                                style={{ color: isWhite ? "#E6E5E5" : '#0060BE' }}></i></Link>
                                         </li>
                                         <li>                                            
-                                            <a href='#' onClick={toggle}><button type='submit'>Introduction</button></a>
+                                            <Link to='#' onClick={toggle}><button type='submit'>Introduction</button></Link>
                                         </li>
                                     </ul>
                                     <div className="video-final">
@@ -194,10 +194,10 @@ export default function header(props) {
                                 <div className="d-flex justify-content-end flex-grow-1 search-nav">
                                     <ul>
                                         <li>
-                                            <a href='/carboncalculator'><button type='submit' className='carbon-cal__btn' >Carbon Calculator</button></a>
+                                            <Link to='/carboncalculator'><button type='submit' className='carbon-cal__btn' >Carbon Calculator</button></Link>
                                         </li>
                                         <li>
-                                            <a href='/company/contact-us'><button type='submit' className='contact-btn'>Contact us</button></a>
+                                            <Link to='/company/contact-us'><button type='submit' className='contact-btn'>Contact us</button></Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -228,7 +228,7 @@ function getSubMenu(dropdown, parent_link) {
                         if (!Object.hasOwn(item, 'is_absolute')) {
                             return <li key={item.title}><Link to={parent_link + item.link} className="nav-list-name">{item.title}</Link></li>
                         } else {
-                            return <li key={item.title}><a href={item.link} className="nav-list-name" target="_blank">{item.title}</a></li>
+                            return <li key={item.title}><Link to={item.link} className="nav-list-name" target="_blank">{item.title}</Link></li>
                         }
 
                     })

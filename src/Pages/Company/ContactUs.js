@@ -24,7 +24,7 @@ export default function ContactUs() {
                                     <h3><img src='/images/contacts/back-arrow.svg'/>Go back</h3>
                                 </div>
                                 <div className="contact-head mb-5" style={{paddingRight: "6rem"}}>
-                                    <h1>Connect Now</h1>
+                                    <h1>Connect Us</h1>
                                 </div>
                                 <div className="contact-paragraph">
                                     <p>Namaste and Welcome to your gateway to digital freight forwarding in India. The team from NES Global specializes in transporting shipments multi-modally across Sea, Air, Rail and Road shipments.</p>

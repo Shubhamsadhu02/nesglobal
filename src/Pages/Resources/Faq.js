@@ -316,10 +316,10 @@ export default function Faq() {
                                         <h3 style={{ color: "#403F3E" }}>Your Quickest Path to Supply Chain Expertise</h3>
                                     </div>
                                     <div className="product-paragraph">
-                                        <p style={{ color: "#737171" }}>FlexU courses feature short video tutorials taught by seasoned logistics experts. Sign up today.</p>
+                                        <p style={{ color: "#737171" }}>NES Global courses feature short video tutorials taught by seasoned logistics experts. Sign up today.</p>
                                     </div>
                                     <div className="learn-more-btn mt-4">
-                                        <Link to={"#"}><button type='submit'>Start Learning</button></Link>
+                                        <Link to={"/company/contact-us"}><button type='submit'>Start Learning</button></Link>
                                     </div>
                                 </div>
                             </div>

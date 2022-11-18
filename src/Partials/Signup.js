@@ -22,8 +22,10 @@ export default function signup() {
                         <h4>Work Email ID:</h4>
                         <input type={'email'} className="email" placeholder="Enter Email Address"/>
                         
-                        <input type={"checkbox"} className="mt-3"></input>
-                        <label className='signup-agree' style={{marginLeft: "1rem"}}>I agree to the <a href='/terms'><span style={{color: "#0060BE"}}>Terms</span></a> of Service and <a href='/Privacy'><span style={{color: "#0060BE"}}>Privacy Policy</span></a></label>
+                        <div className='d-flex align-items-baseline'>
+                            <input type={"checkbox"} className="mt-3"></input>
+                            <label className='signup-agree' style={{marginLeft: "1rem"}}>I agree to the <a href='/terms'><span style={{color: "#0060BE"}}>Terms</span></a> of Service and <a href='/Privacy'><span style={{color: "#0060BE"}}>Privacy Policy</span></a></label>
+                        </div>
                         
                         <button type='submit' className='signup-btn'>Subscribe</button>
                     </div>

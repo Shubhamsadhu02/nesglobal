@@ -27,8 +27,8 @@ export default function Home() {
                                <Link to={"/company/contact-us"}> <button type='submit'>Talk to an Expert</button></Link>
                             </div>
                             <div className="watch-video" style={{marginLeft: "60px"}}>
-                                <a href='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></a>
-                                <a href='#' onClick={toggle}>Introduction</a>
+                                <Link to='#' onClick={toggle}><img src='images/Home/playicon.png' height={48} width={48} /></Link>
+                                <Link to='#' onClick={toggle}>Introduction</Link>
                                 
                                 {/* <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0?wtime=0s' target={"_blank"}><img src='images/Home/playicon.png' height={48} width={48} /></a>
                                 <a href='https://sam02-kumar02.wistia.com/medias/3n7gwp1ut0?wtime=0s' target={"_blank"}>Introduction</a> */}

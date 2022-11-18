@@ -263,6 +263,11 @@ nav
     padding-left: 5px;
 }
 
+.offcanvas-header .btn-close
+{
+    filter: invert(1);
+}
+
 
 /*Home CSS*/
 
@@ -391,7 +396,7 @@ nav
     background: #0060BE;
     border-radius: 3px;
     padding: 16px 28px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
