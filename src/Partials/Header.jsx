@@ -125,7 +125,7 @@ export default function header(props) {
         <>
             <Navbar key='md' expand='md' variant={isWhite ? 'dark' : 'light'} style={{ background: isWhite ? '#10243E' : '#FFFFFF' }}>
                 <Container>
-                    <Navbar.Brand to="/"><img src={isWhite ? "/images/Home/logowhite1.png" : "/images/Home/logo.png"}
+                    <Navbar.Brand href="/"><img src={isWhite ? "/images/Home/logowhite1.png" : "/images/Home/logo.png"}
                         height={20} width={150} alt="Brand logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
                     <Navbar.Offcanvas
