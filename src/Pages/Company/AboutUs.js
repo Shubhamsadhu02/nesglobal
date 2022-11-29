@@ -74,7 +74,7 @@ export default function AboutUs() {
                 </div>
             </section>
 
-            <section className='leading-brands mt-15' style={{background: "#10243E", padding: "96px 230px"}}>
+            <section className='leading-brands mt-15 d-flex align-items-center' style={{backgroundImage: "url(/images/Company/aboutus/transportation-logistics.png)", backgroundSize: "cover", padding: "96px 230px", height: "500px"}}>
               <div className="container">
                   <div className="leading-brands--header text-center">
                       <h3>Companies Of All Sizes—From Emerging Brands To Fortune 500s—Used NES Global Technology To Move Nearly $19B Of Merchandise Across 112 Countries in 2021</h3>

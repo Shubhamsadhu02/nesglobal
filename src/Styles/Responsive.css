@@ -231,4 +231,10 @@
         width: 376px !important;
     }
 
+    .leading-brands
+    {
+        padding: 96px 50px !important;
+        background-position: center;
+    }
+
 }
