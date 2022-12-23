@@ -13,7 +13,7 @@ export default function Faq() {
 
     const faqItems = [
         {
-            "title": "Custom",
+            "title": "Custom and Compliance",
             Children: [
                 {
                     "header": "Can NES be my customs broker without handling my freight?",
@@ -152,7 +152,7 @@ export default function Faq() {
             ]
         },
         {
-            "title": "Trade Finance",
+            "title": "Trade Insurance",
             Children: [
                 {
                     "header": "What if I already have a cargo insurance policy?",
@@ -182,7 +182,7 @@ export default function Faq() {
             ]
         },
         {
-            "title": "Trade Advisory or NES Platform",
+            "title": "Trade Advisory",
             Children: [
                 {
                     "header": "Can I hire NES Trade Advisors even if I ship freight with someone else?",
@@ -255,7 +255,6 @@ export default function Faq() {
                         <div className="row">
                             <div className="col-md-4">
                                 <div className="faq-categories">
-                                    <h6>Customs and Compliance</h6>
                                     <ul>
                                         {
                                             faqItems.map((ele, index) => {
@@ -272,12 +271,13 @@ export default function Faq() {
                                 </div>
                             </div>
                             <div className="col-md-8">
-                                <h1 className="heading-1 faq-title">Customs and Compliance</h1>
-                                <h6 className="heading-6 sub-title">Frequently asked questions about Customs, compliance, and regulations.</h6>
                                 {
                                     faqItems.map((ele, index) => {
                                         return <Tab.Content>
+                                            
                                             <Tab.Pane eventKey={`${index}`}>
+                                            <h1 className="heading-1 faq-title">{ele.title}</h1>
+                                            <h6 className="heading-6 sub-title">Frequently asked questions about Customs, compliance, and regulations.</h6>
                                                 <div className="accordion-container">
                                                     <Accordion hide>
                                                         {

@@ -2,10 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { Autoplay} from "swiper";
-
+import { Autoplay, Pagination} from "swiper";
 import "swiper/css";
-
+import "swiper/css/pagination";
 
 export default function ProductSlider() {
     const slide = [
@@ -72,24 +71,43 @@ export default function ProductSlider() {
 
                     <Swiper
                         spaceBetween={50}
-                        slidesPerView={3}
-                        // pagination={{
-                        //     clickable: true,
-                        // }}
-                        modules={[Autoplay]} className="homeSlider"
+                        slidesPerView={1}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        breakpoints={{
+                            500: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                              },
+                            640: {
+                              slidesPerView: 1,
+                              spaceBetween: 20,
+                            },
+                            768: {
+                              slidesPerView: 3,
+                              spaceBetween: 40,
+                            },
+                            1024: {
+                              slidesPerView: 3,
+                              spaceBetween: 50,
+                            },
+                          }}
+                        modules={[Autoplay, Pagination]}
                         autoplay={{
                             delay: 5500,
-                            disableOnInteraction: false,
+                            disableOnInteraction: true,
+                            infinite: true,
                         }}
+                        className="homeSlider"
                     >
 
                         {
-                            <div className="row">
+                            <div className="">
                                 {
                                     slide.map((ele, index) => {
                                         return (<SwiperSlide key={index}>
-                                            <div className="col-lg-4">
-                                                <div className="product-box product-box__slider" style={{width: "376px"}}>
+                                                <div className="product-box product-box__slider">
                                                     <div className="product-topic1 mb-4">
                                                         <h4>{ele.Product_topic}</h4>
                                                     </div>
@@ -103,7 +121,6 @@ export default function ProductSlider() {
                                                         <Link to={ele.link}>Learn More<i class="fa-solid fa-angle-right"></i></Link>
                                                     </div>
                                                 </div>
-                                            </div>
                                         </SwiperSlide>
                                         )
                                     })

@@ -124,7 +124,7 @@ export default function Glossary() {
                     <p className="glossary-detail-paragraph" dangerouslySetInnerHTML={createMarkup(answer['answer'])}>
                         
                     </p>
-                    <hr />
+                    {/* <hr />
                     <h2 className="glossary-detail-title">
                         Related Help Articles
                     </h2>
@@ -146,7 +146,7 @@ export default function Glossary() {
                         <li className="related-links--item">
                             <a href="#">Carrier</a>
                         </li>
-                    </ul>
+                    </ul> */}
                     
                 </Offcanvas.Body>
             </Offcanvas>

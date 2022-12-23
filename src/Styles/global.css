@@ -1220,21 +1220,25 @@ footer hr
     border-bottom: 1px solid #FFFFFF;
 }
 
+.swiper{
+    padding: 0px 20px !important;
+}
+
 .homeSlider{
     height: 100%;
 }
 
 .homeSlider .swiper-pagination{
-    bottom: 30px;
-    text-align: right;
+    bottom: 30px !important;
+    text-align: center !important;
 }
 
 .homeSlider .swiper-pagination .swiper-pagination-bullet{
-    background: rgba(249, 250, 253, 0.1);
+    background: rgba(0,0,0,0.3);
 }
 
 .homeSlider .swiper-pagination .swiper-pagination-bullet-active{
-    background: rgba(172, 32, 39, 1);
+    background: rgb(16, 36, 62);
 }
 
 .swiper-wrapper
