@@ -93,7 +93,7 @@ export default function Faq() {
             ]
         },
         {
-            "title": "Trade Advisory",
+            "title": "Trade Finance",
             Children: [
                     {
                         "header": "Can You Engineer Lower Duties? Yes, if You Can Find the Customs Codes",

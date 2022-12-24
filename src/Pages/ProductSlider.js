@@ -75,6 +75,8 @@ export default function ProductSlider() {
                         pagination={{
                             clickable: true,
                         }}
+                        loop={true}
+                        loopFillGroupWithBlank={true}
                         breakpoints={{
                             500: {
                                 slidesPerView: 1,
@@ -95,7 +97,7 @@ export default function ProductSlider() {
                           }}
                         modules={[Autoplay, Pagination]}
                         autoplay={{
-                            delay: 5500,
+                            delay: 2500,
                             disableOnInteraction: true,
                             infinite: true,
                         }}
