@@ -94,7 +94,7 @@ export default function Glossary() {
                     : "No" }
                         
                         
-                    <div className="glossary-group">
+                    {/* <div className="glossary-group">
                         <h1 className="glossary-group-header">
                             a
                         </h1>
@@ -103,7 +103,7 @@ export default function Glossary() {
                                 Air waybill (AWB)
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
 
                 </div>
             </section>
