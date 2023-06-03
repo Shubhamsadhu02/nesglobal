@@ -25,7 +25,7 @@ export default function Contactus2() {
                                 communication@nesglobal.in</a></p>
                         </div>
                         <div className="">
-                            <p><span>Careers:</span><a href="careers@nesglobal.in">
+                            <p><span>Careers:</span><a href="mailto:careers@nesglobal.in">
                                 careers@nesglobal.in</a></p>
                         </div>
                         <div className="">
