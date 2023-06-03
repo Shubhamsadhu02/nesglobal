@@ -1,0 +1,308 @@
+ul {
+    padding-left: 0px;
+}
+
+.faq-super-heading {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #66A0D8;
+}
+
+.search-btn
+{
+    padding: 16px 32px;
+    gap: 10px;
+    border: none;
+    background: #0060BE;
+    border-radius: 4px;
+
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.faq-form {
+
+    display: flex;
+
+    & input {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 4px;
+        padding: 20px 16px;
+        color: #FFFFFF80;
+        background: transparent;
+        width: 60%;
+    }
+
+    & button {
+        margin-left: 15px;
+    }
+
+}
+
+.faq-thumbnail {
+    & img {
+        float: right;
+        mix-blend-mode: luminosity;
+    }
+}
+
+.faq-sub-heading {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 20px;
+
+    & a {
+        color: #2360be;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.faq-body {
+    margin-top: 64px;
+    margin-bottom: 160px;
+    font-family: 'Epilogue';
+    font-style: normal;
+
+    .faq-title {
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%;
+        color: #403F3E;
+    }
+
+    .sub-title {
+        color: #6D7886;
+    }
+}
+
+.accordion-container {
+    margin-top: 36px;
+}
+
+.accordion-item:not(:first-child) {
+    margin-top: 24px;
+}
+
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.accordion-item:not(:first-of-type) {
+    border-top: 2px solid #0060BE;
+}
+
+.accordion-item:first-of-type {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.accordion-item {
+    border: 2px solid #0060BE;
+    border-radius: 10px;
+    color: #E6E6E6;
+}
+
+.accordion-button {
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    transition: all 0.5 ease;
+    color: #6D7886;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #595858;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: url('../../public/images/resources/accordian-open.svg');
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../../public/images/resources/accordian-close.svg');
+}
+
+.accordion-body {
+    color: #6D7886;
+}
+
+.faq-categories {
+    background-color: #F9F9F9;
+    padding: 32px;
+
+    h6 {
+        color: #0060BE;
+    }
+
+    ul {
+        padding-left: 0px;
+
+        & li {
+            margin-top: 20px
+        }
+    }
+
+    li a{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6D7886;
+        cursor: pointer;
+    }
+}
+
+.faq-read-more {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #0060BE;
+
+    & span i{
+        position: absolute;
+        left: 100px;
+        transform: translateY(-46%);
+        font-weight: 600;
+    }
+}
+
+.glossary-body {
+    margin: 128px 0px;
+}
+
+.glossary-group-header {
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.glossary-list {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-item {
+        background: #F9F9F9;
+        border-radius: 4px;
+        padding: 28px 24px;
+        display: flex;
+        transition: all .4s ease;
+        font-weight: 600;
+        font-size: 16px;
+
+        &:hover {
+            background: #0060BE;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+.glossary-detail-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #595858;
+}
+
+.related-links {
+    &--item {
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0060BE;
+        margin-top: 12px;
+    }
+}
+
+
+.offcanvas-end {
+    width: 40%;
+}
+
+.offcanvas-header {
+    flex-direction: column;
+    
+    align-items: flex-start;
+    padding: 48px;
+    position: relative;
+
+    & .faq-super-heading {
+        order: 2;
+    }
+
+    & .offcanvas-title {
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%;
+        color: #FFFFFF;
+        margin-top: 10px;
+        order: 3;
+    }
+
+    & .offcanvas-sub-heading {
+        font-family: 'Epilogue';
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        margin-top: 10px;
+        order: 4;
+    }
+}
+
+.offcanvas-header .btn-close {
+    position: relative;
+    left: 100%;
+    order: 1;
+    color: #fff;
+}
+
+.offcanvas-body {
+    padding: 48px;
+
+    & p {
+        color: #6D7886;
+    }
+
+    & hr {
+        margin: 32px 0px;
+    }
+}
+
+.glossary-detail-paragraph
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D7886;
+}

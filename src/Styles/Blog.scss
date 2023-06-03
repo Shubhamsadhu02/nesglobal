@@ -1,0 +1,277 @@
+.blog-header {
+  background-color: #10243E;
+  padding: 88px 0px;
+}
+
+.read-btn
+{
+  padding: 16px 28px;
+  gap: 10px;
+  background: #0060BE;
+  border-radius: 4px;
+  border: none;
+
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.blog-date h6 {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #99BFE5;
+}
+
+.blog-title {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin: 26px 0px;
+  width: 90%;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-content button {
+  width: fit-content;
+}
+
+.blog-articles {
+  margin: 130px auto;
+
+  & .card {
+    border: 0px !important;
+  }
+
+  & .card-body{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  & .image-holder {
+    //min-width: 375px;
+    max-height: 240px;
+    overflow: hidden;
+    object-fit: cover;
+
+    & img {
+      object-fit: cover;
+    }
+  }
+}
+
+.blog-articles-list{
+  margin-top: 48px;
+}
+
+.article-date {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #737171;
+  text-transform: uppercase;
+}
+
+.article-title {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #595858;
+}
+
+
+.article-read-more{
+  position: relative;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0060BE;
+  & > i {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translateY(-46%);
+    font-weight: 500;
+  }
+}
+
+.flex-port-more{
+  background-image: linear-gradient(180deg, #F9F9F9 60%, #FFF 60%);
+  padding: 88px 0px 128px;
+  display: block;
+}
+
+.blog-more-details{
+  margin-top: 70px;
+}
+
+.blog-more-card{
+  display: block;
+  flex-direction: column;
+  position: relative;
+  height: 320px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 56px;
+  box-shadow: 0px 12px 40px rgba(12, 30, 53, 0.08);
+
+}
+.blog-more-card:after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 40%;
+  background-image: url("../../public/images/blog/pattern.png");
+}
+
+.blog-more-card h4,
+.blog-more-card small,
+blog-articles
+.blog-articles h3
+{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #595858;
+}
+
+.blog-more-card small
+{
+  font-size: 14px;
+}
+
+.blog-articles h6
+{
+  font-family: 'Prompt';
+  font-size: 16px;
+  color: #0060BE;
+}
+
+.blog-articles h3
+{
+  font-family: 'Prompt';
+  font-size: 32px;
+  color: #403F3E;
+}
+
+@media (max-width: 768px) {
+
+  .blog-date{
+    text-align: center;
+  }
+  .blog-title {
+    text-align: center;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  .blog-content{
+    order: 2;
+    & button {
+      margin: 0 auto;
+    }
+  }
+  .blog-thumbnail{
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+}
+
+.blog-writer h4,
+.blog-share h4,
+.blog-read--time h4,
+.blog-tags--names h4
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.blog-share i
+{
+    color: #111111;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.blog-read--time i,
+.blog-tags i
+{
+    color: #D9D9D9;
+    font-size: 20px;
+}
+
+.blog-read--time h4,
+.blog-tags--names h4
+{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.blog-heading h2
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #403F3E;
+}
+
+.blog-paragraph p
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D7886;
+}
+
+.heading-3
+{
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: #403F3E;
+}
+
+
+
