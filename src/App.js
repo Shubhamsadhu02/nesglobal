@@ -12,7 +12,7 @@ import Visibility from './Pages/Product/Visibility';
 import Customs from './Pages/Product/Customs';
 import AirFreight from "./Pages/Product/AirFreight";
 import OceanFreight from "./Pages/Product/OceanFreight";
-// import ProjectAirAndOceanCharters from "./Pages/Product/ProjectAirAndOceanCharters";
+import ProjectAirAndOceanCharters from "./Pages/Product/ProjectAirAndOceanCharters";
 import TradeFinance from "./Pages/Product/TradeFinance";
 import TradeAdvisory from "./Pages/Product/TradeAdvisory";
 import Dutydrawbacks from "./Pages/Product/Dutydrawbacks";
@@ -65,7 +65,7 @@ function App() {
         <Route path="/product/duty-drawbacks" element={<Dutydrawbacks/>}/>
         <Route path="/product/product-classification" element={<ProductClassification/>}/>
         <Route path="/product/cargo-insurance" element={<CargoInsurance/>}/>
-        {/* <Route path="/product/air-charters" element={<ProjectAirAndOceanCharters/>}/> */}
+        <Route path="/product/air-charters" element={<ProjectAirAndOceanCharters/>}/>
 
         <Route path="/company/about-us" element={<AboutUs/>}/>
         <Route path="/company/leadership" element={<Leadership/>}/>
