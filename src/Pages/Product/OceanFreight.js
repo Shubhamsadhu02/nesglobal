@@ -90,10 +90,20 @@ export default function OceanFreight() {
     </section>
 
 
-    <section>
+    {/* <section>
       <div className="text-center mt-15">
         <div className="nes-img">
           <img src='../images/product/ocean_freight/Sea_freight_V2_10s.gif' alt='' />
+        </div>
+      </div>
+    </section> */}
+    <section>
+      <div className="container" >
+        <div className="nes-img" style={{padding: "2rem 3rem"}}>
+          <video autoPlay loop muted playsInline>
+            <source src="../videoes/Air_freight_VP9.mp4" type='video/mp4' />
+            <source src="../videoes/Air_freight_VP9.webm" type='video/webm' />
+          </video>
         </div>
       </div>
     </section>
