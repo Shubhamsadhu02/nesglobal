@@ -23,6 +23,7 @@ import AboutUs from "./Pages/Company/AboutUs";
 import Leadership from "./Pages/Company/Leadership";
 import Engineering from "./Pages/Company/Engineering";
 import ContactUs from "./Pages/Company/ContactUs";
+import Vulnerability from "./Pages/Company/Vulnerability";
 
 import Terms from "./Pages/TermsAndCondition/Terms";
 import OceanTnC from "./Pages/TermsAndCondition/OceanTnC";
@@ -73,6 +74,7 @@ function App() {
         <Route path="/company/contact-us" element={<Contactus2/>}/>    
         <Route path="/company/contact-us2" element={<ContactUs/>}/>
         <Route path="/certified-partner" element={<CertificatePartner/>}/>
+        <Route path="/vulnerability" element={<Vulnerability/>}/>
 
         <Route path="/terms" element={<Terms/>}/>
         <Route path="/ocean-tnc" element={<OceanTnC/>}/>

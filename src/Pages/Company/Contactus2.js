@@ -29,7 +29,7 @@ export default function Contactus2() {
                                 careers@nesglobal.in</a></p>
                         </div>
                         <div className="">
-                            <p><span>Security:</span><Link to={""}>
+                            <p><span>Security:</span><Link to={"/vulnerability"}>
                                 Visit our vulnerability disclosure program page</Link></p>
                         </div>
                         <div className="">
