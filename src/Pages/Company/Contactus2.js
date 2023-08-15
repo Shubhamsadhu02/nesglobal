@@ -29,12 +29,12 @@ export default function Contactus2() {
                                 careers@nesglobal.in</a></p>
                         </div>
                         <div className="">
-                            <p><span>Security:</span><Link to={"/vulnerability"}>
-                                Visit our vulnerability disclosure program page</Link></p>
+                            <p><span>Security:</span>Visit our <Link to={"/vulnerability"}>
+                                vulnerability disclosure program page</Link></p>
                         </div>
                         <div className="">
-                            <p><span>Partner Inquiries:</span><Link to={"/certified-partner"}>
-                                Interested in becoming a Nesglobal Certified Partner </Link></p>
+                            <p><span>Partner Inquiries:</span>Interested in becoming a <Link to={"/certified-partner"}>
+                                Nesglobal Certified Partner </Link></p>
                         </div>
                     </div>
                 </div>

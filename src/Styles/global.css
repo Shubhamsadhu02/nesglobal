@@ -1256,6 +1256,7 @@ footer hr {
 {
     color: #F2F2F2;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .contact-address p {
