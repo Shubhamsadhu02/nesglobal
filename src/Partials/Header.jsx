@@ -189,11 +189,14 @@ export default function header(props) {
                                                 style={{ color: isWhite ? "#E6E5E5" : '#0060BE' }}></i></Link>
                                         </li>
                                         <li>
-                                            <Link to='https://uat.nesglobal.in/login' target="__blank"><button className='login--btn' type='submit'>Login</button></Link>
+                                            <Link to='https://uat.nesglobal.in/login' target="__blank"><button className={ !isWhite ? 'login--btn' : 'login--btn_white'} type='submit' >Login</button></Link>
                                         </li>
-                                        <li>                                            
+                                        {/* <li>                                            
                                             {isWhite ? <Link to='/signin'><button type='submit'>Sign in</button></Link>
                                                      : <Link to='#' onClick={toggle}><button type='submit'>Introduction</button></Link>}
+                                        </li> */}
+                                        <li>
+                                        <Link to='#' onClick={toggle}><button type='submit' className={ !isWhite ? 'intro--btn' : 'intro--btn_white'}>Introduction</button></Link>
                                         </li>
                                     </ul>
                                     <div className="video-final">

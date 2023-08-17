@@ -1136,10 +1136,23 @@ footer hr {
     padding: 55px 0;
 }
 
-.login--btn {
+.login--btn,
+.intro--btn {
     background: none !important;
     border: 1px solid #0060BE !important;
     color: #0060BE !important;
+}
+.intro--btn
+{
+    background: #0060BE !important;
+    color: #F2F2F2 !important;
+}
+
+.login--btn_white,
+.intro--btn_white{
+    background: none !important;
+    border: 1px solid #F2F2F2 !important;
+    color: #F2F2F2 !important;
 }
 
 .login,
