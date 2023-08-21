@@ -278,4 +278,10 @@
         font-size: 20px !important;
         padding: 10px .2rem;
     }
+
+    .vulnerability
+    {
+        height: auto !important;
+        margin-bottom: 10rem;
+    }
 }
